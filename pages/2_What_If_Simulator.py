@@ -58,7 +58,7 @@ with col_results:
     rfm_scaled = models["scaler_rfm"].transform(rfm_features)
     segment_id = models["kmeans_model"].predict(rfm_scaled)[0]
     st.metric("Predicted Segment", SEGMENT_NAMES[segment_id])
-    
+
 st.divider()
 st.subheader("12-Month Outlook")
 st.caption(
