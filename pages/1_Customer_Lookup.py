@@ -26,9 +26,14 @@ if customer_id:
 
     st.divider()
     st.subheader("12-Month Outlook")
+    st.caption(
+    "Note: the 6-month and 12-month models use different churn definitions and decision "
+    "thresholds (15% vs 11%), so their risk percentages are not directly comparable in "
+    "magnitude, only whether each individually exceeds its own threshold."
+    )
 
     modeling_table_12mo = data["modeling_table_12mo"]
-
+    
     if customer_id in modeling_table_12mo.index:
         customer_row_12mo = modeling_table_12mo.loc[[customer_id], FEATURE_COLS]
 
