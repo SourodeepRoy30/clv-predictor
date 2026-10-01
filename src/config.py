@@ -5,7 +5,8 @@ RFM_DATA_PATH = "../data/rfm_table.csv"
 MODELING_DATA_PATH = "../data/modeling_table.csv"
 
 # Non-product StockCode values (administrative/adjustment entries, not real merchandise)
-NON_PRODUCT_CODES = ["POST", "M", "C2", "BANK CHARGES", "DOT", "D"]
+NON_PRODUCT_CODES = ['POST', 'M', 'C2', 'BANK CHARGES', 'DOT', 'D',
+                     'ADJUST', 'ADJUST2', 'TEST001', 'TEST002', 'PADS']
 
 # Column name constants
 CUSTOMER_ID_COL = "Customer ID"

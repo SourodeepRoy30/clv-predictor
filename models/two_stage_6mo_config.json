@@ -1,0 +1,10 @@
+{
+  "stage2_model": "Linear Regression",
+  "rule": "Hard Cutoff",
+  "threshold": 0.2,
+  "selected_by": "lowest 5-fold out-of-fold MAE on the training set",
+  "oof_mae": 559.55,
+  "test_mae": 583.19,
+  "test_rmse": 2121.25,
+  "test_r2": 0.5015
+}

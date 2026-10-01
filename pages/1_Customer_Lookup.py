@@ -3,84 +3,91 @@ import sys
 import os
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from app_utils import load_models, load_data, FEATURE_COLS, THRESHOLD_6MO, THRESHOLD_12MO, SEGMENT_NAMES
+from app_utils import (load_models, load_data, load_configs, FEATURE_COLS, CHURN_LABEL_THRESHOLD,
+                       predict_clv, predict_segment, by_customer_id, describe_config)
 
 st.set_page_config(page_title="Customer Lookup", page_icon="🔍", layout="wide")
 st.title("Customer Lookup")
-st.write("Enter a Customer ID to see their churn risk, predicted lifetime value, and segment.")
+st.write("Select a Customer ID to see their churn risk, expected lifetime value, and segment.")
 
 models = load_models()
+configs = load_configs()
 data = load_data()
 
-modeling_table = data["modeling_table"]
-customer_ids = sorted(modeling_table.index.tolist())
+modeling_table = by_customer_id(data["modeling_table"])
+modeling_table_12mo = by_customer_id(data["modeling_table_12mo"])
+clusters = by_customer_id(data["clusters"])
 
-customer_id = st.selectbox("Select a Customer ID", customer_ids)
 
-if customer_id:
-    customer_row = modeling_table.loc[[customer_id], FEATURE_COLS]
+def churn_metric(col, label, churn_prob):
+    """Show a churn probability with a 'Likely to Churn' / 'Likely Active' label."""
+    likely_churn = churn_prob >= CHURN_LABEL_THRESHOLD
+    col.metric(
+        label,
+        f"{churn_prob:.1%}",
+        "Likely to Churn" if likely_churn else "Likely Active",
+        delta_color="inverse" if likely_churn else "normal"
+    )
 
-    st.subheader(f"Results for Customer {int(customer_id)}")
+
+customer_id = st.selectbox("Select a Customer ID", sorted(modeling_table.index.tolist()))
+
+if customer_id is not None:
+    # 6-month outlook
+    X_6mo = modeling_table.loc[[customer_id], FEATURE_COLS]
+    pred_6mo = predict_clv(models, configs, "6mo", X_6mo).iloc[0]
+
+    segment = clusters["Segment_Name"].get(customer_id)
+    if segment is None:
+        segment = predict_segment(models, configs, X_6mo)[0]
+
+    st.subheader(f"Customer {customer_id}: 6-Month Outlook")
+    st.caption("Based on behaviour up to 2011-06-08, predicting spend from 2011-06-09 to 2011-12-09.")
 
     col1, col2, col3 = st.columns(3)
+    churn_metric(col1, "6-Month Churn Risk", pred_6mo["Churn_Prob"])
+    col2.metric("6-Month Expected CLV", f"£{pred_6mo['Expected_CLV']:,.2f}")
+    col3.metric("Customer Segment", segment)
 
+    st.caption(
+        f"If this customer buys again, they are predicted to spend £{pred_6mo['Spend_If_Retained']:,.2f}. "
+        f"Expected CLV weights that by their {1 - pred_6mo['Churn_Prob']:.1%} chance of returning; "
+        f"the remaining £{pred_6mo['Value_At_Risk']:,.2f} is the value at risk from churn. "
+        f"Model: {describe_config(configs['clv_6mo'])}."
+    )
+
+    # 12-month outlook
     st.divider()
     st.subheader("12-Month Outlook")
     st.caption(
-    "Note: the 6-month and 12-month models use different churn definitions and decision "
-    "thresholds (15% vs 11%), so their risk percentages are not directly comparable in "
-    "magnitude, only whether each individually exceeds its own threshold."
+        "The 12-month model uses an earlier snapshot: behaviour up to 2010-11-30, predicting spend from "
+        "2010-12-01 to 2011-12-09. Its features for this customer therefore differ from the 6-month model's, "
+        "and the two predictions are not simple multiples of each other."
     )
 
-    modeling_table_12mo = data["modeling_table_12mo"]
-    
     if customer_id in modeling_table_12mo.index:
-        customer_row_12mo = modeling_table_12mo.loc[[customer_id], FEATURE_COLS]
+        X_12mo = modeling_table_12mo.loc[[customer_id], FEATURE_COLS]
+        pred_12mo = predict_clv(models, configs, "12mo", X_12mo).iloc[0]
 
         col4, col5 = st.columns(2)
-
-        churn_proba_12mo = models["churn_model_12mo"].predict_proba(customer_row_12mo)[0, 1]
-        is_at_risk_12mo = churn_proba_12mo >= THRESHOLD_12MO
-        churn_label_12mo = "Likely to Churn" if is_at_risk_12mo else "Likely Active"
-        col4.metric(
-            "12-Month Churn Risk",
-            f"{churn_proba_12mo*100:.1f}%",
-            churn_label_12mo,
-            delta_color="inverse" if is_at_risk_12mo else "normal"
+        churn_metric(col4, "12-Month Churn Risk", pred_12mo["Churn_Prob"])
+        col5.metric("12-Month Expected CLV", f"£{pred_12mo['Expected_CLV']:,.2f}")
+        st.caption(
+            f"Spend if they buy again: £{pred_12mo['Spend_If_Retained']:,.2f}; "
+            f"value at risk from churn: £{pred_12mo['Value_At_Risk']:,.2f}. "
+            f"Model: {describe_config(configs['clv_12mo'])}."
         )
-
-        predicted_amount_12mo = max(0, models["stage2_model_12mo"].predict(customer_row_12mo)[0])
-        final_clv_12mo = 0 if is_at_risk_12mo else predicted_amount_12mo
-        col5.metric("12-Month Predicted CLV", f"£{final_clv_12mo:,.2f}")
     else:
         st.info(
-            "This customer does not have sufficient calibration history for the 12-month model "
-            "(the 12-month model uses a different calibration window and customer set than the 6-month model)."
+            "This customer has no purchases before 2010-12-01, so the 12-month model, which needs "
+            "history up to that date, cannot score them."
         )
 
-    # Churn risk, 6-month 
-    churn_proba_6mo = models["churn_model_6mo"].predict_proba(customer_row)[0, 1]
-    is_at_risk_6mo = churn_proba_6mo >= THRESHOLD_6MO
-    churn_label_6mo = "Likely to Churn" if is_at_risk_6mo else "Likely Active"
-    col1.metric(
-        "6-Month Churn Risk",
-        f"{churn_proba_6mo*100:.1f}%",
-        churn_label_6mo,
-        delta_color="inverse" if is_at_risk_6mo else "normal"
-    )
-
-    # Predicted CLV, 6-month, two-stage
-    predicted_amount_6mo = max(0, models["stage2_model_6mo"].predict(customer_row)[0])
-    final_clv_6mo = 0 if churn_proba_6mo >= THRESHOLD_6MO else predicted_amount_6mo
-    col2.metric("6-Month Predicted CLV", f"£{final_clv_6mo:,.2f}")
-
-    # Segment
-    rfm_features = customer_row[['Recency', 'Frequency', 'Monetary']]
-    rfm_scaled = models["scaler_rfm"].transform(rfm_features)
-    segment_id = models["kmeans_model"].predict(rfm_scaled)[0]
-    segment_name = SEGMENT_NAMES[segment_id]
-    col3.metric("Customer Segment", segment_name)
-
+    # Raw features
     st.divider()
-    st.subheader("Raw Customer Features")
-    st.dataframe(customer_row)
+    st.subheader("Customer Features")
+    st.write("**6-month model** (as of 2011-06-08)")
+    st.dataframe(X_6mo)
+    if customer_id in modeling_table_12mo.index:
+        st.write("**12-month model** (as of 2010-11-30)")
+        st.dataframe(modeling_table_12mo.loc[[customer_id], FEATURE_COLS])

@@ -13,3 +13,5 @@ __pycache__/
 
 # macOS
 .DS_Store
+data_backup_pre_netting/
+models_backup_pre_netting/
