@@ -1,0 +1,15 @@
+{
+  "family": "Two-Stage",
+  "model": "Linear Regression",
+  "model_path": "../models/stage2_regressor.pkl",
+  "log_target": false,
+  "rule": "Expected Value",
+  "threshold": null,
+  "stage1_model_path": "../models/churn_model.pkl",
+  "selected_by": "lowest 5-fold out-of-fold MAE on the training set",
+  "oof_mae": 586.53,
+  "test_mae": 586.38,
+  "test_rmse": 1857.65,
+  "test_r2": 0.6177,
+  "test_pred_actual_total": 1.1225
+}
