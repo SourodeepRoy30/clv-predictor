@@ -1,0 +1,16 @@
+{
+  "family": "Two-Stage",
+  "model": "Random Forest",
+  "model_path": "../models/stage2_regressor_12mo.pkl",
+  "log_target": false,
+  "rule": "Expected Value",
+  "threshold": null,
+  "stage1_model": "Gradient Boosting",
+  "stage1_model_path": "../models/churn_model_12mo.pkl",
+  "selected_by": "lowest 5-fold out-of-fold MAE on the training set, Expected Value or single-stage only, predicted totals within 10% of actual",
+  "oof_mae": 1075.16,
+  "test_mae": 1254.97,
+  "test_rmse": 5151.78,
+  "test_r2": 0.7679,
+  "test_pred_actual_total": 0.891
+}
