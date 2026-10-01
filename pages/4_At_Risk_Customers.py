@@ -6,9 +6,14 @@ import pandas as pd
 import plotly.express as px
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from app_utils import load_models, load_data, FEATURE_COLS
+from app_utils import (load_models, load_data, load_configs, predict_clv, by_customer_id,
+                       describe_config, FEATURE_COLS, SEGMENT_COLORS)
 
 st.set_page_config(page_title="At-Risk Customers", page_icon="⚠️", layout="wide")
+models = load_models()
+configs = load_configs()
+data = load_data()
+
 st.title("At-Risk Customers")
 st.write(
     "A ranked retention list: which customers are likely to churn in the next 6 months, "
@@ -16,54 +21,27 @@ st.write(
 )
 st.caption(
     "Scores use each customer's behaviour as of the 2011-06-09 snapshot (end of the calibration period), "
-    "the same basis as Customer Lookup. All values are 6-month revenue."
+    "the same basis as Customer Lookup. All values are 6-month revenue. "
+    f"Model: {describe_config(configs['clv_6mo'])}; value at risk = churn probability x spend if retained."
 )
 
-models = load_models()
-data = load_data()
 
 SEGMENT_ORDER = ['Typical Steady', 'High-Value Regulars', 'At-Risk/Lapsed', 'Elite Wholesalers']
-SEGMENT_COLORS = {
-    'Typical Steady': '#4C78A8',
-    'High-Value Regulars': '#54A24B',
-    'At-Risk/Lapsed': '#E45756',
-    'Elite Wholesalers': '#B279A2'
-}
-
-
-def by_customer_id(df):
-    """Return a copy indexed by integer Customer ID, whether the ID is a column or the index."""
-    df = df.copy()
-    if 'Customer ID' in df.columns:
-        df = df.set_index('Customer ID')
-    df.index = df.index.astype(int)
-    df.index.name = 'Customer ID'
-    return df
 
 
 @st.cache_data
-def score_customers(_models, modeling_table, clusters):
-    """Score every customer once: churn probability, spend if retained, value at risk."""
+def score_customers(_models, _configs, modeling_table, clusters):
+    """Score every customer once: churn probability, spend if retained, expected CLV, value at risk."""
     modeling_table = by_customer_id(modeling_table)
     clusters = by_customer_id(clusters)
 
-    X = modeling_table[FEATURE_COLS]
     scored = modeling_table[['Recency', 'Frequency', 'Monetary']].copy()
-
-    # Stage 1: P(churn)
-    scored['Churn_Prob'] = _models['churn_model_6mo'].predict_proba(X)[:, 1]
-
-    # Stage 2: predicted 6-month spend if the customer returns (clipped at £0)
-    scored['Spend_If_Retained'] = np.clip(_models['stage2_model_6mo'].predict(X), 0, None)
-
-    # Revenue expected to be lost to churn: p * y2
-    scored['Value_At_Risk'] = scored['Churn_Prob'] * scored['Spend_If_Retained']
-
+    scored = scored.join(predict_clv(_models, _configs, "6mo", modeling_table[FEATURE_COLS]))
     scored['Segment'] = clusters['Segment_Name'].reindex(scored.index)
     return scored
 
 
-scored = score_customers(models, data['modeling_table'], data['clusters'])
+scored = score_customers(models, configs, data['modeling_table'], data['clusters'])
 
 if scored['Segment'].isna().any():
     st.warning(f"{scored['Segment'].isna().sum()} customers could not be matched to a segment.")
@@ -155,11 +133,12 @@ st.subheader("Retention List")
 st.caption(f"Ranked by {rank_by.lower()}. Rows with negative net benefit cost more to contact than they are expected to return.")
 
 table = flagged[
-    ['Segment', 'Churn_Prob', 'Value_At_Risk', 'Spend_If_Retained', 'Net_Benefit',
+    ['Segment', 'Churn_Prob', 'Value_At_Risk', 'Expected_CLV', 'Spend_If_Retained', 'Net_Benefit',
      'Recency', 'Frequency', 'Monetary']
 ].rename(columns={
     'Churn_Prob': 'Churn Probability',
     'Value_At_Risk': 'Value at Risk',
+    'Expected_CLV': 'Expected CLV',
     'Spend_If_Retained': 'Spend if Retained',
     'Net_Benefit': 'Net Benefit',
     'Monetary': 'Historical Spend'
@@ -169,6 +148,7 @@ st.dataframe(
     table.style.format({
         'Churn Probability': '{:.1%}',
         'Value at Risk': '£{:,.2f}',
+        'Expected CLV': '£{:,.2f}',
         'Spend if Retained': '£{:,.2f}',
         'Net Benefit': '£{:,.2f}',
         'Recency': '{:.0f}',
