@@ -130,3 +130,17 @@ def prediction_panel(prediction, horizon_label, help_text):
         else:
             st.caption("Predicted spend if they buy again is very low (a linear prediction below £0, shown as £0), "
                        "so there is little value at risk.")
+
+
+# Streamlit's built-in colour names, matched to each segment's chart colour
+SEGMENT_BADGE_COLORS = {
+    "Typical Steady": "blue",
+    "High-Value Regulars": "green",
+    "At-Risk/Lapsed": "red",
+    "Elite Wholesalers": "violet",
+}
+
+
+def segment_badge(segment):
+    """A coloured label for a segment name, matching its colour in the charts."""
+    return f":{SEGMENT_BADGE_COLORS.get(segment, 'gray')}-badge[{segment}]"

@@ -1,312 +1,186 @@
 import streamlit as st
 import sys
 import os
-import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from app_utils import load_data
+from app_utils import load_data, by_customer_id, SEGMENT_COLORS
+from definitions import GLOSSARY, tip
+from ui import page_header, segment_badge
 
-st.title("Segment Explorer")
-st.write("Browse customer segments identified through clustering, their characteristics, and revenue contribution.")
+page_header(
+    "Segment Explorer",
+    "What kinds of customers are there?",
+    how_to="""
+**What this page shows:** customers grouped into four segments by how recently, how often and how much they buy, found by clustering.
+
+**How to use it:**
+- The cards at the top summarise each segment.
+- The tabs below let you compare segments: their share of customers and revenue, where their customers sit on a map, how their behaviour is spread, and individual customers.
+- In **Browse customers**, click a row to open that customer in Customer Lookup.
+
+**Good to know:** revenue here is past spend over the 18 months to June 2011, not a prediction. Most customers lie on a continuous spectrum, so the line between the two large segments is an approximation.
+""",
+)
 
 data = load_data()
-clusters = data["clusters"]
+clusters = by_customer_id(data["clusters"])
 
-# Fixed colour per segment so every chart on the page uses the same colours
-SEGMENT_COLORS = {
-    'Typical Steady': '#4C78A8',
-    'High-Value Regulars': '#54A24B',
-    'At-Risk/Lapsed': '#E45756',
-    'Elite Wholesalers': '#B279A2'
-}
+summary = clusters.groupby('Segment_Name').agg(
+    Customers=('Cluster', 'count'), Revenue=('Monetary', 'sum'),
+    Recency=('Recency', 'mean'), Frequency=('Frequency', 'mean'), Monetary=('Monetary', 'mean'))
+summary['Customer_Share'] = summary['Customers'] / summary['Customers'].sum()
+summary['Revenue_Share'] = summary['Revenue'] / summary['Revenue'].sum()
+summary = summary.sort_values('Revenue', ascending=False)
+SEGMENT_ORDER = summary.index.tolist()
 
-# Clean log-axis settings: one tick per power of 10, no "2, 5" minor labels
+# ---------------------------------------------------------------
+# Segment cards and summary
+# ---------------------------------------------------------------
+for col, seg in zip(st.columns(len(SEGMENT_ORDER)), SEGMENT_ORDER):
+    row = summary.loc[seg]
+    with col.container(border=True, height="stretch"):
+        st.markdown(segment_badge(seg))
+        st.metric("Share of revenue", f"{row['Revenue_Share']:.1%}",
+                  f"{row['Customer_Share']:.1%} of customers", delta_color="off", delta_arrow="off")
+        st.caption(GLOSSARY.get(seg, {}).get("short", ""))
+
+top = ["Elite Wholesalers", "High-Value Regulars"]
+present_top = [s for s in top if s in summary.index]
+if present_top and "Typical Steady" in summary.index and "At-Risk/Lapsed" in summary.index:
+    st.info(
+        f"The two highest-value segments are **{summary.loc[present_top, 'Customer_Share'].sum():.1%} of customers** "
+        f"but bring in **{summary.loc[present_top, 'Revenue_Share'].sum():.1%} of revenue**. Typical Steady customers "
+        f"bring in the most revenue overall ({summary.loc['Typical Steady', 'Revenue_Share']:.1%}) simply because there "
+        f"are so many of them, while At-Risk/Lapsed customers are {summary.loc['At-Risk/Lapsed', 'Customer_Share']:.1%} "
+        f"of customers but only {summary.loc['At-Risk/Lapsed', 'Revenue_Share']:.1%} of revenue.",
+        icon=":material/lightbulb:",
+    )
+
+tab_share, tab_map, tab_compare, tab_browse = st.tabs(
+    ["Customers vs revenue", "Segment map", "Compare behaviour", "Browse customers"])
+
 LOG_AXIS = dict(dtick=1)
 LOG_MONEY_AXIS = dict(dtick=1, tickprefix='£', tickformat=',')
-
-# Recency spans under three decades (1 to 555), so it gets intermediate ticks
-# on a log scale; otherwise At-Risk (170 to 555) sits above the last label
 LOG_RECENCY_AXIS = dict(tickmode='array', tickvals=[1, 2, 5, 10, 20, 50, 100, 200, 500])
-
-
-# Overview table
-segment_summary = clusters.groupby('Segment_Name').agg(
-    Customers=('Cluster', 'count'),
-    Total_Revenue=('Monetary', 'sum'),
-    Avg_Recency=('Recency', 'mean'),
-    Avg_Frequency=('Frequency', 'mean'),
-    Avg_Monetary=('Monetary', 'mean')
-)
-
-segment_summary['% of Customers'] = segment_summary['Customers'] / segment_summary['Customers'].sum() * 100
-segment_summary['% of Revenue'] = segment_summary['Total_Revenue'] / segment_summary['Total_Revenue'].sum() * 100
-
-segment_summary = segment_summary[
-    ['Customers', '% of Customers', '% of Revenue', 'Total_Revenue',
-     'Avg_Recency', 'Avg_Frequency', 'Avg_Monetary']
-].sort_values('Total_Revenue', ascending=False)
-
-segment_summary = segment_summary.rename(columns={
-    'Total_Revenue': 'Total Revenue',
-    'Avg_Recency': 'Avg Recency (days)',
-    'Avg_Frequency': 'Avg Frequency',
-    'Avg_Monetary': 'Avg Monetary'
-})
-segment_summary.index.name = 'Segment'
-
-# Segment order used by every chart (largest revenue first)
-SEGMENT_ORDER = segment_summary.index.tolist()
-
-st.subheader("Segment Overview")
-st.caption(
-    "Revenue figures are historical spend during the 18-month calibration period "
-    "(2009-12-01 to 2011-06-08), not predicted future CLV."
-)
-st.dataframe(
-    segment_summary.style.format({
-        'Customers': '{:,}',
-        '% of Customers': '{:.1f}%',
-        '% of Revenue': '{:.1f}%',
-        'Total Revenue': '£{:,.0f}',
-        'Avg Recency (days)': '{:.1f}',
-        'Avg Frequency': '{:.1f}',
-        'Avg Monetary': '£{:,.0f}'
-    }),
-    use_container_width=True
-)
-
-
-# Chart 1: customer share vs revenue share (bars or donuts)
-st.subheader("Customer Share vs Revenue Share")
-st.caption("Where each segment's share of revenue differs from its share of customers, value is concentrated or diluted.")
-
-share_view = st.radio("Chart type", ["Bars", "Donuts"], horizontal=True, key="share_view")
-
-if share_view == "Bars":
-    share_df = (
-        segment_summary[['% of Customers', '% of Revenue']]
-        .reset_index()
-        .melt(id_vars='Segment', var_name='Measure', value_name='Percent')
-    )
-
-    fig_share = px.bar(
-        share_df,
-        x='Segment',
-        y='Percent',
-        color='Measure',
-        barmode='group',
-        text_auto='.1f',
-        category_orders={'Segment': SEGMENT_ORDER},
-        color_discrete_map={'% of Customers': '#9E9E9E', '% of Revenue': '#4C78A8'},
-        labels={'Percent': '% of total'}
-    )
-    fig_share.update_layout(height=420, legend_title_text='')
-
-else:
-    slice_colors = [SEGMENT_COLORS[s] for s in SEGMENT_ORDER]
-    total_customers = segment_summary['Customers'].sum()
-    total_revenue = segment_summary['Total Revenue'].sum()
-
-    fig_share = make_subplots(
-        rows=1, cols=2,
-        specs=[[{'type': 'domain'}, {'type': 'domain'}]]
-    )
-
-    fig_share.add_trace(
-        go.Pie(
-            labels=SEGMENT_ORDER,
-            values=segment_summary.loc[SEGMENT_ORDER, 'Customers'],
-            hole=0.55,
-            sort=False,
-            direction='clockwise',
-            marker=dict(colors=slice_colors),
-            texttemplate='%{percent:.1%}',
-            textposition='inside',
-            title=dict(text=f"Customers<br>{total_customers:,}", position='middle center'),
-            hovertemplate='%{label}<br>%{value:,} customers<br>%{percent:.1%}<extra></extra>',
-            name='Customers'
-        ),
-        row=1, col=1
-    )
-
-    fig_share.add_trace(
-        go.Pie(
-            labels=SEGMENT_ORDER,
-            values=segment_summary.loc[SEGMENT_ORDER, 'Total Revenue'],
-            hole=0.55,
-            sort=False,
-            direction='clockwise',
-            marker=dict(colors=slice_colors),
-            texttemplate='%{percent:.1%}',
-            textposition='inside',
-            title=dict(text=f"Revenue<br>£{total_revenue/1e6:,.2f}M", position='middle center'),
-            hovertemplate='%{label}<br>£%{value:,.0f}<br>%{percent:.1%}<extra></extra>',
-            name='Revenue'
-        ),
-        row=1, col=2
-    )
-
-    fig_share.update_layout(
-        height=460,
-        legend_title_text='Segment',
-        uniformtext_minsize=11,
-        uniformtext_mode='hide'
-    )
-
-st.plotly_chart(fig_share, use_container_width=True)
-
-st.divider()
-
-
-# Chart 2: segment map (2D / 3D)
-st.subheader("Segment Map")
-st.caption(
-    "Each point is one customer. Hover for details, drag to zoom (2D) or rotate (3D), double-click to reset. "
-    "Click a segment in the legend to hide it, double-click to show only that segment. "
-    "Monetary (and Frequency in 3D) use a log scale because values span over 1,000x."
-)
-
 plot_df = clusters.reset_index()
-id_col = 'Customer ID' if 'Customer ID' in plot_df.columns else plot_df.columns[0]
 
-view = st.radio(
-    "View",
-    ["2D: Recency vs Monetary", "3D: Recency, Frequency, Monetary"],
-    horizontal=True
-)
-
-hover = {
-    id_col: ':.0f',
-    'Recency': True,
-    'Frequency': True,
-    'Monetary': ':,.2f',
-    'Segment_Name': False
-}
-
-if view.startswith("2D"):
-    fig_map = px.scatter(
-        plot_df,
-        x='Recency',
-        y='Monetary',
-        color='Segment_Name',
-        color_discrete_map=SEGMENT_COLORS,
-        category_orders={'Segment_Name': SEGMENT_ORDER},
-        log_y=True,
-        opacity=0.6,
-        hover_data=hover,
-        labels={'Recency': 'Recency (days)', 'Monetary': 'Monetary (log scale)'}
-    )
-    fig_map.update_traces(marker=dict(size=6))
-    fig_map.update_yaxes(**LOG_MONEY_AXIS)
-else:
-    fig_map = px.scatter_3d(
-        plot_df,
-        x='Recency',
-        y='Frequency',
-        z='Monetary',
-        color='Segment_Name',
-        color_discrete_map=SEGMENT_COLORS,
-        category_orders={'Segment_Name': SEGMENT_ORDER},
-        log_y=True,
-        log_z=True,
-        opacity=0.7,
-        hover_data=hover,
-        labels={
-            'Recency': 'Recency (days)',
-            'Frequency': 'Frequency (log)',
-            'Monetary': 'Monetary (log)'
-        }
-    )
-    fig_map.update_traces(marker=dict(size=3))
-    fig_map.update_layout(
-        scene=dict(
-            xaxis=dict(tickfont=dict(size=10)),
-            yaxis=dict(**LOG_AXIS, tickfont=dict(size=10)),
-            zaxis=dict(**LOG_MONEY_AXIS, tickfont=dict(size=10))
-        ),
-        scene_camera=dict(eye=dict(x=1.8, y=1.5, z=0.9)),
-        margin=dict(l=0, r=0, t=20, b=0)
-    )
-
-# itemsizing='constant' keeps legend symbols readable regardless of marker size
-fig_map.update_layout(
-    height=600,
-    legend=dict(title_text='Segment', itemsizing='constant')
-)
-st.plotly_chart(fig_map, use_container_width=True)
-
-# Closure explanation only applies to the 2D view, where the gaps are visible
-if view.startswith("2D"):
-    st.caption(
-        "Empty vertical bands are store closures, when no customer could have made a purchase: "
-        "Christmas/New Year (24 Dec to 3 Jan, both years) and the Easter weekend "
-        "(2 to 5 Apr 2010, 22 to 25 Apr 2011)."
-    )
-
-st.divider()
-
-# Chart 3: distribution comparison
-st.subheader("Compare Distributions Across Segments")
-st.caption(
-    "Box = middle 50% of customers (25th to 75th percentile), line = median, "
-    "whiskers = typical range, dots = outliers beyond 1.5x the box height."
-)
-
-col_m, col_l = st.columns([3, 1])
-metric = col_m.selectbox("Metric", ['Recency', 'Frequency', 'Monetary'])
-use_log = col_l.checkbox("Log scale", value=(metric != 'Recency'))
-
-fig_box = px.box(
-    plot_df,
-    x='Segment_Name',
-    y=metric,
-    color='Segment_Name',
-    color_discrete_map=SEGMENT_COLORS,
-    category_orders={'Segment_Name': SEGMENT_ORDER},
-    points='outliers',
-    log_y=use_log,
-    hover_data={id_col: ':.0f'},
-    labels={'Segment_Name': 'Segment'}
-)
-fig_box.update_layout(height=480, showlegend=False)
-
-if use_log:
-    if metric == 'Monetary':
-        fig_box.update_yaxes(**LOG_MONEY_AXIS)
-    elif metric == 'Recency':
-        fig_box.update_yaxes(**LOG_RECENCY_AXIS)
+# ---------------------------------------------------------------
+# Customers vs revenue
+# ---------------------------------------------------------------
+with tab_share:
+    view = st.segmented_control("Chart", ["Bars", "Donuts"], default="Bars", key="share_view")
+    if view == "Donuts":
+        fig = make_subplots(rows=1, cols=2, specs=[[{'type': 'domain'}, {'type': 'domain'}]])
+        for i, (measure, title) in enumerate([("Customers", f"Customers<br>{summary['Customers'].sum():,}"),
+                                              ("Revenue", f"Revenue<br>£{summary['Revenue'].sum() / 1e6:,.2f}M")]):
+            fig.add_trace(go.Pie(
+                labels=SEGMENT_ORDER, values=summary.loc[SEGMENT_ORDER, measure], hole=0.55, sort=False,
+                direction='clockwise', marker=dict(colors=[SEGMENT_COLORS[s] for s in SEGMENT_ORDER]),
+                texttemplate='%{percent:.1%}', textposition='inside',
+                title=dict(text=title, position='middle center'), name=measure,
+                hovertemplate='%{label}<br>%{percent:.1%}<extra></extra>'), row=1, col=i + 1)
+        fig.update_layout(height=440, legend_title_text='', uniformtext_minsize=11, uniformtext_mode='hide')
     else:
-        fig_box.update_yaxes(**LOG_AXIS)
-elif metric == 'Monetary':
-    fig_box.update_yaxes(tickprefix='£', tickformat=',')
+        share_df = (summary[['Customer_Share', 'Revenue_Share']]
+                    .rename(columns={'Customer_Share': 'Share of customers', 'Revenue_Share': 'Share of revenue'})
+                    .reset_index().melt(id_vars='Segment_Name', var_name='Measure', value_name='Share'))
+        fig = px.bar(share_df, x='Segment_Name', y='Share', color='Measure', barmode='group', text_auto='.1%',
+                     category_orders={'Segment_Name': SEGMENT_ORDER},
+                     color_discrete_map={'Share of customers': '#9AA0AC', 'Share of revenue': '#3A6EA5'},
+                     labels={'Segment_Name': '', 'Share': ''})
+        fig.update_yaxes(tickformat='.0%')
+        fig.update_layout(height=420, legend=dict(title_text='', orientation='h', y=1.1))
+    st.plotly_chart(fig, width="stretch")
 
-st.plotly_chart(fig_box, use_container_width=True)
+    table = summary[['Customers', 'Customer_Share', 'Revenue_Share', 'Revenue', 'Recency', 'Frequency', 'Monetary']]
+    st.dataframe(
+        table.style.format({'Customers': '{:,}', 'Customer_Share': '{:.1%}', 'Revenue_Share': '{:.1%}',
+                            'Revenue': '£{:,.0f}', 'Recency': '{:.0f}', 'Frequency': '{:.1f}',
+                            'Monetary': '£{:,.0f}'}),
+        width="stretch",
+        column_config={
+            "Segment_Name": "Segment",
+            "Customer_Share": "Share of customers", "Revenue_Share": "Share of revenue",
+            "Revenue": st.column_config.Column("Total spend", help="Spend during the 18 months to 2011-06-08."),
+            "Recency": st.column_config.Column("Avg days since last order", help=tip("Recency")),
+            "Frequency": st.column_config.Column("Avg orders", help=tip("Frequency")),
+            "Monetary": st.column_config.Column("Avg spend", help=tip("Monetary")),
+        },
+    )
 
-st.divider()
+# ---------------------------------------------------------------
+# Segment map
+# ---------------------------------------------------------------
+with tab_map:
+    dims = st.segmented_control("View", ["2D", "3D"], default="2D", key="map_view",
+                                help="2D: days since last order against total spend. 3D adds number of orders.")
+    hover = {'Customer ID': True, 'Recency': True, 'Frequency': True, 'Monetary': ':,.0f', 'Segment_Name': False}
+    common = dict(color='Segment_Name', color_discrete_map=SEGMENT_COLORS,
+                  category_orders={'Segment_Name': SEGMENT_ORDER}, hover_data=hover)
+    if dims == "3D":
+        fig = px.scatter_3d(plot_df, x='Recency', y='Frequency', z='Monetary', log_y=True, log_z=True, opacity=0.7,
+                            labels={'Recency': 'Days since last order', 'Frequency': 'Orders (log)',
+                                    'Monetary': 'Total spend (log)'}, **common)
+        fig.update_traces(marker=dict(size=3))
+        fig.update_layout(scene=dict(yaxis=dict(**LOG_AXIS), zaxis=dict(**LOG_MONEY_AXIS)),
+                          scene_camera=dict(eye=dict(x=1.8, y=1.5, z=0.9)), margin=dict(l=0, r=0, t=20, b=0))
+    else:
+        fig = px.scatter(plot_df, x='Recency', y='Monetary', log_y=True, opacity=0.6,
+                         labels={'Recency': 'Days since last order', 'Monetary': 'Total spend (log scale)'}, **common)
+        fig.update_traces(marker=dict(size=6))
+        fig.update_yaxes(**LOG_MONEY_AXIS)
+    fig.update_layout(height=600, legend=dict(title_text='', orientation='h', y=-0.12, itemsizing='constant'))
+    st.plotly_chart(fig, width="stretch")
+    st.caption("Each point is one customer: hover for details, drag to zoom (or rotate in 3D), double-click to reset, "
+               "click a segment in the legend to hide it. Spend uses a log scale because it varies over 1,000-fold.")
+    if dims != "3D":
+        st.caption("The empty vertical bands are store closures: Christmas to New Year and the Easter weekend.")
 
-# Drill-down
-st.subheader("Explore a Segment")
-selected_segment = st.selectbox("Select a segment to explore", SEGMENT_ORDER)
+# ---------------------------------------------------------------
+# Compare behaviour
+# ---------------------------------------------------------------
+with tab_compare:
+    METRICS = {"Days since last order": "Recency", "Number of orders": "Frequency", "Total spend": "Monetary"}
+    c1, c2 = st.columns([3, 1], vertical_alignment="bottom")
+    metric_label = c1.segmented_control("Compare", list(METRICS), default="Total spend", key="compare_metric")
+    metric = METRICS[metric_label or "Total spend"]
+    use_log = c2.toggle("Log scale", value=(metric != 'Recency'), key=f"log_{metric}",
+                        help="Spreads out values that range over several orders of magnitude.")
+    fig = px.box(plot_df, x='Segment_Name', y=metric, color='Segment_Name', color_discrete_map=SEGMENT_COLORS,
+                 category_orders={'Segment_Name': SEGMENT_ORDER}, points='outliers', log_y=use_log,
+                 hover_data={'Customer ID': True}, labels={'Segment_Name': '', metric: metric_label})
+    fig.update_layout(height=480, showlegend=False)
+    if use_log:
+        fig.update_yaxes(**(LOG_MONEY_AXIS if metric == 'Monetary' else LOG_RECENCY_AXIS if metric == 'Recency'
+                            else LOG_AXIS))
+    elif metric == 'Monetary':
+        fig.update_yaxes(tickprefix='£', tickformat=',')
+    st.plotly_chart(fig, width="stretch")
+    st.caption("Each box covers the middle half of a segment's customers; the line inside is the median, and dots "
+               "are unusual customers. Averages hide how spread out a segment is; boxes show it.")
 
-segment_customers = clusters[clusters['Segment_Name'] == selected_segment]
+# ---------------------------------------------------------------
+# Browse customers
+# ---------------------------------------------------------------
+with tab_browse:
+    chosen = st.segmented_control("Segment", SEGMENT_ORDER, default=SEGMENT_ORDER[0], key="browse_segment")
+    chosen = chosen or SEGMENT_ORDER[0]
+    members = clusters[clusters['Segment_Name'] == chosen]
+    b1, b2, b3 = st.columns(3)
+    b1.metric("Customers", f"{len(members):,}", border=True)
+    b2.metric("Average spend", f"£{members['Monetary'].mean():,.0f}", help=tip("Monetary"), border=True)
+    b3.metric("Average orders", f"{members['Frequency'].mean():.1f}", help=tip("Frequency"), border=True)
 
-col1, col2, col3 = st.columns(3)
-col1.metric("Customers in Segment", f"{len(segment_customers):,}")
-col2.metric("Avg Monetary", f"£{segment_customers['Monetary'].mean():,.2f}")
-col3.metric("Avg Frequency", f"{segment_customers['Frequency'].mean():.1f} orders")
-
-st.write(f"**Sample customers in {selected_segment}:**")
-sample = segment_customers.sample(min(10, len(segment_customers)), random_state=42)
-sample = sample[['Recency', 'Frequency', 'Monetary']]
-st.dataframe(
-    sample.style.format({
-        'Recency': '{:.0f}',
-        'Frequency': '{:.0f}',
-        'Monetary': '£{:,.2f}'
-    }),
-    use_container_width=False,
-    column_config={'Monetary': st.column_config.Column(width='medium')}
-)
+    sample = members.sample(min(10, len(members)), random_state=42)[['Recency', 'Frequency', 'Monetary']]
+    st.caption(f"A sample of {len(sample)} customers. Click a row to open that customer in Customer Lookup.")
+    event = st.dataframe(
+        sample.style.format({'Monetary': '£{:,.0f}'}),
+        width="content", on_select="rerun", selection_mode="single-row", key="browse_table",
+        column_config={"Recency": "Days since last order", "Frequency": "Orders", "Monetary": "Total spend"},
+    )
+    if event.selection.rows:
+        st.session_state["lookup_customer"] = int(sample.index[event.selection.rows[0]])
+        st.switch_page("pages/1_Customer_Lookup.py")
