@@ -62,9 +62,8 @@ st.info(
 
 tab_how, tab_perf, tab_rel, tab_limits = st.tabs(["How it works", "Performance", "Reliability", "Limitations"])
 
-# ---------------------------------------------------------------
+
 # How it works
-# ---------------------------------------------------------------
 with tab_how:
     prediction_flowchart("flow_model_info",
                          example=flowchart_example(models, configs, by_customer_id(data["modeling_table"]),
@@ -88,9 +87,8 @@ with tab_how:
             "rule from each cluster's profile."
         )
 
-# ---------------------------------------------------------------
+
 # Performance
-# ---------------------------------------------------------------
 with tab_perf:
     st.caption("Measured on a held-out test set: a fifth of customers that played no part in training. The app "
                "recreates that test set and rescores the saved models, so these numbers are calculated live.")
@@ -119,9 +117,7 @@ with tab_perf:
             "basis for choosing a model; the test set gives one final, independent check."
         )
 
-# ---------------------------------------------------------------
 # Reliability
-# ---------------------------------------------------------------
 with tab_rel:
     horizon_label = st.segmented_control("Horizon", [f"Next {i['label']}" for i in HORIZONS.values()],
                                          default="Next 6 months", key="calibration_horizon") or "Next 6 months"
@@ -163,9 +159,7 @@ with tab_rel:
                f"treats a customer as nearly certain to stay or to leave. Among the highest-risk customers it "
                f"{direction} churn on average.")
 
-# ---------------------------------------------------------------
 # Limitations
-# ---------------------------------------------------------------
 with tab_limits:
     LIMITS = [
         (":material/exposure_zero:", "Some spend predictions show £0",

@@ -29,9 +29,8 @@ monthly = data["product_monthly"]
 rules = data["association_rules"]
 by_segment = data["product_segment"]
 
-# ---------------------------------------------------------------
+
 # Summary
-# ---------------------------------------------------------------
 best = products.sort_values("Total_Revenue", ascending=False).iloc[0]
 top10 = products.sort_values("Total_Revenue", ascending=False).head(10)
 st.info(
@@ -45,9 +44,8 @@ st.info(
 tab_top, tab_season, tab_together, tab_segment = st.tabs(
     ["Top products", "Seasonality", "Bought together", "By segment"])
 
-# ---------------------------------------------------------------
+
 # Top products
-# ---------------------------------------------------------------
 with tab_top:
     RANK_OPTIONS = {"Revenue": "Total_Revenue", "Units sold": "Total_Units_Sold",
                     "Orders": "Order_Count", "Revenue per order": "Revenue_Per_Order"}
@@ -91,9 +89,8 @@ with tab_top:
             },
         )
 
-# ---------------------------------------------------------------
+
 # Seasonality
-# ---------------------------------------------------------------
 with tab_season:
     all_months = sorted(monthly["Month"].unique())
     product_options = products.sort_values("Total_Revenue", ascending=False)["Description"].tolist()
@@ -128,9 +125,8 @@ with tab_season:
     else:
         st.info("Choose at least one product.", icon=":material/info:")
 
-# ---------------------------------------------------------------
+
 # Bought together
-# ---------------------------------------------------------------
 with tab_together:
     options = rules.groupby("antecedents")["lift"].max().sort_values(ascending=False).index.tolist()
     chosen = st.selectbox("When a customer buys", options,
@@ -154,9 +150,8 @@ with tab_together:
     )
     st.caption("Based on UK orders with at least two different products.")
 
-# ---------------------------------------------------------------
+
 # By segment
-# ---------------------------------------------------------------
 with tab_segment:
     segment_options = by_segment.groupby("Segment_Name")["Revenue"].sum().sort_values(ascending=False).index.tolist()
     c1, c2 = st.columns([3, 1], vertical_alignment="bottom")

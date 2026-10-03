@@ -36,9 +36,8 @@ summary['Revenue_Share'] = summary['Revenue'] / summary['Revenue'].sum()
 summary = summary.sort_values('Revenue', ascending=False)
 SEGMENT_ORDER = summary.index.tolist()
 
-# ---------------------------------------------------------------
+
 # Segment cards and summary
-# ---------------------------------------------------------------
 for col, seg in zip(st.columns(len(SEGMENT_ORDER)), SEGMENT_ORDER):
     row = summary.loc[seg]
     with col.container(border=True, height="stretch"):
@@ -67,9 +66,8 @@ LOG_MONEY_AXIS = dict(dtick=1, tickprefix='£', tickformat=',')
 LOG_RECENCY_AXIS = dict(tickmode='array', tickvals=[1, 2, 5, 10, 20, 50, 100, 200, 500])
 plot_df = clusters.reset_index()
 
-# ---------------------------------------------------------------
+
 # Customers vs revenue
-# ---------------------------------------------------------------
 with tab_share:
     view = st.segmented_control("Chart", ["Bars", "Donuts"], default="Bars", key="share_view")
     if view == "Donuts":
@@ -111,9 +109,7 @@ with tab_share:
         },
     )
 
-# ---------------------------------------------------------------
 # Segment map
-# ---------------------------------------------------------------
 with tab_map:
     dims = st.segmented_control("View", ["2D", "3D"], default="2D", key="map_view",
                                 help="2D: days since last order against total spend. 3D adds number of orders.")
@@ -139,9 +135,8 @@ with tab_map:
     if dims != "3D":
         st.caption("The empty vertical bands are store closures: Christmas to New Year and the Easter weekend.")
 
-# ---------------------------------------------------------------
+
 # Compare behaviour
-# ---------------------------------------------------------------
 with tab_compare:
     METRICS = {"Days since last order": "Recency", "Number of orders": "Frequency", "Total spend": "Monetary"}
     c1, c2 = st.columns([3, 1], vertical_alignment="bottom")
@@ -162,9 +157,8 @@ with tab_compare:
     st.caption("Each box covers the middle half of a segment's customers; the line inside is the median, and dots "
                "are unusual customers. Averages hide how spread out a segment is; boxes show it.")
 
-# ---------------------------------------------------------------
+
 # Browse customers
-# ---------------------------------------------------------------
 with tab_browse:
     chosen = st.segmented_control("Segment", SEGMENT_ORDER, default=SEGMENT_ORDER[0], key="browse_segment")
     chosen = chosen or SEGMENT_ORDER[0]

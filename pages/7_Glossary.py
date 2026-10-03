@@ -9,9 +9,8 @@ from ui import page_header, snapshot_timeline, expected_value_demo, lift_example
 
 page_header("Glossary", "What do these terms mean?")
 
-# ---------------------------------------------------------------
+
 # Key ideas, illustrated
-# ---------------------------------------------------------------
 st.subheader("Key ideas, illustrated")
 st.page_link("pages/6_Model_Info.py", label="How a prediction is made, step by step: see Model Info",
              icon=":material/account_tree:")
@@ -42,9 +41,8 @@ with tab_lift:
 
 st.divider()
 
-# ---------------------------------------------------------------
+
 # Definitions
-# ---------------------------------------------------------------
 st.subheader("Definitions")
 st.caption("The same definitions appear when you hover over the :material/help_outline: icons throughout the app.")
 
