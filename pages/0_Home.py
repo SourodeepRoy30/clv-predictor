@@ -56,7 +56,7 @@ with right:
                       legend=dict(orientation="h", y=-0.25, title_text=""),
                       xaxis=dict(tickformat=".0%", title=None), yaxis=dict(title=None))
     fig.update_traces(hovertemplate="%{fullData.name}: %{x:.1%}<extra></extra>")
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
 
 st.divider()
 
@@ -77,9 +77,9 @@ with st.container(border=True):
 
     g, story = st.columns([1, 2], vertical_alignment="center")
     with g:
-        st.plotly_chart(churn_gauge(pred["Churn_Prob"], "6-month churn risk"), use_container_width=True)
+        st.plotly_chart(churn_gauge(pred["Churn_Prob"], "6-month churn risk"), width="stretch")
     with story:
-        tone, text = customer_story(pick, features, pred, segment)
+        tone, text = customer_story(f"Customer {pick}", features, pred, segment)
         show_story(tone, text)
         c1, c2 = st.columns(2)
         c1.metric("Expected value, next 6 months", f"£{pred['Expected_CLV']:,.0f}", help=tip("Expected CLV"))

@@ -21,7 +21,7 @@ def page_header(title, question, how_to=None):
         st.markdown(f"##### :gray[{question}]")
     if how_to:
         with right:
-            with st.popover("How to use", icon=":material/help:", use_container_width=True):
+            with st.popover("How to use", icon=":material/help:", width="stretch"):
                 st.markdown(how_to)
 
 
@@ -42,16 +42,16 @@ def churn_tone(churn_prob):
     return "success", "is likely to keep buying"
 
 
-def customer_story(customer_id, features, prediction, segment, horizon_months=6):
+def customer_story(label, features, prediction, segment, horizon_months=6):
     """A plain-English reading of one customer's numbers. Returns (tone, markdown)."""
     tone, headline = churn_tone(prediction["Churn_Prob"])
     recency = int(features["Recency"])
     when = "over a year ago" if recency > 365 else f"{recency} days ago"
     orders = int(features["Frequency"])
+    intro = f"They are in the **{segment}** segment and have spent" if segment else "They have spent"
     text = (
-        f"**Customer {customer_id} {headline}** ({prediction['Churn_Prob']:.0%} churn risk). "
-        f"They are in the **{segment}** segment and have spent £{features['Monetary']:,.0f} "
-        f"over {orders} order{'s' if orders != 1 else ''}, most recently {when}. "
+        f"**{label} {headline}** ({prediction['Churn_Prob']:.0%} churn risk). "
+        f"{intro} £{features['Monetary']:,.0f} over {orders} order{'s' if orders != 1 else ''}, most recently {when}. "
     )
     spend = prediction["Spend_If_Retained"]
     if spend >= 1:
@@ -92,3 +92,41 @@ def churn_gauge(churn_prob, title="Churn risk", height=190):
     ))
     fig.update_layout(height=height, margin=dict(l=20, r=20, t=40, b=0))
     return fig
+
+
+def value_split_chart(prediction, height=110):
+    """
+    One horizontal bar showing spend if retained split into expected value (kept) and value at risk.
+    This is the Expected Value rule made visible: the two parts always add up to the whole bar.
+    """
+    fig = go.Figure()
+    for name, value, color in [("Expected value", prediction["Expected_CLV"], "#3C9D5D"),
+                               ("At risk", prediction["Value_At_Risk"], "#D9534F")]:
+        fig.add_trace(go.Bar(
+            x=[value], y=[""], orientation="h", name=name, marker_color=color,
+            text=f"{name}: £{value:,.0f}", textposition="inside", insidetextanchor="middle",
+            hovertemplate=f"{name}: £{value:,.2f}<extra></extra>",
+        ))
+    fig.update_layout(barmode="stack", height=height, showlegend=False, margin=dict(l=0, r=0, t=28, b=0),
+                      title=dict(text=f"If they buy again: £{prediction['Spend_If_Retained']:,.0f}",
+                                 font=dict(size=13)),
+                      xaxis=dict(visible=False), yaxis=dict(visible=False))
+    return fig
+
+
+def prediction_panel(prediction, horizon_label, help_text):
+    """Gauge, value metrics and the kept-versus-at-risk bar for one horizon."""
+    gauge_col, numbers_col = st.columns([1, 2], vertical_alignment="center")
+    with gauge_col:
+        st.plotly_chart(churn_gauge(prediction["Churn_Prob"], f"{horizon_label} churn risk"), width="stretch")
+    with numbers_col:
+        m1, m2 = st.columns(2)
+        m1.metric(f"Expected value, {horizon_label.lower()}", f"£{prediction['Expected_CLV']:,.0f}",
+                  help=help_text["Expected CLV"], border=True)
+        m2.metric("Value at risk", f"£{prediction['Value_At_Risk']:,.0f}",
+                  help=help_text["Value at risk"], border=True)
+        if prediction["Spend_If_Retained"] >= 1:
+            st.plotly_chart(value_split_chart(prediction), width="stretch")
+        else:
+            st.caption("Predicted spend if they buy again is very low (a linear prediction below £0, shown as £0), "
+                       "so there is little value at risk.")
