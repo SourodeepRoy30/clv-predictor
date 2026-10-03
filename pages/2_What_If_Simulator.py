@@ -7,7 +7,6 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from app_utils import (load_models, load_configs, CHURN_LABEL_THRESHOLD, predict_clv,
                        predict_segment, describe_config)
 
-st.set_page_config(page_title="What If Simulator", page_icon="🎛️", layout="wide")
 st.title("What If Simulator")
 st.write("Adjust the sliders to simulate a hypothetical customer and see live predictions.")
 

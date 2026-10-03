@@ -7,7 +7,6 @@ import plotly.express as px
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from app_utils import load_data, SEGMENT_COLORS
 
-st.set_page_config(page_title="Product Insights", page_icon="📦", layout="wide")
 st.title("Product Insights")
 st.write(
     "Which products drive revenue, when they sell, what customers buy alongside them, "

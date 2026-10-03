@@ -9,7 +9,6 @@ from plotly.subplots import make_subplots
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from app_utils import load_data
 
-st.set_page_config(page_title="Segment Explorer", page_icon="🧩", layout="wide")
 st.title("Segment Explorer")
 st.write("Browse customer segments identified through clustering, their characteristics, and revenue contribution.")
 

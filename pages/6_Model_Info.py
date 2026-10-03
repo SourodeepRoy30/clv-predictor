@@ -11,7 +11,6 @@ from sklearn.calibration import calibration_curve
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from app_utils import load_models, load_data, load_configs, FEATURE_COLS, predict_clv, describe_config
 
-st.set_page_config(page_title="Model Info", page_icon="📐", layout="wide")
 st.title("Model Info")
 st.write(
     "How the predictions in this app are produced, how well the models perform on customers they were not "

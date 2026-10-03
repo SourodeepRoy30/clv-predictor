@@ -1,0 +1,22 @@
+# Visual theme for the app. Viewers can switch between light and dark in the app menu
+# (top right, then Settings); by default the app follows their operating system's setting.
+
+[theme]
+primaryColor = "#3A6EA5"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap, sans-serif"
+headingFont = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap, sans-serif"
+headingFontWeights = [700, 600, 600, 600, 600, 600]
+baseRadius = "0.6rem"
+showWidgetBorder = true
+
+[theme.light]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F3F5F9"
+textColor = "#1E2330"
+borderColor = "#E1E5EC"
+
+[theme.dark]
+backgroundColor = "#0F1218"
+secondaryBackgroundColor = "#1A1F2A"
+textColor = "#E6E8EE"
+borderColor = "#2B3242"

@@ -9,7 +9,6 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from app_utils import (load_models, load_data, load_configs, predict_clv, by_customer_id,
                        describe_config, FEATURE_COLS, SEGMENT_COLORS)
 
-st.set_page_config(page_title="At-Risk Customers", page_icon="⚠️", layout="wide")
 models = load_models()
 configs = load_configs()
 data = load_data()

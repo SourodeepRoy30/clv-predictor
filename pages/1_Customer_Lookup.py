@@ -6,7 +6,6 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from app_utils import (load_models, load_data, load_configs, FEATURE_COLS, CHURN_LABEL_THRESHOLD,
                        predict_clv, predict_segment, by_customer_id, describe_config)
 
-st.set_page_config(page_title="Customer Lookup", page_icon="🔍", layout="wide")
 st.title("Customer Lookup")
 st.write("Select a Customer ID to see their churn risk, expected lifetime value, and segment.")
 
@@ -30,7 +29,11 @@ def churn_metric(col, label, churn_prob):
     )
 
 
-customer_id = st.selectbox("Select a Customer ID", sorted(modeling_table.index.tolist()))
+customer_ids = sorted(modeling_table.index.tolist())
+# Open on the customer chosen on the Home page if there is one, otherwise on a telling example
+start_id = st.session_state.pop("lookup_customer", 13902)
+start_index = customer_ids.index(start_id) if start_id in customer_ids else 0
+customer_id = st.selectbox("Select a Customer ID", customer_ids, index=start_index)
 
 if customer_id is not None:
     # 6-month outlook
