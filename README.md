@@ -12,6 +12,7 @@ The project emphasises honest evaluation: models are selected by cross-validatio
 
 | Page | Question it answers |
 |---|---|
+| **Glossary** | What do these terms mean? Searchable definitions, plus interactive illustrations of snapshots and churn, expected value, and lift. |
 | **Customer Lookup** | How is this customer doing? Churn risk, expected spend, and value at risk, summarised in one sentence. |
 | **At-Risk Customers** | Who should we contact first? A retention list ranked by revenue at risk, with campaign costs and a CSV export. |
 | **What-If Simulator** | What makes a customer valuable? Change a customer's behaviour and watch the predictions move. |
