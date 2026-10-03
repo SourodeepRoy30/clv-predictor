@@ -16,9 +16,8 @@ configs = load_configs()
 clusters = by_customer_id(data["clusters"])
 modeling_table = by_customer_id(data["modeling_table"])
 
-# ---------------------------------------------------------------
+
 # Hero
-# ---------------------------------------------------------------
 st.title("CLV Predictor")
 st.markdown("##### :gray[Which customers are worth keeping, which are about to leave, and what do they buy?]")
 
@@ -36,11 +35,15 @@ with left:
         "budget goes where it matters most."
     )
     k1, k2 = st.columns(2)
-    k1.metric("Customers bringing in", f"{top_revenue_share:.0%} of revenue",
-              f"just {top_customer_share:.1%} of customers", delta_color="off",
-              help="Elite Wholesalers and High-Value Regulars, by spend during the 18 months to June 2011.")
-    k2.metric("Customers who have gone quiet", f"{lapsed_share:.0%}", "At-Risk/Lapsed segment",
-              delta_color="off", help=tip("At-Risk/Lapsed"))
+    with k1.container(border=True, height="stretch"):
+        st.header(f"{top_revenue_share:.0%}", anchor=False)
+        st.caption(f"of revenue comes from just **{top_customer_share:.1%}** of customers "
+                   "(Elite Wholesalers and High-Value Regulars)",
+                   help="Based on spend during the 18 months to June 2011.")
+    with k2.container(border=True, height="stretch"):
+        st.header(f"{lapsed_share:.0%}", anchor=False)
+        st.caption("of customers have gone quiet: the At-Risk/Lapsed segment",
+                   help=tip("At-Risk/Lapsed"))
 
 with right:
     # Each segment's share of customers vs its share of revenue, as two 100% bars
@@ -60,9 +63,8 @@ with right:
 
 st.divider()
 
-# ---------------------------------------------------------------
+
 # Try it
-# ---------------------------------------------------------------
 st.subheader("See it in action")
 showcase = interesting_customers(set(modeling_table.index))
 labels = {cid: f"{cid}: {reason}" for cid, reason in showcase.items()}
@@ -90,9 +92,8 @@ with st.container(border=True):
 
 st.divider()
 
-# ---------------------------------------------------------------
+
 # How it works
-# ---------------------------------------------------------------
 st.subheader("How it works")
 STEPS = [
     (":material/receipt_long:", "Transactions", "About a million purchases, December 2009 to December 2011."),
@@ -108,9 +109,8 @@ for col, (icon, name, text) in zip(st.columns(4), STEPS):
 
 st.divider()
 
-# ---------------------------------------------------------------
+
 # What you can do
-# ---------------------------------------------------------------
 st.subheader("Explore")
 FEATURES = [
     ("pages/1_Customer_Lookup.py", ":material/person_search:", "How is this customer doing?",
