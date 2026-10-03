@@ -58,7 +58,7 @@ The project emphasises honest evaluation: models are selected by cross-validatio
 ## Repository structure
 
 ```
-clv-predictor/
+retail-customer-value/
 ├── app.py                  Streamlit entry point: page navigation
 ├── app_utils.py            Loading models, data and configs; CLV prediction logic
 ├── ui.py                   Shared page components (headers, gauges, customer summaries)
@@ -91,8 +91,8 @@ clv-predictor/
 **The app** (the data and models it needs are in the repository). Python 3.12 is recommended, matching the pinned versions:
 
 ```bash
-git clone https://github.com/SourodeepRoy30/clv-predictor.git
-cd clv-predictor
+git clone https://github.com/SourodeepRoy30/retail-customer-value.git
+cd retail-customer-value
 python3.12 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
