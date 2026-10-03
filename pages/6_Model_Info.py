@@ -5,16 +5,26 @@ import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import roc_auc_score, brier_score_loss, mean_absolute_error, mean_squared_error, r2_score
+from sklearn.metrics import roc_auc_score, brier_score_loss, mean_absolute_error, r2_score
 from sklearn.calibration import calibration_curve
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from app_utils import load_models, load_data, load_configs, FEATURE_COLS, predict_clv, describe_config
+from definitions import tip
+from ui import page_header
 
-st.title("Model Info")
-st.write(
-    "How the predictions in this app are produced, how well the models perform on customers they were not "
-    "trained on, and where their limits are."
+page_header(
+    "Model Info",
+    "Can these predictions be trusted?",
+    how_to="""
+**What this page shows:** how the predictions are made, how accurate they are on customers the models never saw during training, and where they fall short.
+
+**The four tabs:**
+- **How it works:** the two-stage model behind every prediction in the app.
+- **Performance:** accuracy figures, recalculated live from the saved models.
+- **Reliability:** whether a predicted churn risk of, say, 70% really means about 70% of such customers stop buying.
+- **Limitations:** what to keep in mind when reading the predictions.
+""",
 )
 
 models = load_models()
@@ -22,189 +32,182 @@ configs = load_configs()
 data = load_data()
 
 HORIZONS = {
-    "6mo": {"label": "6-Month", "table": "modeling_table",
-            "period": "behaviour to 2011-06-08, predicting 2011-06-09 to 2011-12-09"},
-    "12mo": {"label": "12-Month", "table": "modeling_table_12mo",
-             "period": "behaviour to 2010-11-30, predicting 2010-12-01 to 2011-12-09"},
+    "6mo": {"label": "6 months", "table": "modeling_table",
+            "period": "Behaviour to 2011-06-08, predicting 2011-06-09 to 2011-12-09"},
+    "12mo": {"label": "12 months", "table": "modeling_table_12mo",
+             "period": "Behaviour to 2010-11-30, predicting 2010-12-01 to 2011-12-09"},
 }
 
 
 @st.cache_data
 def test_set_results(_models, _configs, horizon, table):
-    """
-    Recreate the notebooks' test split (same rows, test_size=0.2, random_state=42, stratified on churn)
-    and score the saved models on it. Returns test-set churn labels, churn probabilities and CLV results.
-    """
-    X = table[FEATURE_COLS]
+    """Recreate the notebooks' test split (test_size=0.2, random_state=42, stratified on churn) and score it."""
     churned = (table["CLV_Target"] == 0).astype(int)
     _, X_test, _, churned_test, _, clv_test = train_test_split(
-        X, churned, table["CLV_Target"], test_size=0.2, random_state=42, stratify=churned
-    )
+        table[FEATURE_COLS], churned, table["CLV_Target"], test_size=0.2, random_state=42, stratify=churned)
     preds = predict_clv(_models, _configs, horizon, X_test)
     return churned_test.values, preds["Churn_Prob"].values, clv_test.values, preds["Expected_CLV"].values
 
 
 results = {h: test_set_results(models, configs, h, data[info["table"]]) for h, info in HORIZONS.items()}
-
-# ---------------------------------------------------------------
-# 1. How predictions are made
-# ---------------------------------------------------------------
-st.subheader("How Predictions Are Made")
-st.write(
-    "Each horizon uses a two-stage model. Stage 1 estimates the probability *p* that a customer makes no "
-    "purchase in the period (churn). Stage 2, trained only on customers who did buy, estimates how much a "
-    "returning customer spends, *s*. The two are combined with the Expected Value rule:"
-)
-st.latex(r"\text{Expected CLV} = (1 - p)\,s \qquad \text{Value at risk} = p\,s \qquad "
-         r"\text{Expected CLV} + \text{Value at risk} = s")
-st.caption(
-    "The Expected Value rule was chosen over a Hard Cutoff (predicting £0 above a churn threshold) because its "
-    "predictions add up to actual total revenue and it can still rank customers above any cutoff. A Hard Cutoff "
-    "had a lower per-customer error (MAE), but its predictions summed to only about 79% of actual revenue."
-)
-
-cols = st.columns(2)
-for col, (h, info) in zip(cols, HORIZONS.items()):
-    cfg = configs[f"clv_{h}"]
-    with col:
-        st.markdown(f"**{info['label']} CLV**")
-        st.caption(f"{info['period'].capitalize()}. Model: {describe_config(cfg)}.")
-        metrics = pd.DataFrame({
-            "Metric": ["Out-of-fold MAE (training set, 5 folds)", "Test MAE", "Test RMSE", "Test R-squared",
-                       "Test predicted total / actual total"],
-            "Value": [f"£{cfg['oof_mae']:,.2f}", f"£{cfg['test_mae']:,.2f}", f"£{cfg['test_rmse']:,.2f}",
-                      f"{cfg['test_r2']:.3f}", f"{cfg['test_pred_actual_total']:.1%}"],
-        })
-        st.dataframe(metrics, hide_index=True, use_container_width=True)
-        st.caption(f"Selected by: {cfg['selected_by']}.")
+auc_6 = roc_auc_score(results["6mo"][0], results["6mo"][1])
 
 st.info(
-    "Why two kinds of score? The model was chosen using 5-fold cross-validation on the training customers "
-    "(out-of-fold scores), and then checked once on a held-out test set. With a heavy-tailed target, a single "
-    "test set of under 1,000 customers can rank models very differently depending on which big spenders it "
-    "happens to contain, so the out-of-fold scores are the more reliable basis for comparing models."
+    f"The 6-month churn model ranks customers correctly about **{auc_6:.0%} of the time** (given one customer who "
+    f"stopped buying and one who did not, it gives the first a higher risk), and its predicted revenue adds up to "
+    f"**{configs['clv_6mo']['test_pred_actual_total']:.0%}** of actual revenue on unseen customers. Good enough to "
+    "rank and prioritise customers; individual predictions are estimates, not certainties.",
+    icon=":material/verified:",
 )
 
-st.divider()
+tab_how, tab_perf, tab_rel, tab_limits = st.tabs(["How it works", "Performance", "Reliability", "Limitations"])
 
 # ---------------------------------------------------------------
-# 2. Live check against the notebooks
+# How it works
 # ---------------------------------------------------------------
-st.subheader("Checking the Saved Models Against the Notebooks")
-st.write(
-    "The app recreates the notebooks' test split and scores the saved models on it. Matching numbers confirm "
-    "that the models and data loaded here are the ones that were validated."
-)
+with tab_how:
+    s1, s2, s3 = st.columns(3)
+    with s1.container(border=True, height="stretch"):
+        st.markdown("### :material/person_off:")
+        st.markdown("**Stage 1: Will they buy again?**")
+        st.caption("A gradient boosting classifier estimates the churn risk *p* from seven measures of past "
+                   "behaviour, such as days since last order and number of orders.")
+    with s2.container(border=True, height="stretch"):
+        st.markdown("### :material/payments:")
+        st.markdown("**Stage 2: How much, if they do?**")
+        st.caption("A regression model, trained only on customers who did return, estimates their spend *s*.")
+    with s3.container(border=True, height="stretch"):
+        st.markdown("### :material/functions:")
+        st.markdown("**Combined: expected value**")
+        st.caption("The two are combined so that expected value and value at risk always add up to spend if retained.")
+    st.latex(r"\text{Expected CLV} = (1 - p)\,s \qquad \text{Value at risk} = p\,s")
 
-check_rows = []
-for h, info in HORIZONS.items():
-    churned_test, churn_prob, clv_test, clv_pred = results[h]
-    cfg = configs[f"clv_{h}"]
-    live_mae = mean_absolute_error(clv_test, clv_pred)
-    check_rows.append({
-        "Horizon": info["label"],
-        "Test customers": f"{len(clv_test):,}",
-        "Churn ROC-AUC (live)": f"{roc_auc_score(churned_test, churn_prob):.4f}",
-        "CLV MAE (live)": f"£{live_mae:,.2f}",
-        "CLV MAE (notebook)": f"£{cfg['test_mae']:,.2f}",
-        "CLV R-squared (live)": f"{r2_score(clv_test, clv_pred):.3f}",
-        "Match": "Yes" if abs(live_mae - cfg["test_mae"]) < 0.01 else "No",
-    })
-st.dataframe(pd.DataFrame(check_rows), hide_index=True, use_container_width=True)
-st.caption("The 6-month churn ROC-AUC reported in 4_classification.ipynb is 0.8275.")
+    for h, info in HORIZONS.items():
+        st.markdown(f"**Next {info['label']}:** {describe_config(configs[f'clv_{h}'])}. :gray[{info['period']}.]")
 
-st.divider()
-
-# ---------------------------------------------------------------
-# 3. Calibration
-# ---------------------------------------------------------------
-st.subheader("Are the Churn Probabilities Reliable?")
-st.write(
-    "A ranking model can order customers well and still give misleading probabilities. Calibration checks the "
-    "probabilities themselves: test customers are grouped by predicted churn probability, and each group's "
-    "average prediction is compared with the share who actually churned. A well-calibrated model sits on the "
-    "diagonal. This matters here because value at risk is churn probability times spend, so it is only as "
-    "accurate as the probability."
-)
-
-horizon_choice = st.radio("Horizon", [info["label"] for info in HORIZONS.values()], horizontal=True)
-h = next(k for k, v in HORIZONS.items() if v["label"] == horizon_choice)
-churned_test, churn_prob, _, _ = results[h]
-
-n_bins = 10
-observed, predicted = calibration_curve(churned_test, churn_prob, n_bins=n_bins, strategy="quantile")
-brier = brier_score_loss(churned_test, churn_prob)
-base_rate = churned_test.mean()
-brier_baseline = base_rate * (1 - base_rate)   # Brier score of always predicting the base rate
-
-fig_cal = go.Figure()
-fig_cal.add_trace(go.Scatter(x=[0, 1], y=[0, 1], mode="lines", name="Perfect calibration",
-                             line=dict(dash="dash", color="gray")))
-fig_cal.add_trace(go.Scatter(x=predicted, y=observed, mode="lines+markers", name=f"{horizon_choice} churn model",
-                             marker=dict(size=9),
-                             hovertemplate="Average predicted: %{x:.1%}<br>Actually churned: %{y:.1%}<extra></extra>"))
-fig_cal.update_layout(
-    height=480,
-    xaxis=dict(title="Average predicted churn probability", tickformat=".0%", range=[0, 1]),
-    yaxis=dict(title="Share who actually churned", tickformat=".0%", range=[0, 1]),
-    legend=dict(orientation="h", y=-0.2),
-)
-st.plotly_chart(fig_cal, use_container_width=True)
-
-largest_gap = np.max(np.abs(observed - predicted))
-m1, m2, m3 = st.columns(3)
-m1.metric("Brier score", f"{brier:.3f}", help="Mean squared error of the probabilities; lower is better.")
-m2.metric("Brier score, always predicting the churn rate", f"{brier_baseline:.3f}")
-m3.metric("Largest gap from the diagonal", f"{largest_gap:.1%}")
-st.caption(
-    f"Each point is one tenth of the {len(churned_test):,} test customers, grouped by predicted probability. "
-    f"Predicted probabilities on the test set range from {churn_prob.min():.1%} to {churn_prob.max():.1%}, so the "
-    "model never treats a customer as nearly certain to stay or to leave."
-)
-
-st.divider()
+    with st.expander("Why this design was chosen"):
+        st.markdown(
+            "- **Two stages:** nearly half of customers spend nothing in the period. A single model has to handle "
+            "that pile of zeros and the size of spend at the same time; splitting the question handles both, and "
+            "guarantees predictions are never negative.\n"
+            "- **Expected value rather than a cut-off:** a rule predicting £0 for every customer above a churn "
+            "threshold had a slightly lower average error, but its predictions added up to only about 79% of actual "
+            "revenue, and it could not rank customers above the threshold. The expected value rule adds up to "
+            "about 100% and ranks every customer.\n"
+            "- **Chosen by cross-validation:** every option was scored on customers the model had not seen, using "
+            "five rounds of training and testing on the training data. The final held-out test set was used once, "
+            "only to check the chosen model.\n"
+            "- **Segments** come from K-Means clustering on recency, frequency and spend, with names assigned by "
+            "rule from each cluster's profile."
+        )
 
 # ---------------------------------------------------------------
-# 4. Segments
+# Performance
 # ---------------------------------------------------------------
-st.subheader("Customer Segments")
-st.write(
-    "Segments come from K-Means clustering (k=4) on standardized Recency, Frequency and Monetary value. "
-    "K-Means numbers clusters arbitrarily, so names are assigned by rule from each cluster's profile: the two "
-    "highest-spending clusters are Elite Wholesalers and High-Value Regulars, and of the other two, the one "
-    "with the longer average time since last purchase is At-Risk/Lapsed."
-)
-clusters = data["clusters"]
-segment_profile = (clusters.groupby("Segment_Name")
-                   .agg(Customers=("Cluster", "count"), Avg_Recency=("Recency", "mean"),
-                        Avg_Frequency=("Frequency", "mean"), Avg_Monetary=("Monetary", "mean"))
-                   .sort_values("Avg_Monetary", ascending=False))
-st.dataframe(
-    segment_profile.rename(columns={"Avg_Recency": "Avg Recency (days)", "Avg_Frequency": "Avg Orders",
-                                    "Avg_Monetary": "Avg Spend"})
-    .style.format({"Customers": "{:,}", "Avg Recency (days)": "{:.1f}", "Avg Orders": "{:.1f}",
-                   "Avg Spend": "£{:,.0f}"}),
-    use_container_width=True,
-)
-st.caption(
-    "Clustering diagnostics (DBSCAN, hierarchical clustering) showed that most customers lie on a continuous "
-    "spectrum, so the boundaries between the two large segments are a useful approximation rather than a sharp divide."
-)
+with tab_perf:
+    st.caption("Measured on a held-out test set: a fifth of customers that played no part in training. The app "
+               "recreates that test set and rescores the saved models, so these numbers are calculated live.")
+    for h, info in HORIZONS.items():
+        churned_test, churn_prob, clv_test, clv_pred = results[h]
+        cfg = configs[f"clv_{h}"]
+        live_mae = mean_absolute_error(clv_test, clv_pred)
+        matches = abs(live_mae - cfg["test_mae"]) < 0.01
+        with st.container(border=True):
+            badge = ":green-badge[:material/check: Matches the notebook]" if matches else \
+                ":red-badge[:material/close: Differs from the notebook]"
+            st.markdown(f"**Next {info['label']}** &nbsp; {badge}")
+            m1, m2, m3, m4 = st.columns(4)
+            m1.metric("Churn ranking (ROC-AUC)", f"{roc_auc_score(churned_test, churn_prob):.3f}", help=tip("ROC-AUC"))
+            m2.metric("Average error (MAE)", f"£{live_mae:,.0f}", help=tip("MAE"))
+            m3.metric("Variation explained (R²)", f"{r2_score(clv_test, clv_pred):.2f}", help=tip("R-squared"))
+            m4.metric("Predicted / actual total", f"{cfg['test_pred_actual_total']:.0%}",
+                      help=tip("Predicted / actual total"))
+            st.caption(f"{len(clv_test):,} test customers. Cross-validated average error across the training "
+                       f"customers, the figure the model was chosen on: £{cfg['oof_mae']:,.0f}.")
+    with st.expander("Why are there two kinds of score?"):
+        st.write(
+            "Spend is very uneven: a few customers spend hundreds of times more than most. A single test set of "
+            "under 1,000 customers can therefore look better or worse depending on which big spenders it happens "
+            "to contain. The cross-validated score averages over all training customers and is the more reliable "
+            "basis for choosing a model; the test set gives one final, independent check."
+        )
 
-st.divider()
+# ---------------------------------------------------------------
+# Reliability
+# ---------------------------------------------------------------
+with tab_rel:
+    horizon_label = st.segmented_control("Horizon", [f"Next {i['label']}" for i in HORIZONS.values()],
+                                         default="Next 6 months", key="calibration_horizon") or "Next 6 months"
+    h = next(k for k, v in HORIZONS.items() if f"Next {v['label']}" == horizon_label)
+    churned_test, churn_prob, _, _ = results[h]
+
+    observed, predicted = calibration_curve(churned_test, churn_prob, n_bins=10, strategy="quantile")
+    gaps = observed - predicted
+    brier = brier_score_loss(churned_test, churn_prob)
+    base_rate = churned_test.mean()
+    brier_baseline = base_rate * (1 - base_rate)
+
+    chart_col, text_col = st.columns([3, 2], gap="large")
+    with chart_col:
+        fig = go.Figure()
+        fig.add_trace(go.Scatter(x=[0, 1], y=[0, 1], mode="lines", name="Perfectly reliable",
+                                 line=dict(dash="dash", color="#9AA0AC")))
+        fig.add_trace(go.Scatter(x=predicted, y=observed, mode="lines+markers", name="This model",
+                                 marker=dict(size=9, color="#3A6EA5"), line=dict(color="#3A6EA5"),
+                                 hovertemplate="Predicted: %{x:.0%}<br>Actually stopped buying: %{y:.0%}<extra></extra>"))
+        fig.update_layout(height=430, legend=dict(orientation="h", y=-0.2),
+                          xaxis=dict(title="Predicted churn risk", tickformat=".0%", range=[0, 1]),
+                          yaxis=dict(title="Share who actually stopped buying", tickformat=".0%", range=[0, 1]))
+        st.plotly_chart(fig, width="stretch")
+    with text_col:
+        st.markdown("**How to read this**")
+        st.caption("Test customers are split into ten equal groups by predicted risk. Each point compares a group's "
+                   "average prediction with the share that actually stopped buying. Points on the dashed line mean "
+                   "the predictions can be taken at face value.")
+        st.metric("Average gap from the line", f"{np.mean(np.abs(gaps)) * 100:.1f} points",
+                  help="Mean absolute difference between predicted and actual churn across the ten groups.",
+                  border=True)
+        st.metric("Prediction error (Brier score)", f"{brier:.3f}",
+                  f"vs {brier_baseline:.3f} guessing the average rate", delta_color="off", delta_arrow="off",
+                  help="Mean squared error of the probabilities. Lower is better; beating the second number shows "
+                       "the predictions carry real information.", border=True)
+    direction = "underestimates" if gaps[-3:].mean() > 0 else "overestimates"
+    st.caption(f"Predicted risks range from {churn_prob.min():.0%} to {churn_prob.max():.0%}, so the model never "
+               f"treats a customer as nearly certain to stay or to leave. Among the highest-risk customers it "
+               f"{direction} churn on average.")
 
 # ---------------------------------------------------------------
-# 5. Known limitations
+# Limitations
 # ---------------------------------------------------------------
-st.subheader("Known Limitations")
-st.markdown("""
-- **Some customers show a spend-if-retained of £0.** Stage 2 for the 6-month model is a linear regression. For some low-value, long-lapsed customers it predicts a negative amount, which is shown as £0. Read these as "very low", not literally zero.
-- **Extreme order values are extrapolated.** A linear Stage 2 scales up a customer's average order value. Customers with one or two unusually large orders can receive forecasts larger than their past spend, so the top of the At-Risk list deserves a sanity check.
-- **Churn probabilities are compressed.** They stay within a middle range rather than approaching 0% or 100%. The calibration chart above shows how closely they match observed churn rates.
-- **Single test sets are unstable on this data.** CLV is heavy-tailed, so test metrics move a lot depending on which large spenders the test set contains. Model choices were therefore made on cross-validated results.
-- **The ceiling on churn prediction is about 0.80 ROC-AUC.** Nine algorithms and expanded hyperparameter searches all landed close to this level, which points to the limits of the seven behavioural features rather than of the modelling.
-- **The 12-month model uses an earlier snapshot** (behaviour up to 2010-11-30) and was trained on customers with at most a year of history, so the What If Simulator warns when Tenure exceeds 365 days.
-- **Recency is counted in calendar days**, so store closures (about 12 days over Christmas) make some customers look slightly more lapsed than their trading-day gap would suggest.
-- **Cancelled orders are netted out** against the purchases they reversed. Pricing or entry errors that were never cancelled remain in the data.
-- **New customers cannot be scored.** A model using only first-order details was tested and not deployed: it explained under 5% of the variation in 90-day spend and did not beat simple baselines.
-""")
+with tab_limits:
+    LIMITS = [
+        (":material/exposure_zero:", "Some spend predictions show £0",
+         "For some low-value, long-lapsed customers the spend model's estimate falls below zero and is shown as £0. "
+         "Read these as \"very low\"."),
+        (":material/trending_up:", "Very large orders are extrapolated",
+         "The spend model scales up a customer's average order value, so one or two unusually large orders can "
+         "produce a forecast above their past spend."),
+        (":material/compress:", "Churn risks stay in a middle range",
+         "Predicted risks never approach 0% or 100%. The Reliability tab shows how closely they match reality."),
+        (":material/shuffle:", "Test results vary with the sample",
+         "Spend is very uneven across customers, so test-set figures depend on which big spenders are included. "
+         "Models were chosen on cross-validated results instead."),
+        (":material/speed:", "A ceiling of about 0.80 for churn",
+         "Nine algorithms and extended tuning all reached roughly the same accuracy, which points to the limits of "
+         "the seven behavioural measures rather than of the modelling."),
+        (":material/history:", "The 12-month model uses an older snapshot",
+         "It sees behaviour up to November 2010 and customers with at most a year of history."),
+        (":material/calendar_month:", "Days are calendar days",
+         "Store closures, such as about 12 days over Christmas, make some customers look slightly more lapsed than "
+         "their trading-day gap would suggest."),
+        (":material/remove_shopping_cart:", "Cancelled orders are removed",
+         "Purchases later cancelled are netted out. Pricing or entry errors that were never cancelled remain."),
+        (":material/person_add:", "New customers cannot be scored",
+         "A model using only first-order details was tested and not deployed: it explained under 5% of the "
+         "variation in 90-day spend and did not beat simple baselines."),
+    ]
+    for row_start in range(0, len(LIMITS), 3):
+        for col, (icon, title, text) in zip(st.columns(3), LIMITS[row_start:row_start + 3]):
+            with col.container(border=True, height="stretch"):
+                st.markdown(f"**{icon} {title}**")
+                st.caption(text)
