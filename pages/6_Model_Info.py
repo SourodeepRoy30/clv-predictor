@@ -9,9 +9,9 @@ from sklearn.metrics import roc_auc_score, brier_score_loss, mean_absolute_error
 from sklearn.calibration import calibration_curve
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from app_utils import load_models, load_data, load_configs, FEATURE_COLS, predict_clv, describe_config
+from app_utils import load_models, load_data, load_configs, FEATURE_COLS, predict_clv, describe_config, by_customer_id
 from definitions import tip
-from ui import page_header
+from ui import page_header, prediction_flowchart, flowchart_example, DEFAULT_CUSTOMER
 
 page_header(
     "Model Info",
@@ -66,22 +66,9 @@ tab_how, tab_perf, tab_rel, tab_limits = st.tabs(["How it works", "Performance",
 # How it works
 # ---------------------------------------------------------------
 with tab_how:
-    s1, s2, s3 = st.columns(3)
-    with s1.container(border=True, height="stretch"):
-        st.markdown("### :material/person_off:")
-        st.markdown("**Stage 1: Will they buy again?**")
-        st.caption("A gradient boosting classifier estimates the churn risk *p* from seven measures of past "
-                   "behaviour, such as days since last order and number of orders.")
-    with s2.container(border=True, height="stretch"):
-        st.markdown("### :material/payments:")
-        st.markdown("**Stage 2: How much, if they do?**")
-        st.caption("A regression model, trained only on customers who did return, estimates their spend *s*.")
-    with s3.container(border=True, height="stretch"):
-        st.markdown("### :material/functions:")
-        st.markdown("**Combined: expected value**")
-        st.caption("The two are combined so that expected value and value at risk always add up to spend if retained.")
-    st.latex(r"\text{Expected CLV} = (1 - p)\,s \qquad \text{Value at risk} = p\,s")
-
+    prediction_flowchart("flow_model_info",
+                         example=flowchart_example(models, configs, by_customer_id(data["modeling_table"]),
+                                                   DEFAULT_CUSTOMER))
     for h, info in HORIZONS.items():
         st.markdown(f"**Next {info['label']}:** {describe_config(configs[f'clv_{h}'])}. :gray[{info['period']}.]")
 
