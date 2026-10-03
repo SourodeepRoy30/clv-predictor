@@ -18,7 +18,7 @@ modeling_table = by_customer_id(data["modeling_table"])
 
 
 # Hero
-st.title("CLV Predictor")
+st.title("Retail Customer Value")
 st.markdown("##### :gray[Which customers are worth keeping, which are about to leave, and what do they buy?]")
 
 top_segments = ["Elite Wholesalers", "High-Value Regulars"]

@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="CLV Predictor", page_icon=":material/insights:", layout="wide")
+st.set_page_config(page_title="Retail Customer Value", page_icon=":material/insights:", layout="wide")
 
 # Pages grouped by what a visitor wants to do. The files stay in pages/; this list controls the sidebar.
 pages = {

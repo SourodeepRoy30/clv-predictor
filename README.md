@@ -1,4 +1,6 @@
-# CLV Predictor: Customer Lifetime Value and Churn for an Online Retailer
+# Retail Customer Value
+
+**Predicting customer churn and lifetime value for an online retailer**
 
 **Live app: [retail-customer-value.streamlit.app](https://retail-customer-value.streamlit.app)**
 
