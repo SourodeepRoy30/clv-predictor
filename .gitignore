@@ -1,8 +1,21 @@
-# Virtual environment
+# Virtual environments
 clvenv/
+.venv/
 
-# Data files
-data/
+# Data: ignore everything in data/ except the small files the app reads.
+# The raw Excel file and the cleaned transaction CSV stay local (see README for how to recreate them).
+data/*
+!data/modeling_table.csv
+!data/modeling_table_12mo.csv
+!data/customer_clusters.csv
+!data/association_rules.csv
+!data/product_summary.csv
+!data/product_monthly.csv
+!data/product_segment.csv
+
+# Local backups from the cancellation fix
+data_backup_pre_netting/
+models_backup_pre_netting/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -13,5 +26,3 @@ __pycache__/
 
 # macOS
 .DS_Store
-data_backup_pre_netting/
-models_backup_pre_netting/

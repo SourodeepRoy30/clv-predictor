@@ -76,7 +76,6 @@ def load_data():
     return {
         "modeling_table": pd.read_csv(os.path.join(DATA_DIR, "modeling_table.csv"), index_col=0),
         "modeling_table_12mo": pd.read_csv(os.path.join(DATA_DIR, "modeling_table_12mo.csv"), index_col=0),
-        "rfm_table": pd.read_csv(os.path.join(DATA_DIR, "rfm_table.csv"), index_col=0),
         "clusters": pd.read_csv(os.path.join(DATA_DIR, "customer_clusters.csv"), index_col=0),
         "association_rules": pd.read_csv(os.path.join(DATA_DIR, "association_rules.csv")),
         "product_summary": pd.read_csv(os.path.join(DATA_DIR, "product_summary.csv")),

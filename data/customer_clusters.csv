@@ -1,0 +1,4933 @@
+Customer ID,Recency,Frequency,Monetary,Cluster,Segment_Name
+12346.0,346,2,169.36,1,At-Risk/Lapsed
+12347.0,63,4,2434.96,2,Typical Steady
+12348.0,65,4,1388.4,2,Typical Steady
+12349.0,224,2,2221.14,1,At-Risk/Lapsed
+12350.0,127,1,294.4,2,Typical Steady
+12351.0,192,1,300.93,1,At-Risk/Lapsed
+12352.0,79,5,864.98,2,Typical Steady
+12353.0,21,2,406.76,2,Typical Steady
+12354.0,49,1,1079.4,2,Typical Steady
+12355.0,31,2,947.61,2,Typical Steady
+12356.0,62,5,5553.38,2,Typical Steady
+12357.0,205,1,11229.99,1,At-Risk/Lapsed
+12358.0,192,3,2519.01,1,At-Risk/Lapsed
+12359.0,6,9,5929.29,2,Typical Steady
+12360.0,17,4,2234.41,2,Typical Steady
+12361.0,104,4,451.25,2,Typical Steady
+12362.0,42,2,879.4399999999999,2,Typical Steady
+12363.0,59,1,299.1,2,Typical Steady
+12365.0,108,1,320.69,2,Typical Steady
+12366.0,450,1,500.24,1,At-Risk/Lapsed
+12368.0,445,1,917.7,1,At-Risk/Lapsed
+12369.0,230,3,1511.15,1,At-Risk/Lapsed
+12370.0,91,6,3217.28,2,Typical Steady
+12371.0,226,3,1819.42,1,At-Risk/Lapsed
+12372.0,29,2,842.9200000000001,2,Typical Steady
+12373.0,128,3,927.65,2,Typical Steady
+12374.0,238,2,2046.29,1,At-Risk/Lapsed
+12376.0,206,2,383.15,1,At-Risk/Lapsed
+12377.0,132,4,3266.32,2,Typical Steady
+12378.0,379,1,1407.7,1,At-Risk/Lapsed
+12379.0,239,2,692.98,1,At-Risk/Lapsed
+12380.0,2,5,5309.99,2,Typical Steady
+12383.0,1,5,1617.31,2,Typical Steady
+12385.0,196,1,1668.4,1,At-Risk/Lapsed
+12386.0,154,2,401.9,2,Typical Steady
+12387.0,232,1,143.94,1,At-Risk/Lapsed
+12388.0,92,5,1886.7,2,Typical Steady
+12389.0,219,3,1433.33,1,At-Risk/Lapsed
+12391.0,281,5,2259.58,1,At-Risk/Lapsed
+12392.0,408,1,234.75000000000003,1,At-Risk/Lapsed
+12393.0,62,5,1855.25,2,Typical Steady
+12394.0,34,1,351.08,2,Typical Steady
+12395.0,28,9,2930.46,2,Typical Steady
+12396.0,491,1,931.43,1,At-Risk/Lapsed
+12399.0,30,5,1532.6,2,Typical Steady
+12400.0,231,1,205.25,1,At-Risk/Lapsed
+12401.0,120,1,69.3,2,Typical Steady
+12402.0,140,6,1124.15,2,Typical Steady
+12403.0,338,1,555.6600000000001,1,At-Risk/Lapsed
+12406.0,216,3,2791.46,1,At-Risk/Lapsed
+12407.0,52,2,450.96,2,Typical Steady
+12408.0,77,5,2005.46,2,Typical Steady
+12409.0,237,3,12033.54,1,At-Risk/Lapsed
+12410.0,125,3,761.46,2,Typical Steady
+12411.0,226,1,346.9,1,At-Risk/Lapsed
+12412.0,219,3,1246.15,1,At-Risk/Lapsed
+12413.0,53,3,685.3000000000001,2,Typical Steady
+12414.0,34,3,442.41,2,Typical Steady
+12415.0,20,10,69409.04,0,High-Value Regulars
+12416.0,473,1,202.56,1,At-Risk/Lapsed
+12417.0,4,16,4347.83,2,Typical Steady
+12418.0,230,3,1347.67,1,At-Risk/Lapsed
+12419.0,202,2,391.01,1,At-Risk/Lapsed
+12421.0,136,3,360.01,2,Typical Steady
+12422.0,141,10,3194.29,2,Typical Steady
+12423.0,8,8,1953.77,2,Typical Steady
+12424.0,239,2,1579.07,1,At-Risk/Lapsed
+12425.0,265,1,903.61,1,At-Risk/Lapsed
+12426.0,11,2,1167.41,2,Typical Steady
+12427.0,188,1,192.55,1,At-Risk/Lapsed
+12428.0,59,5,5085.03,2,Typical Steady
+12429.0,44,6,3973.49,2,Typical Steady
+12431.0,17,17,6702.9,2,Typical Steady
+12433.0,183,5,7205.39,2,Typical Steady
+12434.0,77,2,542.59,2,Typical Steady
+12435.0,84,5,10075.03,2,Typical Steady
+12437.0,15,28,8353.23,2,Typical Steady
+12439.0,499,2,1089.18,1,At-Risk/Lapsed
+12440.0,279,2,648.15,1,At-Risk/Lapsed
+12441.0,183,1,155.55,1,At-Risk/Lapsed
+12443.0,549,1,365.31,1,At-Risk/Lapsed
+12445.0,237,1,293.08000000000004,1,At-Risk/Lapsed
+12447.0,60,1,431.49,2,Typical Steady
+12449.0,4,2,1447.53,2,Typical Steady
+12450.0,216,3,469.07,1,At-Risk/Lapsed
+12451.0,35,5,8818.83,2,Typical Steady
+12454.0,212,1,4098.96,1,At-Risk/Lapsed
+12455.0,6,6,5303.39,2,Typical Steady
+12456.0,71,1,780.17,2,Typical Steady
+12457.0,55,3,1107.98,2,Typical Steady
+12458.0,101,3,1077.01,2,Typical Steady
+12459.0,422,1,398.36,1,At-Risk/Lapsed
+12460.0,273,1,296.65,1,At-Risk/Lapsed
+12462.0,120,1,573.31,2,Typical Steady
+12463.0,23,2,570.55,2,Typical Steady
+12464.0,17,4,439.85,2,Typical Steady
+12468.0,4,5,3204.09,2,Typical Steady
+12469.0,339,2,3070.54,1,At-Risk/Lapsed
+12470.0,506,1,211.95,1,At-Risk/Lapsed
+12471.0,27,56,23634.44,0,High-Value Regulars
+12472.0,84,15,11108.8,2,Typical Steady
+12473.0,8,1,549.23,2,Typical Steady
+12474.0,17,19,6788.19,2,Typical Steady
+12475.0,226,1,396.26,1,At-Risk/Lapsed
+12476.0,35,12,8268.35,2,Typical Steady
+12477.0,56,5,11624.9,2,Typical Steady
+12480.0,84,5,3308.74,2,Typical Steady
+12481.0,21,11,8645.38,2,Typical Steady
+12482.0,393,27,21941.72,1,At-Risk/Lapsed
+12483.0,22,15,2832.46,2,Typical Steady
+12484.0,153,6,2591.45,2,Typical Steady
+12485.0,346,1,708.1,1,At-Risk/Lapsed
+12486.0,248,1,917.28,1,At-Risk/Lapsed
+12487.0,547,1,285.29999999999995,1,At-Risk/Lapsed
+12489.0,153,1,298.93,2,Typical Steady
+12490.0,31,12,4969.43,2,Typical Steady
+12492.0,220,1,380.0,1,At-Risk/Lapsed
+12493.0,14,1,179.55,2,Typical Steady
+12494.0,13,6,1056.11,2,Typical Steady
+12495.0,457,1,243.4,1,At-Risk/Lapsed
+12496.0,437,2,45.34,1,At-Risk/Lapsed
+12497.0,217,2,5043.400000000001,1,At-Risk/Lapsed
+12499.0,377,1,357.72,1,At-Risk/Lapsed
+12500.0,83,11,2616.14,2,Typical Steady
+12501.0,153,1,1945.68,2,Typical Steady
+12502.0,34,3,1478.65,2,Typical Steady
+12503.0,401,1,896.0,1,At-Risk/Lapsed
+12504.0,234,2,261.0,1,At-Risk/Lapsed
+12505.0,225,1,744.5,1,At-Risk/Lapsed
+12506.0,49,1,73.5,2,Typical Steady
+12507.0,115,2,776.16,2,Typical Steady
+12509.0,101,1,158.5,2,Typical Steady
+12510.0,142,6,2771.81,2,Typical Steady
+12511.0,245,1,3065.77,1,At-Risk/Lapsed
+12514.0,84,2,1597.76,2,Typical Steady
+12515.0,170,1,278.7,1,At-Risk/Lapsed
+12516.0,247,2,1102.56,1,At-Risk/Lapsed
+12517.0,7,1,749.7,2,Typical Steady
+12519.0,293,1,318.35,1,At-Risk/Lapsed
+12520.0,21,3,1478.56,2,Typical Steady
+12523.0,69,16,2714.62,2,Typical Steady
+12524.0,21,14,8287.02,2,Typical Steady
+12525.0,315,3,790.9300000000001,1,At-Risk/Lapsed
+12527.0,111,4,653.72,2,Typical Steady
+12528.0,93,2,675.46,2,Typical Steady
+12529.0,345,1,311.78000000000003,1,At-Risk/Lapsed
+12530.0,50,7,2583.23,2,Typical Steady
+12531.0,503,1,1611.83,1,At-Risk/Lapsed
+12533.0,444,2,1005.99,1,At-Risk/Lapsed
+12535.0,3,1,371.45,2,Typical Steady
+12537.0,225,1,612.94,1,At-Risk/Lapsed
+12538.0,195,1,276.5,1,At-Risk/Lapsed
+12539.0,79,6,10136.09,2,Typical Steady
+12540.0,3,22,13071.07,2,Typical Steady
+12541.0,97,1,284.40000000000003,2,Typical Steady
+12542.0,301,2,423.38,1,At-Risk/Lapsed
+12543.0,265,1,840.25,1,At-Risk/Lapsed
+12545.0,76,1,544.15,2,Typical Steady
+12547.0,14,3,299.58,2,Typical Steady
+12549.0,392,5,1570.68,1,At-Risk/Lapsed
+12551.0,174,1,168.0,1,At-Risk/Lapsed
+12553.0,21,7,2270.89,2,Typical Steady
+12554.0,265,1,384.5,1,At-Risk/Lapsed
+12557.0,73,6,10959.8,2,Typical Steady
+12559.0,127,2,500.21,2,Typical Steady
+12561.0,119,1,238.85,2,Typical Steady
+12562.0,15,3,1432.14,2,Typical Steady
+12563.0,225,1,221.24,1,At-Risk/Lapsed
+12564.0,78,1,402.9,2,Typical Steady
+12565.0,105,1,131.17,2,Typical Steady
+12567.0,1,10,5859.16,2,Typical Steady
+12568.0,461,1,52.0,1,At-Risk/Lapsed
+12569.0,35,5,816.62,2,Typical Steady
+12573.0,44,5,717.41,2,Typical Steady
+12574.0,132,1,182.45,2,Typical Steady
+12575.0,274,2,568.8199999999999,1,At-Risk/Lapsed
+12576.0,35,5,1118.54,2,Typical Steady
+12577.0,176,6,1186.39,2,Typical Steady
+12578.0,147,3,2977.85,2,Typical Steady
+12580.0,63,2,962.9,2,Typical Steady
+12582.0,55,4,1820.4,2,Typical Steady
+12583.0,17,17,8606.94,2,Typical Steady
+12584.0,2,2,489.04,2,Typical Steady
+12585.0,51,2,1768.51,2,Typical Steady
+12586.0,191,3,1848.73,1,At-Risk/Lapsed
+12588.0,216,2,524.08,1,At-Risk/Lapsed
+12589.0,238,3,2177.49,1,At-Risk/Lapsed
+12590.0,28,1,9338.38,2,Typical Steady
+12591.0,134,3,1114.95,2,Typical Steady
+12592.0,30,3,1535.84,2,Typical Steady
+12593.0,35,1,200.0,2,Typical Steady
+12594.0,9,10,3289.28,2,Typical Steady
+12595.0,321,1,281.02,1,At-Risk/Lapsed
+12596.0,59,1,213.95,2,Typical Steady
+12597.0,85,1,432.15,2,Typical Steady
+12598.0,37,5,2407.33,2,Typical Steady
+12599.0,25,9,1530.0,2,Typical Steady
+12600.0,21,16,3204.52,2,Typical Steady
+12601.0,6,6,565.76,2,Typical Steady
+12604.0,78,1,160.5,2,Typical Steady
+12605.0,193,3,1117.45,1,At-Risk/Lapsed
+12608.0,221,1,415.79,1,At-Risk/Lapsed
+12609.0,3,8,2731.74,2,Typical Steady
+12613.0,14,8,4413.86,2,Typical Steady
+12614.0,94,1,315.6,2,Typical Steady
+12615.0,230,4,3099.64,1,At-Risk/Lapsed
+12616.0,114,2,545.5,2,Typical Steady
+12619.0,51,3,735.8,2,Typical Steady
+12620.0,21,1,561.66,2,Typical Steady
+12621.0,17,25,16162.7,2,Typical Steady
+12622.0,49,1,162.1,2,Typical Steady
+12623.0,93,7,3315.84,2,Typical Steady
+12625.0,28,4,4632.48,2,Typical Steady
+12626.0,133,2,986.55,2,Typical Steady
+12629.0,202,2,1198.22,1,At-Risk/Lapsed
+12631.0,273,5,2811.77,1,At-Risk/Lapsed
+12632.0,337,2,684.88,1,At-Risk/Lapsed
+12633.0,13,5,4674.78,2,Typical Steady
+12634.0,365,1,360.0,1,At-Risk/Lapsed
+12635.0,209,2,1115.23,1,At-Risk/Lapsed
+12637.0,56,8,4491.41,2,Typical Steady
+12638.0,456,1,169.8,1,At-Risk/Lapsed
+12639.0,55,3,1072.37,2,Typical Steady
+12643.0,37,8,5640.1,2,Typical Steady
+12644.0,247,3,1319.63,1,At-Risk/Lapsed
+12645.0,36,6,2308.62,2,Typical Steady
+12647.0,16,30,12722.33,2,Typical Steady
+12648.0,254,3,723.95,1,At-Risk/Lapsed
+12649.0,29,6,1829.99,2,Typical Steady
+12651.0,151,4,365.3,2,Typical Steady
+12652.0,148,2,885.58,2,Typical Steady
+12653.0,113,2,2730.08,2,Typical Steady
+12654.0,14,3,301.75,2,Typical Steady
+12655.0,240,1,243.35,1,At-Risk/Lapsed
+12656.0,20,5,3453.31,2,Typical Steady
+12661.0,253,1,162.0,1,At-Risk/Lapsed
+12662.0,4,14,4241.99,2,Typical Steady
+12663.0,441,2,150.0,1,At-Risk/Lapsed
+12664.0,49,4,2211.74,2,Typical Steady
+12665.0,141,3,247.45,2,Typical Steady
+12666.0,211,1,1020.98,1,At-Risk/Lapsed
+12668.0,76,8,9132.55,2,Typical Steady
+12669.0,73,1,1028.3,2,Typical Steady
+12670.0,16,4,1628.63,2,Typical Steady
+12671.0,423,1,2622.48,1,At-Risk/Lapsed
+12672.0,146,2,380.5,2,Typical Steady
+12673.0,143,2,786.4,2,Typical Steady
+12674.0,24,1,550.74,2,Typical Steady
+12675.0,370,2,849.55,1,At-Risk/Lapsed
+12676.0,7,7,1950.65,2,Typical Steady
+12677.0,372,2,359.1,1,At-Risk/Lapsed
+12678.0,4,10,21207.03,2,Typical Steady
+12679.0,22,2,761.13,2,Typical Steady
+12681.0,4,35,22343.99,0,High-Value Regulars
+12682.0,9,31,14347.59,2,Typical Steady
+12683.0,1,16,7303.61,2,Typical Steady
+12684.0,14,2,815.1,2,Typical Steady
+12686.0,188,1,71.14,1,At-Risk/Lapsed
+12687.0,297,1,1858.91,1,At-Risk/Lapsed
+12690.0,22,1,335.01,2,Typical Steady
+12691.0,136,3,468.8,2,Typical Steady
+12692.0,454,1,110.95,1,At-Risk/Lapsed
+12693.0,28,6,1173.23,2,Typical Steady
+12694.0,238,1,897.78,1,At-Risk/Lapsed
+12695.0,27,4,878.27,2,Typical Steady
+12696.0,251,2,731.91,1,At-Risk/Lapsed
+12698.0,407,1,285.75,1,At-Risk/Lapsed
+12699.0,234,1,566.11,1,At-Risk/Lapsed
+12700.0,32,1,984.43,2,Typical Steady
+12701.0,59,5,1823.78,2,Typical Steady
+12703.0,450,2,545.48,1,At-Risk/Lapsed
+12705.0,18,8,7510.91,2,Typical Steady
+12707.0,108,1,603.42,2,Typical Steady
+12708.0,17,13,3212.67,2,Typical Steady
+12709.0,7,25,24372.68,2,Typical Steady
+12710.0,18,1,628.51,2,Typical Steady
+12711.0,428,2,1213.05,1,At-Risk/Lapsed
+12712.0,17,16,3919.13,2,Typical Steady
+12714.0,23,9,10138.77,2,Typical Steady
+12717.0,62,2,737.6700000000001,2,Typical Steady
+12720.0,9,14,3657.87,2,Typical Steady
+12721.0,63,5,2151.52,2,Typical Steady
+12724.0,149,4,1297.01,2,Typical Steady
+12725.0,188,3,1906.76,1,At-Risk/Lapsed
+12726.0,1,9,2638.82,2,Typical Steady
+12727.0,4,8,3890.23,2,Typical Steady
+12728.0,74,4,725.15,2,Typical Steady
+12730.0,338,1,703.25,1,At-Risk/Lapsed
+12731.0,29,11,14890.89,2,Typical Steady
+12733.0,51,4,2325.97,2,Typical Steady
+12734.0,169,3,603.65,2,Typical Steady
+12735.0,132,2,689.5699999999999,2,Typical Steady
+12736.0,149,1,144.0,2,Typical Steady
+12738.0,189,1,137.35,1,At-Risk/Lapsed
+12739.0,211,1,1445.69,1,At-Risk/Lapsed
+12741.0,350,1,236.07,1,At-Risk/Lapsed
+12742.0,442,1,1185.02,1,At-Risk/Lapsed
+12744.0,65,6,8209.58,2,Typical Steady
+12745.0,303,2,723.85,1,At-Risk/Lapsed
+12746.0,357,1,242.75,1,At-Risk/Lapsed
+12747.0,15,21,6714.82,2,Typical Steady
+12748.0,1,201,25912.52,0,High-Value Regulars
+12749.0,30,5,3252.34,2,Typical Steady
+12751.0,261,1,268.27,1,At-Risk/Lapsed
+12753.0,65,4,12702.42,2,Typical Steady
+12754.0,52,3,3010.74,2,Typical Steady
+12755.0,97,3,2838.25,2,Typical Steady
+12757.0,2,2,846.03,2,Typical Steady
+12758.0,93,6,8557.6,2,Typical Steady
+12759.0,92,6,3622.1,2,Typical Steady
+12760.0,272,1,317.8,1,At-Risk/Lapsed
+12761.0,281,1,712.95,1,At-Risk/Lapsed
+12763.0,186,1,320.08,1,At-Risk/Lapsed
+12764.0,133,1,1693.88,2,Typical Steady
+12765.0,289,6,1299.58,1,At-Risk/Lapsed
+12766.0,57,6,5231.22,2,Typical Steady
+12767.0,192,1,949.82,1,At-Risk/Lapsed
+12769.0,55,1,1143.6,2,Typical Steady
+12770.0,27,2,3042.45,2,Typical Steady
+12771.0,302,1,206.5,1,At-Risk/Lapsed
+12774.0,352,1,83.7,1,At-Risk/Lapsed
+12775.0,6,6,1309.96,2,Typical Steady
+12776.0,484,1,27.5,1,At-Risk/Lapsed
+12777.0,274,1,519.45,1,At-Risk/Lapsed
+12778.0,76,6,1211.51,2,Typical Steady
+12779.0,6,12,5196.01,2,Typical Steady
+12780.0,415,1,322.4,1,At-Risk/Lapsed
+12781.0,101,1,470.0,2,Typical Steady
+12782.0,70,9,3148.82,2,Typical Steady
+12784.0,346,1,1034.33,1,At-Risk/Lapsed
+12785.0,181,3,883.7,1,At-Risk/Lapsed
+12786.0,426,1,668.5,1,At-Risk/Lapsed
+12787.0,9,2,523.62,2,Typical Steady
+12788.0,280,4,384.9,1,At-Risk/Lapsed
+12789.0,329,2,148.5,1,At-Risk/Lapsed
+12790.0,9,2,518.45,2,Typical Steady
+12791.0,190,5,656.83,1,At-Risk/Lapsed
+12792.0,73,2,715.01,2,Typical Steady
+12793.0,151,3,745.53,2,Typical Steady
+12796.0,445,1,351.0,1,At-Risk/Lapsed
+12797.0,182,2,387.43,1,At-Risk/Lapsed
+12798.0,238,1,1533.89,1,At-Risk/Lapsed
+12799.0,346,1,219.35,1,At-Risk/Lapsed
+12800.0,287,2,500.25,1,At-Risk/Lapsed
+12801.0,317,1,831.87,1,At-Risk/Lapsed
+12802.0,3,5,2120.42,2,Typical Steady
+12803.0,210,1,1017.81,1,At-Risk/Lapsed
+12804.0,282,2,325.37,1,At-Risk/Lapsed
+12805.0,198,4,1230.95,1,At-Risk/Lapsed
+12806.0,389,2,2558.96,1,At-Risk/Lapsed
+12807.0,200,1,250.35,1,At-Risk/Lapsed
+12808.0,1,4,546.4,2,Typical Steady
+12809.0,382,2,949.28,1,At-Risk/Lapsed
+12810.0,351,2,534.99,1,At-Risk/Lapsed
+12811.0,78,4,893.9,2,Typical Steady
+12813.0,318,3,1621.8,1,At-Risk/Lapsed
+12815.0,15,1,495.36,2,Typical Steady
+12817.0,98,3,570.98,2,Typical Steady
+12818.0,78,1,1160.38,2,Typical Steady
+12819.0,275,1,540.52,1,At-Risk/Lapsed
+12820.0,143,8,1876.06,2,Typical Steady
+12821.0,31,2,220.8,2,Typical Steady
+12823.0,71,16,5736.5,2,Typical Steady
+12825.0,338,2,518.63,1,At-Risk/Lapsed
+12826.0,133,8,2013.18,2,Typical Steady
+12829.0,153,3,345.35,2,Typical Steady
+12831.0,79,3,451.11,2,Typical Steady
+12834.0,99,1,312.38,2,Typical Steady
+12835.0,244,41,5981.09,2,Typical Steady
+12836.0,36,13,5571.62,2,Typical Steady
+12837.0,386,1,528.5600000000001,1,At-Risk/Lapsed
+12838.0,190,9,2672.3,2,Typical Steady
+12839.0,15,16,5364.19,2,Typical Steady
+12840.0,31,5,2865.07,2,Typical Steady
+12841.0,39,27,4867.61,2,Typical Steady
+12842.0,125,3,1109.73,2,Typical Steady
+12843.0,3,23,5616.32,2,Typical Steady
+12844.0,259,2,322.64,1,At-Risk/Lapsed
+12845.0,84,4,354.09,2,Typical Steady
+12847.0,204,1,765.36,1,At-Risk/Lapsed
+12848.0,492,1,208.0,1,At-Risk/Lapsed
+12849.0,85,5,2674.54,2,Typical Steady
+12850.0,262,1,330.0,1,At-Risk/Lapsed
+12851.0,294,1,148.95,1,At-Risk/Lapsed
+12852.0,111,1,299.75,2,Typical Steady
+12853.0,56,8,2709.4,2,Typical Steady
+12854.0,58,6,2393.44,2,Typical Steady
+12855.0,189,4,612.84,1,At-Risk/Lapsed
+12857.0,27,6,3684.25,2,Typical Steady
+12858.0,200,1,147.27,1,At-Risk/Lapsed
+12859.0,275,1,575.1,1,At-Risk/Lapsed
+12860.0,510,1,54.22,1,At-Risk/Lapsed
+12861.0,436,1,68.25,1,At-Risk/Lapsed
+12862.0,242,2,984.62,1,At-Risk/Lapsed
+12863.0,196,5,2254.35,1,At-Risk/Lapsed
+12864.0,325,1,152.45,1,At-Risk/Lapsed
+12865.0,195,2,1735.08,1,At-Risk/Lapsed
+12866.0,100,3,1092.35,2,Typical Steady
+12867.0,31,10,5530.89,2,Typical Steady
+12868.0,2,8,2043.76,2,Typical Steady
+12869.0,498,1,337.66999999999996,1,At-Risk/Lapsed
+12870.0,192,3,1662.75,1,At-Risk/Lapsed
+12871.0,24,2,495.38,2,Typical Steady
+12872.0,143,12,3282.26,2,Typical Steady
+12873.0,99,3,2027.3,2,Typical Steady
+12874.0,202,2,858.42,1,At-Risk/Lapsed
+12875.0,179,4,1307.52,1,At-Risk/Lapsed
+12876.0,13,3,2352.0,2,Typical Steady
+12877.0,17,15,2088.41,2,Typical Steady
+12878.0,53,2,841.64,2,Typical Steady
+12880.0,198,2,640.13,1,At-Risk/Lapsed
+12881.0,92,1,298.0,2,Typical Steady
+12886.0,36,1,747.69,2,Typical Steady
+12887.0,200,1,222.4,1,At-Risk/Lapsed
+12888.0,31,2,313.77,2,Typical Steady
+12889.0,198,4,370.61,1,At-Risk/Lapsed
+12890.0,204,1,329.3,1,At-Risk/Lapsed
+12891.0,2,10,819.5,2,Typical Steady
+12892.0,213,1,263.38,1,At-Risk/Lapsed
+12894.0,392,1,157.35,1,At-Risk/Lapsed
+12897.0,21,4,514.25,2,Typical Steady
+12898.0,280,2,296.21000000000004,1,At-Risk/Lapsed
+12899.0,230,1,366.4,1,At-Risk/Lapsed
+12900.0,239,1,340.33,1,At-Risk/Lapsed
+12901.0,1,12,7037.56,2,Typical Steady
+12902.0,81,1,138.68,2,Typical Steady
+12903.0,245,1,833.53,1,At-Risk/Lapsed
+12905.0,393,2,1011.82,1,At-Risk/Lapsed
+12907.0,212,2,508.91,1,At-Risk/Lapsed
+12908.0,129,3,954.0,2,Typical Steady
+12909.0,18,6,2393.11,2,Typical Steady
+12910.0,14,8,3814.48,2,Typical Steady
+12911.0,368,1,1651.72,1,At-Risk/Lapsed
+12913.0,99,11,4666.0,2,Typical Steady
+12914.0,217,1,223.98,1,At-Risk/Lapsed
+12915.0,189,3,721.2,1,At-Risk/Lapsed
+12916.0,18,6,3764.56,2,Typical Steady
+12917.0,217,5,3735.5,1,At-Risk/Lapsed
+12920.0,388,3,323.86,1,At-Risk/Lapsed
+12921.0,1,51,23672.42,0,High-Value Regulars
+12923.0,207,2,597.6,1,At-Risk/Lapsed
+12924.0,15,11,2137.13,2,Typical Steady
+12925.0,409,1,35.28,1,At-Risk/Lapsed
+12926.0,228,4,1523.59,1,At-Risk/Lapsed
+12927.0,211,1,197.31,1,At-Risk/Lapsed
+12928.0,58,9,3022.23,2,Typical Steady
+12929.0,128,1,102.9,2,Typical Steady
+12931.0,20,46,41531.86,0,High-Value Regulars
+12932.0,356,8,1698.56,1,At-Risk/Lapsed
+12933.0,100,6,1120.9,2,Typical Steady
+12934.0,553,1,181.65,1,At-Risk/Lapsed
+12935.0,20,10,2887.54,2,Typical Steady
+12937.0,14,7,2021.57,2,Typical Steady
+12939.0,90,15,20911.32,2,Typical Steady
+12941.0,541,1,377.49,1,At-Risk/Lapsed
+12942.0,14,2,396.52,2,Typical Steady
+12943.0,375,2,496.5,1,At-Risk/Lapsed
+12944.0,171,1,286.95,1,At-Risk/Lapsed
+12945.0,105,2,900.11,2,Typical Steady
+12946.0,253,1,324.45,1,At-Risk/Lapsed
+12947.0,51,3,855.52,2,Typical Steady
+12948.0,31,5,1138.74,2,Typical Steady
+12949.0,23,17,13474.48,2,Typical Steady
+12951.0,21,13,2738.73,2,Typical Steady
+12953.0,339,1,498.96,1,At-Risk/Lapsed
+12954.0,455,1,162.45,1,At-Risk/Lapsed
+12955.0,20,3,697.42,2,Typical Steady
+12956.0,123,4,521.89,2,Typical Steady
+12957.0,3,9,6348.82,2,Typical Steady
+12958.0,217,2,467.34,1,At-Risk/Lapsed
+12959.0,301,1,150.95,1,At-Risk/Lapsed
+12960.0,230,4,1322.07,1,At-Risk/Lapsed
+12961.0,196,1,211.99,1,At-Risk/Lapsed
+12963.0,182,5,1671.76,2,Typical Steady
+12964.0,254,1,132.24,1,At-Risk/Lapsed
+12967.0,175,3,2515.12,2,Typical Steady
+12969.0,419,1,122.45,1,At-Risk/Lapsed
+12970.0,139,8,1070.87,2,Typical Steady
+12971.0,7,71,9107.63,0,High-Value Regulars
+12972.0,230,4,1115.95,1,At-Risk/Lapsed
+12973.0,230,1,385.55,1,At-Risk/Lapsed
+12974.0,14,2,408.95,2,Typical Steady
+12975.0,253,6,1993.99,1,At-Risk/Lapsed
+12976.0,28,8,3156.38,2,Typical Steady
+12977.0,318,3,474.64,1,At-Risk/Lapsed
+12978.0,202,5,2502.82,1,At-Risk/Lapsed
+12979.0,546,1,479.54,1,At-Risk/Lapsed
+12980.0,4,19,14133.27,2,Typical Steady
+12982.0,59,8,2564.22,2,Typical Steady
+12983.0,415,1,490.08,1,At-Risk/Lapsed
+12986.0,276,7,2037.34,1,At-Risk/Lapsed
+12987.0,14,4,1044.11,2,Typical Steady
+12988.0,109,1,505.82,2,Typical Steady
+12989.0,17,25,9384.78,2,Typical Steady
+12990.0,2,6,809.9,2,Typical Steady
+12991.0,206,1,261.06,1,At-Risk/Lapsed
+12992.0,542,1,93.35,1,At-Risk/Lapsed
+12993.0,24,6,951.8,2,Typical Steady
+12994.0,85,1,316.4,2,Typical Steady
+12996.0,192,1,355.5,1,At-Risk/Lapsed
+12997.0,53,6,1458.34,2,Typical Steady
+12998.0,309,3,897.38,1,At-Risk/Lapsed
+12999.0,13,3,455.88,2,Typical Steady
+13000.0,76,3,915.68,2,Typical Steady
+13001.0,1,30,22038.08,2,Typical Steady
+13002.0,135,3,414.13,2,Typical Steady
+13003.0,31,1,59.05,2,Typical Steady
+13004.0,31,24,7962.78,2,Typical Steady
+13005.0,63,3,742.98,2,Typical Steady
+13007.0,396,1,175.25,1,At-Risk/Lapsed
+13008.0,140,3,545.8299999999999,2,Typical Steady
+13009.0,489,1,234.0,1,At-Risk/Lapsed
+13010.0,191,2,330.12,1,At-Risk/Lapsed
+13011.0,189,1,50.55,1,At-Risk/Lapsed
+13012.0,111,4,1656.8300000000002,2,Typical Steady
+13013.0,29,20,8658.78,2,Typical Steady
+13014.0,37,4,3149.98,2,Typical Steady
+13015.0,14,10,4882.4800000000005,2,Typical Steady
+13018.0,13,18,6139.07,2,Typical Steady
+13019.0,196,6,1212.95,1,At-Risk/Lapsed
+13020.0,379,2,606.96,1,At-Risk/Lapsed
+13021.0,32,11,2960.23,2,Typical Steady
+13022.0,246,1,50.3,1,At-Risk/Lapsed
+13023.0,345,1,651.13,1,At-Risk/Lapsed
+13024.0,287,2,535.42,1,At-Risk/Lapsed
+13025.0,548,1,323.39,1,At-Risk/Lapsed
+13026.0,37,6,997.69,2,Typical Steady
+13027.0,50,16,14071.2,2,Typical Steady
+13029.0,170,3,1062.3,2,Typical Steady
+13030.0,185,1,402.36,1,At-Risk/Lapsed
+13031.0,224,5,3292.84,1,At-Risk/Lapsed
+13032.0,209,7,1801.43,1,At-Risk/Lapsed
+13033.0,174,2,220.55,1,At-Risk/Lapsed
+13034.0,186,2,279.91,1,At-Risk/Lapsed
+13035.0,77,2,775.32,2,Typical Steady
+13036.0,501,1,307.1,1,At-Risk/Lapsed
+13037.0,36,11,3538.8,2,Typical Steady
+13038.0,107,1,395.1,2,Typical Steady
+13039.0,401,4,1010.73,1,At-Risk/Lapsed
+13041.0,267,4,799.13,1,At-Risk/Lapsed
+13042.0,415,3,1481.84,1,At-Risk/Lapsed
+13043.0,90,1,471.57,2,Typical Steady
+13044.0,108,11,4829.35,2,Typical Steady
+13045.0,218,2,503.64,1,At-Risk/Lapsed
+13046.0,83,2,517.66,2,Typical Steady
+13047.0,36,20,6663.32,2,Typical Steady
+13048.0,55,7,3140.84,2,Typical Steady
+13049.0,135,3,881.24,2,Typical Steady
+13050.0,2,27,9199.21,2,Typical Steady
+13051.0,395,2,155.8,1,At-Risk/Lapsed
+13052.0,29,7,3118.48,2,Typical Steady
+13053.0,438,1,127.65,1,At-Risk/Lapsed
+13055.0,30,2,1435.41,2,Typical Steady
+13056.0,368,1,209.48,1,At-Risk/Lapsed
+13057.0,347,3,709.59,1,At-Risk/Lapsed
+13059.0,66,10,2261.2200000000003,2,Typical Steady
+13060.0,70,1,307.53,2,Typical Steady
+13062.0,8,1,346.98,2,Typical Steady
+13063.0,297,1,188.4,1,At-Risk/Lapsed
+13064.0,144,3,764.55,2,Typical Steady
+13065.0,190,5,1050.1,1,At-Risk/Lapsed
+13067.0,226,2,393.05,1,At-Risk/Lapsed
+13068.0,136,1,165.0,2,Typical Steady
+13069.0,6,28,6691.76,2,Typical Steady
+13070.0,9,4,751.7,2,Typical Steady
+13071.0,429,1,129.22,1,At-Risk/Lapsed
+13072.0,83,1,177.15,2,Typical Steady
+13073.0,228,2,418.08,1,At-Risk/Lapsed
+13074.0,328,4,1362.84,1,At-Risk/Lapsed
+13076.0,274,1,135.4,1,At-Risk/Lapsed
+13077.0,107,10,2572.67,2,Typical Steady
+13078.0,17,41,20302.44,0,High-Value Regulars
+13079.0,234,1,199.08,1,At-Risk/Lapsed
+13080.0,218,3,202.75,1,At-Risk/Lapsed
+13081.0,34,24,42211.98,0,High-Value Regulars
+13082.0,52,17,5623.87,2,Typical Steady
+13083.0,242,1,91.68,1,At-Risk/Lapsed
+13084.0,308,1,116.45,1,At-Risk/Lapsed
+13085.0,112,7,2151.6,2,Typical Steady
+13086.0,199,1,439.33,1,At-Risk/Lapsed
+13087.0,543,1,313.64,1,At-Risk/Lapsed
+13088.0,234,1,236.11,1,At-Risk/Lapsed
+13089.0,2,157,80759.38,0,High-Value Regulars
+13090.0,55,16,6993.11,2,Typical Steady
+13091.0,546,1,762.98,1,At-Risk/Lapsed
+13092.0,28,11,1969.25,2,Typical Steady
+13093.0,92,55,53343.46,0,High-Value Regulars
+13094.0,22,8,1156.74,2,Typical Steady
+13096.0,211,1,419.7000000000001,1,At-Risk/Lapsed
+13097.0,50,22,9898.9,2,Typical Steady
+13098.0,2,9,7647.27,2,Typical Steady
+13101.0,51,4,695.4,2,Typical Steady
+13102.0,15,28,8468.37,2,Typical Steady
+13103.0,254,2,465.7000000000001,1,At-Risk/Lapsed
+13104.0,84,5,824.34,2,Typical Steady
+13105.0,253,1,72.0,1,At-Risk/Lapsed
+13106.0,230,1,526.96,1,At-Risk/Lapsed
+13107.0,150,6,4164.72,2,Typical Steady
+13108.0,189,2,748.46,1,At-Risk/Lapsed
+13109.0,368,1,340.74,1,At-Risk/Lapsed
+13110.0,74,8,2143.99,2,Typical Steady
+13111.0,535,1,321.88000000000005,1,At-Risk/Lapsed
+13112.0,358,1,20.6,1,At-Risk/Lapsed
+13113.0,9,29,13304.22,2,Typical Steady
+13114.0,547,1,234.38,1,At-Risk/Lapsed
+13115.0,1,7,4037.97,2,Typical Steady
+13117.0,34,16,2020.42,2,Typical Steady
+13118.0,25,7,1996.39,2,Typical Steady
+13119.0,485,1,134.9,1,At-Risk/Lapsed
+13120.0,55,1,30.6,2,Typical Steady
+13121.0,86,1,254.73,2,Typical Steady
+13122.0,57,1,903.67,2,Typical Steady
+13123.0,289,2,506.75,1,At-Risk/Lapsed
+13124.0,69,3,3401.8,2,Typical Steady
+13125.0,340,1,148.62,1,At-Risk/Lapsed
+13126.0,70,10,2676.76,2,Typical Steady
+13128.0,448,1,263.5,1,At-Risk/Lapsed
+13129.0,269,2,233.25,1,At-Risk/Lapsed
+13131.0,4,5,2565.37,2,Typical Steady
+13132.0,78,1,77.3,2,Typical Steady
+13133.0,90,3,200.45,2,Typical Steady
+13134.0,51,4,1171.4,2,Typical Steady
+13135.0,13,2,3371.45,2,Typical Steady
+13136.0,29,9,4133.63,2,Typical Steady
+13137.0,69,10,4831.09,2,Typical Steady
+13138.0,57,3,685.72,2,Typical Steady
+13139.0,32,3,4308.06,2,Typical Steady
+13140.0,183,3,790.71,1,At-Risk/Lapsed
+13141.0,31,16,6536.41,2,Typical Steady
+13143.0,401,1,399.2,1,At-Risk/Lapsed
+13144.0,149,2,135.35,2,Typical Steady
+13145.0,189,4,805.0,1,At-Risk/Lapsed
+13148.0,49,20,6255.95,2,Typical Steady
+13149.0,106,1,376.74,2,Typical Steady
+13150.0,301,3,435.02,1,At-Risk/Lapsed
+13151.0,112,3,2447.21,2,Typical Steady
+13152.0,234,7,2114.98,1,At-Risk/Lapsed
+13154.0,216,3,1609.29,1,At-Risk/Lapsed
+13155.0,143,4,967.92,2,Typical Steady
+13156.0,202,3,1586.54,1,At-Risk/Lapsed
+13157.0,58,7,4424.43,2,Typical Steady
+13158.0,135,2,563.53,2,Typical Steady
+13161.0,130,2,472.13,2,Typical Steady
+13162.0,1,15,8734.09,2,Typical Steady
+13163.0,427,1,17.65,1,At-Risk/Lapsed
+13164.0,386,2,308.45,1,At-Risk/Lapsed
+13165.0,168,2,784.32,2,Typical Steady
+13166.0,100,2,873.43,2,Typical Steady
+13167.0,207,1,333.82,1,At-Risk/Lapsed
+13168.0,16,4,1486.15,2,Typical Steady
+13169.0,69,2,632.4000000000001,2,Typical Steady
+13171.0,116,1,140.35,2,Typical Steady
+13172.0,217,1,69.6,1,At-Risk/Lapsed
+13173.0,184,10,2183.26,2,Typical Steady
+13174.0,133,10,7263.7,2,Typical Steady
+13175.0,399,2,793.1,1,At-Risk/Lapsed
+13177.0,247,1,229.75,1,At-Risk/Lapsed
+13178.0,20,15,11007.42,2,Typical Steady
+13179.0,435,1,572.3100000000001,1,At-Risk/Lapsed
+13180.0,424,1,86.10000000000001,1,At-Risk/Lapsed
+13181.0,198,1,359.69,1,At-Risk/Lapsed
+13183.0,25,9,4580.18,2,Typical Steady
+13184.0,1,5,896.47,2,Typical Steady
+13185.0,84,1,71.4,2,Typical Steady
+13187.0,154,4,309.66,2,Typical Steady
+13190.0,361,3,518.76,1,At-Risk/Lapsed
+13191.0,475,1,159.21,1,At-Risk/Lapsed
+13192.0,22,5,2096.91,2,Typical Steady
+13194.0,238,1,412.08,1,At-Risk/Lapsed
+13195.0,231,1,136.73,1,At-Risk/Lapsed
+13196.0,79,4,1773.99,2,Typical Steady
+13197.0,426,1,373.0100000000001,1,At-Risk/Lapsed
+13198.0,66,5,3598.79,2,Typical Steady
+13199.0,14,44,9844.34,0,High-Value Regulars
+13201.0,319,4,1233.06,1,At-Risk/Lapsed
+13202.0,211,7,1571.35,1,At-Risk/Lapsed
+13203.0,59,7,1926.8,2,Typical Steady
+13204.0,548,1,966.66,1,At-Risk/Lapsed
+13205.0,260,1,2803.2,1,At-Risk/Lapsed
+13206.0,217,13,8308.19,2,Typical Steady
+13207.0,268,2,285.6,1,At-Risk/Lapsed
+13208.0,23,6,1452.61,2,Typical Steady
+13209.0,44,8,4946.69,2,Typical Steady
+13211.0,178,8,1634.05,2,Typical Steady
+13213.0,16,8,2731.4700000000003,2,Typical Steady
+13214.0,234,7,3264.23,1,At-Risk/Lapsed
+13215.0,219,1,81.6,1,At-Risk/Lapsed
+13216.0,84,1,333.74,2,Typical Steady
+13217.0,472,1,132.5,1,At-Risk/Lapsed
+13219.0,435,1,76.23,1,At-Risk/Lapsed
+13220.0,2,4,1243.29,2,Typical Steady
+13221.0,57,2,844.86,2,Typical Steady
+13222.0,394,1,88.5,1,At-Risk/Lapsed
+13223.0,17,6,969.12,2,Typical Steady
+13225.0,13,13,13157.31,2,Typical Steady
+13226.0,90,2,312.46,2,Typical Steady
+13227.0,18,1,257.7,2,Typical Steady
+13229.0,42,1,160.95,2,Typical Steady
+13230.0,18,25,5117.51,2,Typical Steady
+13232.0,13,3,674.3,2,Typical Steady
+13233.0,153,3,875.58,2,Typical Steady
+13234.0,489,2,346.5,1,At-Risk/Lapsed
+13235.0,29,1,1031.07,2,Typical Steady
+13237.0,204,1,643.0,1,At-Risk/Lapsed
+13238.0,177,3,397.05,1,At-Risk/Lapsed
+13239.0,78,5,1579.84,2,Typical Steady
+13240.0,74,6,1156.8,2,Typical Steady
+13241.0,228,1,112.53,1,At-Risk/Lapsed
+13242.0,30,6,533.0,2,Typical Steady
+13243.0,20,5,1220.38,2,Typical Steady
+13245.0,249,1,558.72,1,At-Risk/Lapsed
+13246.0,23,9,2911.72,2,Typical Steady
+13248.0,6,1,387.47,2,Typical Steady
+13249.0,78,7,1189.36,2,Typical Steady
+13250.0,277,2,245.59,1,At-Risk/Lapsed
+13251.0,219,1,252.68,1,At-Risk/Lapsed
+13252.0,211,2,341.3,1,At-Risk/Lapsed
+13253.0,156,3,2397.19,2,Typical Steady
+13254.0,193,1,51.41,1,At-Risk/Lapsed
+13255.0,190,2,504.95,1,At-Risk/Lapsed
+13257.0,253,1,117.95,1,At-Risk/Lapsed
+13258.0,22,3,535.4699999999999,2,Typical Steady
+13259.0,214,8,1115.61,1,At-Risk/Lapsed
+13261.0,85,2,944.1,2,Typical Steady
+13262.0,80,3,573.45,2,Typical Steady
+13263.0,8,19,4673.77,2,Typical Steady
+13264.0,259,1,722.5600000000001,1,At-Risk/Lapsed
+13265.0,62,2,1124.88,2,Typical Steady
+13266.0,2,12,4002.3,2,Typical Steady
+13267.0,16,28,6932.31,2,Typical Steady
+13268.0,15,5,1771.49,2,Typical Steady
+13269.0,35,18,5210.67,2,Typical Steady
+13270.0,183,1,590.0,1,At-Risk/Lapsed
+13274.0,226,1,360.85,1,At-Risk/Lapsed
+13275.0,200,2,238.86,1,At-Risk/Lapsed
+13276.0,214,3,1293.03,1,At-Risk/Lapsed
+13277.0,197,3,264.9,1,At-Risk/Lapsed
+13278.0,216,3,882.62,1,At-Risk/Lapsed
+13280.0,133,6,2152.33,2,Typical Steady
+13281.0,256,1,344.90000000000003,1,At-Risk/Lapsed
+13282.0,37,2,482.7,2,Typical Steady
+13283.0,2,3,305.2,2,Typical Steady
+13284.0,147,1,196.15,2,Typical Steady
+13285.0,43,4,1828.74,2,Typical Steady
+13286.0,417,1,734.91,1,At-Risk/Lapsed
+13287.0,420,3,547.47,1,At-Risk/Lapsed
+13288.0,260,5,893.61,1,At-Risk/Lapsed
+13289.0,540,1,307.95,1,At-Risk/Lapsed
+13291.0,231,10,2909.68,1,At-Risk/Lapsed
+13292.0,101,4,658.42,2,Typical Steady
+13293.0,209,6,1192.94,1,At-Risk/Lapsed
+13294.0,6,3,1689.53,2,Typical Steady
+13295.0,176,4,1061.27,2,Typical Steady
+13296.0,240,5,705.11,1,At-Risk/Lapsed
+13297.0,202,3,2262.82,1,At-Risk/Lapsed
+13299.0,85,3,1173.3,2,Typical Steady
+13300.0,205,2,901.92,1,At-Risk/Lapsed
+13301.0,39,2,327.77,2,Typical Steady
+13302.0,343,1,95.45,1,At-Risk/Lapsed
+13303.0,217,1,61.72,1,At-Risk/Lapsed
+13304.0,168,4,1120.79,2,Typical Steady
+13305.0,62,10,2255.8,2,Typical Steady
+13306.0,247,1,53.65,1,At-Risk/Lapsed
+13307.0,304,2,258.34,1,At-Risk/Lapsed
+13308.0,20,2,1084.01,2,Typical Steady
+13309.0,23,3,796.22,2,Typical Steady
+13310.0,23,4,1195.02,2,Typical Steady
+13312.0,268,1,124.75,1,At-Risk/Lapsed
+13313.0,32,9,2486.19,2,Typical Steady
+13315.0,506,1,310.26,1,At-Risk/Lapsed
+13316.0,71,7,8707.97,2,Typical Steady
+13317.0,15,18,5130.38,2,Typical Steady
+13319.0,3,45,15212.87,0,High-Value Regulars
+13320.0,30,4,1135.86,2,Typical Steady
+13324.0,20,15,7116.3099999999995,2,Typical Steady
+13326.0,249,1,281.76,1,At-Risk/Lapsed
+13327.0,2,16,7196.2,2,Typical Steady
+13328.0,133,1,1308.48,2,Typical Steady
+13329.0,183,7,4184.02,2,Typical Steady
+13330.0,2,5,2383.39,2,Typical Steady
+13331.0,218,1,262.4,1,At-Risk/Lapsed
+13333.0,228,3,1015.74,1,At-Risk/Lapsed
+13334.0,7,4,5408.07,2,Typical Steady
+13337.0,363,1,1550.06,1,At-Risk/Lapsed
+13338.0,358,3,1791.8,1,At-Risk/Lapsed
+13339.0,17,1,860.12,2,Typical Steady
+13340.0,93,6,15042.11,2,Typical Steady
+13341.0,77,1,775.85,2,Typical Steady
+13344.0,94,1,1656.15,2,Typical Steady
+13345.0,104,1,327.6,2,Typical Steady
+13346.0,279,6,299.4,1,At-Risk/Lapsed
+13357.0,74,5,3795.01,2,Typical Steady
+13358.0,85,1,389.03,2,Typical Steady
+13359.0,220,1,520.7,1,At-Risk/Lapsed
+13360.0,248,4,1464.1,1,At-Risk/Lapsed
+13361.0,289,2,1450.5,1,At-Risk/Lapsed
+13362.0,62,5,3853.61,2,Typical Steady
+13363.0,226,1,731.36,1,At-Risk/Lapsed
+13365.0,34,1,700.6,2,Typical Steady
+13367.0,248,1,460.2000000000001,1,At-Risk/Lapsed
+13368.0,73,4,986.1,2,Typical Steady
+13369.0,182,1,213.75,1,At-Risk/Lapsed
+13370.0,188,1,721.32,1,At-Risk/Lapsed
+13371.0,322,2,2271.46,1,At-Risk/Lapsed
+13373.0,93,4,5262.64,2,Typical Steady
+13374.0,231,2,372.8,1,At-Risk/Lapsed
+13375.0,261,1,1013.58,1,At-Risk/Lapsed
+13376.0,20,2,670.0,2,Typical Steady
+13377.0,213,2,1445.43,1,At-Risk/Lapsed
+13380.0,249,1,62.4,1,At-Risk/Lapsed
+13381.0,24,8,5645.81,2,Typical Steady
+13382.0,97,5,1387.58,2,Typical Steady
+13383.0,360,1,305.28000000000003,1,At-Risk/Lapsed
+13384.0,207,4,2512.81,1,At-Risk/Lapsed
+13385.0,146,1,534.57,2,Typical Steady
+13386.0,231,2,835.46,1,At-Risk/Lapsed
+13387.0,234,1,181.84,1,At-Risk/Lapsed
+13388.0,420,1,508.55,1,At-Risk/Lapsed
+13389.0,49,1,257.89,2,Typical Steady
+13391.0,20,1,59.8,2,Typical Steady
+13392.0,494,1,91.14,1,At-Risk/Lapsed
+13393.0,400,4,1112.6,1,At-Risk/Lapsed
+13394.0,31,14,4966.81,2,Typical Steady
+13395.0,2,3,1180.23,2,Typical Steady
+13396.0,136,1,370.92,2,Typical Steady
+13397.0,111,7,2168.66,2,Typical Steady
+13398.0,9,2,670.34,2,Typical Steady
+13399.0,281,3,275.4,1,At-Risk/Lapsed
+13400.0,399,1,300.93,1,At-Risk/Lapsed
+13402.0,189,3,913.9,1,At-Risk/Lapsed
+13403.0,204,2,154.5,1,At-Risk/Lapsed
+13404.0,29,1,217.81,2,Typical Steady
+13405.0,21,5,1181.56,2,Typical Steady
+13406.0,244,2,559.02,1,At-Risk/Lapsed
+13407.0,395,3,2177.54,1,At-Risk/Lapsed
+13408.0,7,70,33219.14,0,High-Value Regulars
+13410.0,4,7,1722.79,2,Typical Steady
+13412.0,437,1,487.35,1,At-Risk/Lapsed
+13413.0,456,5,353.12,1,At-Risk/Lapsed
+13414.0,113,4,1493.64,2,Typical Steady
+13415.0,289,4,665.42,1,At-Risk/Lapsed
+13416.0,553,1,228.3,1,At-Risk/Lapsed
+13417.0,22,5,1189.06,2,Typical Steady
+13418.0,21,22,8489.43,2,Typical Steady
+13421.0,107,7,3037.48,2,Typical Steady
+13423.0,245,1,217.03,1,At-Risk/Lapsed
+13424.0,266,1,557.92,1,At-Risk/Lapsed
+13425.0,111,3,2149.99,2,Typical Steady
+13426.0,55,16,5811.08,2,Typical Steady
+13427.0,32,4,638.4300000000001,2,Typical Steady
+13428.0,331,2,276.76,1,At-Risk/Lapsed
+13431.0,223,6,2020.14,1,At-Risk/Lapsed
+13432.0,388,2,436.55,1,At-Risk/Lapsed
+13433.0,318,4,656.87,1,At-Risk/Lapsed
+13434.0,202,3,1132.62,1,At-Risk/Lapsed
+13435.0,6,3,1081.16,2,Typical Steady
+13437.0,7,1,1440.9,2,Typical Steady
+13438.0,364,1,46.5,1,At-Risk/Lapsed
+13439.0,72,3,986.61,2,Typical Steady
+13440.0,240,3,1230.8,1,At-Risk/Lapsed
+13441.0,248,1,424.26,1,At-Risk/Lapsed
+13442.0,484,3,419.87,1,At-Risk/Lapsed
+13443.0,265,6,1236.92,1,At-Risk/Lapsed
+13444.0,191,2,619.08,1,At-Risk/Lapsed
+13445.0,443,1,241.9,1,At-Risk/Lapsed
+13446.0,247,11,3689.77,1,At-Risk/Lapsed
+13448.0,35,10,6230.84,2,Typical Steady
+13450.0,21,9,2752.36,2,Typical Steady
+13451.0,28,9,5740.34,2,Typical Steady
+13452.0,76,3,729.8,2,Typical Steady
+13453.0,106,2,587.01,2,Typical Steady
+13454.0,458,1,219.87,1,At-Risk/Lapsed
+13455.0,183,5,1716.48,1,At-Risk/Lapsed
+13456.0,24,1,178.76,2,Typical Steady
+13457.0,505,2,143.27,1,At-Risk/Lapsed
+13458.0,6,9,8504.83,2,Typical Steady
+13459.0,441,2,1160.41,1,At-Risk/Lapsed
+13461.0,224,3,2696.3,1,At-Risk/Lapsed
+13462.0,69,5,1145.6,2,Typical Steady
+13464.0,211,5,2422.96,1,At-Risk/Lapsed
+13465.0,263,2,931.12,1,At-Risk/Lapsed
+13466.0,1,5,952.25,2,Typical Steady
+13468.0,18,56,10463.88,0,High-Value Regulars
+13469.0,470,1,82.4,1,At-Risk/Lapsed
+13472.0,280,2,592.24,1,At-Risk/Lapsed
+13473.0,149,7,2229.6,2,Typical Steady
+13474.0,53,3,646.59,2,Typical Steady
+13475.0,8,4,1431.78,2,Typical Steady
+13476.0,98,4,1404.9,2,Typical Steady
+13477.0,28,7,1867.57,2,Typical Steady
+13478.0,286,5,2068.03,1,At-Risk/Lapsed
+13479.0,17,4,808.5,2,Typical Steady
+13480.0,233,2,627.82,1,At-Risk/Lapsed
+13481.0,9,8,2992.52,2,Typical Steady
+13482.0,49,2,336.09,2,Typical Steady
+13484.0,58,3,767.32,2,Typical Steady
+13485.0,50,11,2966.67,2,Typical Steady
+13487.0,30,4,680.27,2,Typical Steady
+13488.0,13,16,10698.88,2,Typical Steady
+13489.0,106,2,235.68,2,Typical Steady
+13490.0,471,1,154.25,1,At-Risk/Lapsed
+13491.0,64,25,4283.47,2,Typical Steady
+13492.0,31,1,315.3,2,Typical Steady
+13493.0,92,2,498.63,2,Typical Steady
+13494.0,128,1,316.26000000000005,2,Typical Steady
+13495.0,49,8,3817.97,2,Typical Steady
+13496.0,176,1,465.61,1,At-Risk/Lapsed
+13497.0,99,6,1139.83,2,Typical Steady
+13498.0,547,1,327.38,1,At-Risk/Lapsed
+13499.0,42,2,454.59,2,Typical Steady
+13500.0,218,1,299.53,1,At-Risk/Lapsed
+13501.0,105,3,2844.61,2,Typical Steady
+13502.0,91,4,671.76,2,Typical Steady
+13503.0,296,4,1514.39,1,At-Risk/Lapsed
+13505.0,9,2,1531.34,2,Typical Steady
+13506.0,133,5,1308.53,2,Typical Steady
+13508.0,60,2,287.05,2,Typical Steady
+13509.0,71,4,785.02,2,Typical Steady
+13510.0,192,7,2712.43,1,At-Risk/Lapsed
+13511.0,493,1,244.61,1,At-Risk/Lapsed
+13512.0,77,4,713.39,2,Typical Steady
+13513.0,258,2,609.59,1,At-Risk/Lapsed
+13514.0,245,3,663.7,1,At-Risk/Lapsed
+13515.0,64,3,578.1,2,Typical Steady
+13516.0,55,2,441.85,2,Typical Steady
+13519.0,259,1,220.46,1,At-Risk/Lapsed
+13520.0,1,9,4101.48,2,Typical Steady
+13523.0,16,4,2732.03,2,Typical Steady
+13524.0,36,1,159.20000000000002,2,Typical Steady
+13525.0,65,1,282.88,2,Typical Steady
+13526.0,555,2,942.6,1,At-Risk/Lapsed
+13527.0,18,7,2884.57,2,Typical Steady
+13529.0,21,1,181.1,2,Typical Steady
+13530.0,451,1,402.98,1,At-Risk/Lapsed
+13531.0,22,6,1433.07,2,Typical Steady
+13533.0,84,2,144.94,2,Typical Steady
+13534.0,3,27,4549.35,2,Typical Steady
+13535.0,219,1,89.5,1,At-Risk/Lapsed
+13537.0,242,2,717.85,1,At-Risk/Lapsed
+13538.0,91,7,2326.58,2,Typical Steady
+13539.0,57,6,1241.07,2,Typical Steady
+13540.0,284,3,632.39,1,At-Risk/Lapsed
+13541.0,244,2,719.5,1,At-Risk/Lapsed
+13542.0,193,17,3924.09,2,Typical Steady
+13543.0,451,2,1439.61,1,At-Risk/Lapsed
+13544.0,57,5,618.65,2,Typical Steady
+13545.0,207,2,364.93,1,At-Risk/Lapsed
+13546.0,17,3,647.41,2,Typical Steady
+13547.0,225,1,164.53,1,At-Risk/Lapsed
+13548.0,60,2,504.29,2,Typical Steady
+13549.0,9,4,600.15,2,Typical Steady
+13550.0,200,1,342.55,1,At-Risk/Lapsed
+13551.0,136,2,244.2,2,Typical Steady
+13552.0,22,15,4773.0,2,Typical Steady
+13553.0,491,1,499.6,1,At-Risk/Lapsed
+13554.0,197,7,1547.46,1,At-Risk/Lapsed
+13555.0,18,11,6290.16,2,Typical Steady
+13556.0,246,2,200.82,1,At-Risk/Lapsed
+13557.0,97,12,2651.55,2,Typical Steady
+13559.0,329,2,990.0,1,At-Risk/Lapsed
+13561.0,32,11,1803.4,2,Typical Steady
+13562.0,62,6,3642.12,2,Typical Steady
+13564.0,171,36,15666.57,2,Typical Steady
+13565.0,151,2,284.76,2,Typical Steady
+13566.0,251,3,827.91,1,At-Risk/Lapsed
+13567.0,245,4,1074.19,1,At-Risk/Lapsed
+13569.0,184,3,497.74,1,At-Risk/Lapsed
+13570.0,60,1,239.49,2,Typical Steady
+13571.0,1,18,2955.63,2,Typical Steady
+13572.0,22,1,1384.25,2,Typical Steady
+13573.0,70,5,644.59,2,Typical Steady
+13574.0,228,1,404.45,1,At-Risk/Lapsed
+13576.0,4,18,7589.48,2,Typical Steady
+13577.0,58,7,2058.57,2,Typical Steady
+13578.0,226,1,147.66,1,At-Risk/Lapsed
+13579.0,186,4,1068.8,1,At-Risk/Lapsed
+13580.0,223,1,107.75,1,At-Risk/Lapsed
+13581.0,126,2,280.53000000000003,2,Typical Steady
+13582.0,206,2,241.68,1,At-Risk/Lapsed
+13583.0,496,1,664.0,1,At-Risk/Lapsed
+13584.0,123,2,340.4,2,Typical Steady
+13585.0,347,3,674.46,1,At-Risk/Lapsed
+13586.0,358,1,127.28,1,At-Risk/Lapsed
+13587.0,266,3,961.1,1,At-Risk/Lapsed
+13588.0,72,1,113.3,2,Typical Steady
+13589.0,266,4,741.09,1,At-Risk/Lapsed
+13590.0,16,15,5226.2,2,Typical Steady
+13591.0,21,6,1740.29,2,Typical Steady
+13592.0,22,3,205.51,2,Typical Steady
+13593.0,80,12,4430.68,2,Typical Steady
+13594.0,302,1,136.35000000000002,1,At-Risk/Lapsed
+13595.0,333,3,784.48,1,At-Risk/Lapsed
+13597.0,217,2,377.21,1,At-Risk/Lapsed
+13598.0,312,4,601.92,1,At-Risk/Lapsed
+13599.0,15,19,6346.46,2,Typical Steady
+13600.0,129,2,518.42,2,Typical Steady
+13601.0,28,3,839.87,2,Typical Steady
+13602.0,198,3,596.28,1,At-Risk/Lapsed
+13604.0,475,1,713.39,1,At-Risk/Lapsed
+13605.0,204,2,522.67,1,At-Risk/Lapsed
+13606.0,60,2,246.63,2,Typical Steady
+13607.0,219,1,382.6,1,At-Risk/Lapsed
+13608.0,357,1,232.05,1,At-Risk/Lapsed
+13609.0,410,1,167.35,1,At-Risk/Lapsed
+13610.0,4,10,1461.25,2,Typical Steady
+13611.0,176,8,2421.78,2,Typical Steady
+13612.0,449,1,798.04,1,At-Risk/Lapsed
+13613.0,269,5,1039.85,1,At-Risk/Lapsed
+13614.0,147,3,953.03,2,Typical Steady
+13615.0,135,8,6212.2300000000005,2,Typical Steady
+13616.0,385,2,283.85,1,At-Risk/Lapsed
+13617.0,225,5,719.62,1,At-Risk/Lapsed
+13619.0,361,2,223.44,1,At-Risk/Lapsed
+13620.0,345,1,112.34,1,At-Risk/Lapsed
+13622.0,513,1,651.45,1,At-Risk/Lapsed
+13623.0,27,9,2293.81,2,Typical Steady
+13624.0,205,1,427.18,1,At-Risk/Lapsed
+13625.0,413,1,301.26,1,At-Risk/Lapsed
+13626.0,69,2,689.49,2,Typical Steady
+13627.0,21,4,1199.45,2,Typical Steady
+13628.0,493,1,310.14,1,At-Risk/Lapsed
+13629.0,27,12,8466.5,2,Typical Steady
+13630.0,1,3,1022.8,2,Typical Steady
+13631.0,18,4,1330.0,2,Typical Steady
+13632.0,50,5,2124.12,2,Typical Steady
+13634.0,59,11,3484.41,2,Typical Steady
+13635.0,259,3,1888.29,1,At-Risk/Lapsed
+13636.0,69,3,533.95,2,Typical Steady
+13637.0,4,2,677.4,2,Typical Steady
+13639.0,253,1,312.93,1,At-Risk/Lapsed
+13640.0,428,1,405.0,1,At-Risk/Lapsed
+13641.0,457,4,901.27,1,At-Risk/Lapsed
+13642.0,32,4,459.45,2,Typical Steady
+13643.0,2,8,1690.53,2,Typical Steady
+13646.0,216,2,326.25,1,At-Risk/Lapsed
+13647.0,51,5,1818.2,2,Typical Steady
+13648.0,217,7,1681.12,1,At-Risk/Lapsed
+13649.0,73,6,1453.68,2,Typical Steady
+13650.0,24,6,2065.33,2,Typical Steady
+13651.0,198,1,114.75,1,At-Risk/Lapsed
+13652.0,73,4,1805.21,2,Typical Steady
+13653.0,304,1,152.2,1,At-Risk/Lapsed
+13654.0,18,8,4773.51,2,Typical Steady
+13655.0,58,5,1712.34,2,Typical Steady
+13656.0,154,3,844.9,2,Typical Steady
+13657.0,18,1,152.34,2,Typical Steady
+13658.0,21,5,4066.2,2,Typical Steady
+13659.0,22,12,4749.73,2,Typical Steady
+13660.0,217,1,295.74,1,At-Risk/Lapsed
+13661.0,420,1,325.24,1,At-Risk/Lapsed
+13662.0,29,10,1801.24,2,Typical Steady
+13663.0,197,4,1824.14,1,At-Risk/Lapsed
+13665.0,203,3,1711.66,1,At-Risk/Lapsed
+13666.0,104,4,106.45,2,Typical Steady
+13668.0,4,26,10408.31,2,Typical Steady
+13669.0,224,1,195.0,1,At-Risk/Lapsed
+13671.0,211,1,172.6,1,At-Risk/Lapsed
+13672.0,118,2,295.66,2,Typical Steady
+13674.0,249,1,215.88,1,At-Risk/Lapsed
+13675.0,101,1,308.44,2,Typical Steady
+13676.0,356,2,153.15,1,At-Risk/Lapsed
+13677.0,221,2,551.24,1,At-Risk/Lapsed
+13679.0,310,3,281.26,1,At-Risk/Lapsed
+13680.0,156,9,8572.03,2,Typical Steady
+13682.0,4,1,59.5,2,Typical Steady
+13683.0,274,1,258.6,1,At-Risk/Lapsed
+13684.0,102,4,550.78,2,Typical Steady
+13686.0,197,2,337.04,1,At-Risk/Lapsed
+13687.0,255,1,11880.84,1,At-Risk/Lapsed
+13688.0,452,1,375.5,1,At-Risk/Lapsed
+13689.0,261,1,349.5,1,At-Risk/Lapsed
+13691.0,213,1,210.78,1,At-Risk/Lapsed
+13692.0,30,4,2406.21,2,Typical Steady
+13693.0,191,9,1979.82,2,Typical Steady
+13694.0,9,117,153497.65,3,Elite Wholesalers
+13695.0,6,6,892.52,2,Typical Steady
+13696.0,238,3,2020.4,1,At-Risk/Lapsed
+13698.0,413,2,451.73,1,At-Risk/Lapsed
+13699.0,367,1,402.82,1,At-Risk/Lapsed
+13700.0,57,8,1275.51,2,Typical Steady
+13701.0,263,1,159.55,1,At-Risk/Lapsed
+13702.0,262,1,135.18,1,At-Risk/Lapsed
+13703.0,135,1,99.5,2,Typical Steady
+13705.0,190,5,1323.47,1,At-Risk/Lapsed
+13706.0,119,2,631.17,2,Typical Steady
+13707.0,84,5,3365.86,2,Typical Steady
+13708.0,88,1,283.33,2,Typical Steady
+13709.0,132,6,1718.0,2,Typical Steady
+13710.0,240,2,329.04,1,At-Risk/Lapsed
+13711.0,35,9,1689.81,2,Typical Steady
+13712.0,63,2,766.42,2,Typical Steady
+13713.0,225,3,740.76,1,At-Risk/Lapsed
+13714.0,282,1,161.35,1,At-Risk/Lapsed
+13715.0,98,17,8108.66,2,Typical Steady
+13716.0,86,1,138.28,2,Typical Steady
+13717.0,57,4,873.63,2,Typical Steady
+13718.0,63,2,306.55,2,Typical Steady
+13719.0,22,8,2079.16,2,Typical Steady
+13720.0,55,2,432.1,2,Typical Steady
+13721.0,212,1,217.4,1,At-Risk/Lapsed
+13722.0,99,8,4723.47,2,Typical Steady
+13723.0,34,6,1194.08,2,Typical Steady
+13724.0,454,1,213.01,1,At-Risk/Lapsed
+13725.0,42,6,1653.4,2,Typical Steady
+13727.0,428,6,727.9200000000001,1,At-Risk/Lapsed
+13728.0,15,13,2332.96,2,Typical Steady
+13729.0,252,3,681.53,1,At-Risk/Lapsed
+13731.0,36,2,610.59,2,Typical Steady
+13733.0,227,2,487.03,1,At-Risk/Lapsed
+13734.0,325,3,3445.3400000000006,1,At-Risk/Lapsed
+13735.0,51,10,7478.69,2,Typical Steady
+13736.0,77,6,2335.7,2,Typical Steady
+13737.0,17,1,339.59999999999997,2,Typical Steady
+13738.0,213,1,434.78,1,At-Risk/Lapsed
+13739.0,344,1,75.3,1,At-Risk/Lapsed
+13740.0,57,5,1582.77,2,Typical Steady
+13741.0,34,1,160.86,2,Typical Steady
+13742.0,1,8,2119.97,2,Typical Steady
+13743.0,34,2,353.15999999999997,2,Typical Steady
+13744.0,109,1,817.3199999999999,2,Typical Steady
+13745.0,363,1,469.73,1,At-Risk/Lapsed
+13746.0,230,1,176.69,1,At-Risk/Lapsed
+13747.0,190,2,169.79999999999998,1,At-Risk/Lapsed
+13748.0,49,7,1696.95,2,Typical Steady
+13750.0,113,8,2605.1400000000003,2,Typical Steady
+13751.0,105,1,296.25,2,Typical Steady
+13752.0,1,5,1295.98,2,Typical Steady
+13753.0,104,4,2094.57,2,Typical Steady
+13754.0,134,2,320.45,2,Typical Steady
+13756.0,22,13,4856.14,2,Typical Steady
+13757.0,491,1,195.55,1,At-Risk/Lapsed
+13758.0,18,12,7715.76,2,Typical Steady
+13760.0,73,4,1206.94,2,Typical Steady
+13761.0,319,4,881.52,1,At-Risk/Lapsed
+13762.0,410,4,2165.76,1,At-Risk/Lapsed
+13763.0,234,2,3468.48,1,At-Risk/Lapsed
+13764.0,154,4,1892.14,2,Typical Steady
+13765.0,470,1,352.82,1,At-Risk/Lapsed
+13766.0,312,1,190.35,1,At-Risk/Lapsed
+13767.0,20,58,23696.5,0,High-Value Regulars
+13768.0,543,2,875.97,1,At-Risk/Lapsed
+13769.0,24,15,4109.27,2,Typical Steady
+13770.0,239,4,785.37,1,At-Risk/Lapsed
+13771.0,16,7,4556.47,2,Typical Steady
+13772.0,56,6,2186.31,2,Typical Steady
+13773.0,213,2,301.54,1,At-Risk/Lapsed
+13775.0,407,1,1049.66,1,At-Risk/Lapsed
+13777.0,1,49,34735.46,0,High-Value Regulars
+13778.0,308,3,945.79,1,At-Risk/Lapsed
+13779.0,332,1,161.13,1,At-Risk/Lapsed
+13780.0,224,1,372.06,1,At-Risk/Lapsed
+13781.0,67,3,770.88,2,Typical Steady
+13782.0,51,9,1230.57,2,Typical Steady
+13783.0,304,4,1542.09,1,At-Risk/Lapsed
+13784.0,2,9,1464.61,2,Typical Steady
+13785.0,245,4,542.49,1,At-Risk/Lapsed
+13786.0,184,6,3112.99,2,Typical Steady
+13787.0,181,5,971.42,2,Typical Steady
+13788.0,322,1,3.75,1,At-Risk/Lapsed
+13789.0,205,1,239.46,1,At-Risk/Lapsed
+13792.0,104,2,263.0,2,Typical Steady
+13793.0,463,1,96.0,1,At-Risk/Lapsed
+13794.0,363,1,126.03,1,At-Risk/Lapsed
+13795.0,205,4,836.3,1,At-Risk/Lapsed
+13796.0,316,1,289.7,1,At-Risk/Lapsed
+13797.0,253,3,1168.45,1,At-Risk/Lapsed
+13798.0,3,85,58978.59,0,High-Value Regulars
+13799.0,111,8,1888.04,2,Typical Steady
+13800.0,126,3,1679.56,2,Typical Steady
+13802.0,71,18,24464.4,2,Typical Steady
+13803.0,72,3,1319.11,2,Typical Steady
+13804.0,106,3,1296.36,2,Typical Steady
+13807.0,184,3,422.2,1,At-Risk/Lapsed
+13809.0,122,3,679.7,2,Typical Steady
+13811.0,56,1,222.75,2,Typical Steady
+13813.0,344,4,1153.01,1,At-Risk/Lapsed
+13814.0,344,1,676.95,1,At-Risk/Lapsed
+13815.0,135,5,3814.89,2,Typical Steady
+13817.0,168,1,110.7,1,At-Risk/Lapsed
+13818.0,246,1,61.28,1,At-Risk/Lapsed
+13819.0,118,6,2631.1,2,Typical Steady
+13820.0,235,3,646.0,1,At-Risk/Lapsed
+13821.0,78,5,1239.89,2,Typical Steady
+13823.0,197,5,2400.89,1,At-Risk/Lapsed
+13824.0,20,10,2807.4,2,Typical Steady
+13825.0,438,2,255.59,1,At-Risk/Lapsed
+13830.0,398,1,135.95000000000002,1,At-Risk/Lapsed
+13831.0,17,15,5469.04,2,Typical Steady
+13832.0,239,1,557.6899999999999,1,At-Risk/Lapsed
+13833.0,221,1,316.56,1,At-Risk/Lapsed
+13834.0,393,2,324.19,1,At-Risk/Lapsed
+13835.0,32,4,552.2,2,Typical Steady
+13836.0,216,2,602.52,1,At-Risk/Lapsed
+13837.0,28,2,266.59000000000003,2,Typical Steady
+13838.0,186,7,1245.91,2,Typical Steady
+13839.0,303,1,139.95000000000002,1,At-Risk/Lapsed
+13840.0,233,1,651.4,1,At-Risk/Lapsed
+13841.0,69,1,85.0,2,Typical Steady
+13842.0,16,15,3735.54,2,Typical Steady
+13843.0,198,1,319.75,1,At-Risk/Lapsed
+13846.0,59,3,1089.21,2,Typical Steady
+13847.0,536,1,310.72,1,At-Risk/Lapsed
+13848.0,114,7,2695.0,2,Typical Steady
+13849.0,214,3,1905.85,1,At-Risk/Lapsed
+13851.0,105,6,2111.62,2,Typical Steady
+13852.0,427,1,170.45000000000002,1,At-Risk/Lapsed
+13854.0,13,30,8899.23,2,Typical Steady
+13855.0,317,4,1257.69,1,At-Risk/Lapsed
+13856.0,20,9,802.63,2,Typical Steady
+13857.0,210,6,997.01,1,At-Risk/Lapsed
+13859.0,143,2,515.86,2,Typical Steady
+13861.0,246,2,251.31,1,At-Risk/Lapsed
+13862.0,4,5,1477.19,2,Typical Steady
+13863.0,64,4,1217.63,2,Typical Steady
+13864.0,203,1,662.4000000000001,1,At-Risk/Lapsed
+13865.0,3,2,282.52,2,Typical Steady
+13867.0,35,1,138.85,2,Typical Steady
+13869.0,79,9,6486.38,2,Typical Steady
+13870.0,104,8,3482.62,2,Typical Steady
+13871.0,23,9,3810.88,2,Typical Steady
+13872.0,344,3,908.27,1,At-Risk/Lapsed
+13873.0,35,7,871.82,2,Typical Steady
+13874.0,175,7,2017.5,2,Typical Steady
+13875.0,1,12,4095.46,2,Typical Steady
+13877.0,287,2,329.09000000000003,1,At-Risk/Lapsed
+13878.0,364,3,1145.33,1,At-Risk/Lapsed
+13879.0,462,1,395.5,1,At-Risk/Lapsed
+13880.0,3,10,2413.66,2,Typical Steady
+13881.0,30,26,30972.44,2,Typical Steady
+13883.0,35,13,5441.04,2,Typical Steady
+13884.0,94,8,1197.58,2,Typical Steady
+13885.0,6,2,506.8,2,Typical Steady
+13887.0,21,1,349.55,2,Typical Steady
+13888.0,35,6,1635.48,2,Typical Steady
+13889.0,199,5,1486.0800000000002,1,At-Risk/Lapsed
+13890.0,175,5,1193.77,2,Typical Steady
+13891.0,195,3,859.21,1,At-Risk/Lapsed
+13892.0,63,3,689.1999999999999,2,Typical Steady
+13893.0,114,1,821.1,2,Typical Steady
+13894.0,127,1,150.95,2,Typical Steady
+13895.0,332,2,1335.5,1,At-Risk/Lapsed
+13896.0,442,1,388.55,1,At-Risk/Lapsed
+13897.0,255,2,849.56,1,At-Risk/Lapsed
+13898.0,142,2,686.4,2,Typical Steady
+13899.0,91,1,298.5,2,Typical Steady
+13900.0,9,5,1599.97,2,Typical Steady
+13901.0,73,12,3380.44,2,Typical Steady
+13902.0,449,5,30392.46,1,At-Risk/Lapsed
+13903.0,217,1,165.45000000000002,1,At-Risk/Lapsed
+13904.0,111,1,201.12,2,Typical Steady
+13905.0,549,1,249.65,1,At-Risk/Lapsed
+13906.0,226,1,42.0,1,At-Risk/Lapsed
+13907.0,508,1,136.8,1,At-Risk/Lapsed
+13908.0,31,2,758.61,2,Typical Steady
+13909.0,240,2,282.85,1,At-Risk/Lapsed
+13911.0,14,17,3323.04,2,Typical Steady
+13912.0,240,1,124.95,1,At-Risk/Lapsed
+13913.0,323,1,42.22,1,At-Risk/Lapsed
+13915.0,211,1,70.80000000000001,1,At-Risk/Lapsed
+13916.0,280,4,1275.81,1,At-Risk/Lapsed
+13917.0,8,1,65.38,2,Typical Steady
+13918.0,70,1,198.2,2,Typical Steady
+13919.0,241,2,903.87,1,At-Risk/Lapsed
+13920.0,248,4,1734.88,1,At-Risk/Lapsed
+13921.0,219,4,720.75,1,At-Risk/Lapsed
+13922.0,168,3,827.65,2,Typical Steady
+13927.0,254,1,340.97,1,At-Risk/Lapsed
+13929.0,143,9,2888.2999999999997,2,Typical Steady
+13931.0,97,10,4398.06,2,Typical Steady
+13932.0,111,1,307.4,2,Typical Steady
+13934.0,80,1,922.1,2,Typical Steady
+13935.0,413,3,6116.92,1,At-Risk/Lapsed
+13936.0,199,2,563.08,1,At-Risk/Lapsed
+13937.0,219,1,708.53,1,At-Risk/Lapsed
+13939.0,128,5,1149.61,2,Typical Steady
+13941.0,114,12,6827.83,2,Typical Steady
+13942.0,351,1,320.0,1,At-Risk/Lapsed
+13943.0,394,1,246.54,1,At-Risk/Lapsed
+13944.0,470,1,200.43,1,At-Risk/Lapsed
+13945.0,211,2,854.15,1,At-Risk/Lapsed
+13946.0,18,5,1669.83,2,Typical Steady
+13948.0,177,4,536.86,1,At-Risk/Lapsed
+13950.0,63,1,179.30999999999997,2,Typical Steady
+13951.0,53,2,516.05,2,Typical Steady
+13952.0,34,14,12790.89,2,Typical Steady
+13953.0,27,8,4875.0,2,Typical Steady
+13955.0,122,2,426.21,2,Typical Steady
+13956.0,60,2,290.32,2,Typical Steady
+13957.0,234,3,458.25,1,At-Risk/Lapsed
+13958.0,196,8,4544.2300000000005,2,Typical Steady
+13959.0,98,5,808.17,2,Typical Steady
+13961.0,209,1,498.7,1,At-Risk/Lapsed
+13962.0,62,2,310.85,2,Typical Steady
+13963.0,125,17,2748.32,2,Typical Steady
+13964.0,204,2,421.9,1,At-Risk/Lapsed
+13965.0,293,3,777.66,1,At-Risk/Lapsed
+13966.0,252,1,384.26,1,At-Risk/Lapsed
+13967.0,213,1,85.6,1,At-Risk/Lapsed
+13968.0,240,1,123.66,1,At-Risk/Lapsed
+13969.0,35,23,5366.62,2,Typical Steady
+13970.0,203,2,846.55,1,At-Risk/Lapsed
+13971.0,31,9,2818.39,2,Typical Steady
+13972.0,18,1,145.9,2,Typical Steady
+13973.0,104,1,264.7,2,Typical Steady
+13974.0,399,1,249.93,1,At-Risk/Lapsed
+13975.0,32,8,3726.12,2,Typical Steady
+13976.0,23,4,1192.36,2,Typical Steady
+13977.0,228,1,519.8100000000001,1,At-Risk/Lapsed
+13979.0,210,6,2468.36,1,At-Risk/Lapsed
+13980.0,256,4,532.63,1,At-Risk/Lapsed
+13981.0,232,1,327.39,1,At-Risk/Lapsed
+13982.0,143,7,2966.83,2,Typical Steady
+13983.0,4,17,5749.6,2,Typical Steady
+13984.0,142,9,1258.04,2,Typical Steady
+13985.0,1,10,4087.48,2,Typical Steady
+13987.0,196,2,682.54,1,At-Risk/Lapsed
+13988.0,17,4,1959.27,2,Typical Steady
+13989.0,56,4,1656.65,2,Typical Steady
+13990.0,30,1,311.3,2,Typical Steady
+13992.0,197,2,142.7,1,At-Risk/Lapsed
+13993.0,22,14,4769.27,2,Typical Steady
+13995.0,62,10,2753.02,2,Typical Steady
+13996.0,203,2,845.76,1,At-Risk/Lapsed
+13997.0,336,3,376.46,1,At-Risk/Lapsed
+13998.0,263,3,566.7,1,At-Risk/Lapsed
+13999.0,31,21,6819.57,2,Typical Steady
+14000.0,28,5,1877.59,2,Typical Steady
+14001.0,49,8,3494.91,2,Typical Steady
+14003.0,549,1,209.41,1,At-Risk/Lapsed
+14004.0,105,5,2575.83,2,Typical Steady
+14005.0,32,1,187.16,2,Typical Steady
+14006.0,58,6,1896.57,2,Typical Steady
+14007.0,329,1,79.48,1,At-Risk/Lapsed
+14008.0,249,1,493.74,1,At-Risk/Lapsed
+14009.0,15,3,1090.23,2,Typical Steady
+14010.0,382,2,288.1,1,At-Risk/Lapsed
+14011.0,297,2,450.32,1,At-Risk/Lapsed
+14012.0,94,1,328.8,2,Typical Steady
+14013.0,92,3,730.05,2,Typical Steady
+14014.0,193,2,1443.03,1,At-Risk/Lapsed
+14016.0,24,10,10315.88,2,Typical Steady
+14017.0,388,1,229.75,1,At-Risk/Lapsed
+14018.0,462,1,367.15,1,At-Risk/Lapsed
+14020.0,293,2,570.46,1,At-Risk/Lapsed
+14021.0,28,6,1586.38,2,Typical Steady
+14022.0,42,2,792.15,2,Typical Steady
+14023.0,67,1,273.14,2,Typical Steady
+14024.0,207,1,318.04,1,At-Risk/Lapsed
+14025.0,281,8,3969.1,1,At-Risk/Lapsed
+14026.0,287,2,713.11,1,At-Risk/Lapsed
+14028.0,367,2,6786.0,1,At-Risk/Lapsed
+14030.0,60,17,6597.98,2,Typical Steady
+14031.0,13,35,28202.51,0,High-Value Regulars
+14032.0,23,10,3048.04,2,Typical Steady
+14033.0,372,1,109.44,1,At-Risk/Lapsed
+14035.0,84,6,2063.06,2,Typical Steady
+14036.0,101,1,626.65,2,Typical Steady
+14037.0,181,5,686.8,1,At-Risk/Lapsed
+14038.0,24,3,2156.87,2,Typical Steady
+14039.0,392,1,115.08,1,At-Risk/Lapsed
+14040.0,32,28,10286.17,2,Typical Steady
+14041.0,83,1,141.41,2,Typical Steady
+14042.0,542,1,431.98,1,At-Risk/Lapsed
+14043.0,308,2,302.6,1,At-Risk/Lapsed
+14044.0,126,7,2581.02,2,Typical Steady
+14045.0,154,14,8926.23,2,Typical Steady
+14046.0,101,1,151.59,2,Typical Steady
+14047.0,16,12,3208.42,2,Typical Steady
+14048.0,122,3,713.89,2,Typical Steady
+14049.0,17,11,10294.69,2,Typical Steady
+14051.0,30,25,11681.72,2,Typical Steady
+14052.0,207,1,241.3,1,At-Risk/Lapsed
+14053.0,214,2,312.05,1,At-Risk/Lapsed
+14055.0,394,2,795.3199999999999,1,At-Risk/Lapsed
+14056.0,1,11,3631.13,2,Typical Steady
+14057.0,16,13,4734.67,2,Typical Steady
+14058.0,279,2,469.19,1,At-Risk/Lapsed
+14059.0,83,1,183.6,2,Typical Steady
+14060.0,22,21,5705.02,2,Typical Steady
+14061.0,324,3,917.43,1,At-Risk/Lapsed
+14062.0,56,18,19788.86,2,Typical Steady
+14063.0,503,7,9471.5,1,At-Risk/Lapsed
+14064.0,28,13,2478.93,2,Typical Steady
+14065.0,206,3,889.37,1,At-Risk/Lapsed
+14066.0,83,1,152.55,2,Typical Steady
+14068.0,137,4,1493.32,2,Typical Steady
+14069.0,331,2,225.81,1,At-Risk/Lapsed
+14070.0,501,1,321.6,1,At-Risk/Lapsed
+14071.0,81,1,225.4,2,Typical Steady
+14072.0,483,1,390.85,1,At-Risk/Lapsed
+14074.0,440,1,219.4,1,At-Risk/Lapsed
+14075.0,78,3,1090.53,2,Typical Steady
+14077.0,42,3,315.27,2,Typical Steady
+14078.0,1,8,1330.36,2,Typical Steady
+14080.0,230,4,1030.13,1,At-Risk/Lapsed
+14081.0,119,10,4773.02,2,Typical Steady
+14082.0,181,2,413.36,1,At-Risk/Lapsed
+14083.0,16,7,553.23,2,Typical Steady
+14084.0,329,1,150.5,1,At-Risk/Lapsed
+14085.0,15,24,8056.79,2,Typical Steady
+14086.0,279,1,39.95,1,At-Risk/Lapsed
+14087.0,221,2,595.25,1,At-Risk/Lapsed
+14088.0,7,5,28594.66,2,Typical Steady
+14090.0,141,1,76.32000000000001,2,Typical Steady
+14091.0,471,2,9530.08,1,At-Risk/Lapsed
+14092.0,13,16,4940.360000000001,2,Typical Steady
+14094.0,256,1,310.82,1,At-Risk/Lapsed
+14095.0,539,1,2.95,1,At-Risk/Lapsed
+14097.0,298,2,422.86,1,At-Risk/Lapsed
+14099.0,35,14,3903.0,2,Typical Steady
+14101.0,14,11,8124.73,2,Typical Steady
+14104.0,206,3,524.3199999999999,1,At-Risk/Lapsed
+14105.0,56,5,5778.2300000000005,2,Typical Steady
+14106.0,554,1,214.8,1,At-Risk/Lapsed
+14107.0,37,8,3625.55,2,Typical Steady
+14108.0,548,2,447.05,1,At-Risk/Lapsed
+14110.0,37,23,8977.970000000001,2,Typical Steady
+14111.0,58,1,94.2,2,Typical Steady
+14112.0,20,9,3839.44,2,Typical Steady
+14113.0,192,12,4962.28,2,Typical Steady
+14114.0,90,7,1364.09,2,Typical Steady
+14115.0,318,2,622.6700000000001,1,At-Risk/Lapsed
+14118.0,245,1,458.45,1,At-Risk/Lapsed
+14119.0,192,2,163.47,1,At-Risk/Lapsed
+14122.0,223,3,309.77,1,At-Risk/Lapsed
+14123.0,550,1,436.18,1,At-Risk/Lapsed
+14126.0,261,1,466.33,1,At-Risk/Lapsed
+14127.0,73,5,1642.6,2,Typical Steady
+14128.0,72,2,577.4,2,Typical Steady
+14129.0,77,5,1826.38,2,Typical Steady
+14130.0,136,4,1858.77,2,Typical Steady
+14131.0,465,1,168.22,1,At-Risk/Lapsed
+14133.0,132,2,610.75,2,Typical Steady
+14134.0,199,15,11123.35,2,Typical Steady
+14135.0,3,18,6551.95,2,Typical Steady
+14136.0,217,5,1553.96,1,At-Risk/Lapsed
+14137.0,512,1,294.1,1,At-Risk/Lapsed
+14139.0,307,3,670.98,1,At-Risk/Lapsed
+14142.0,190,2,655.94,1,At-Risk/Lapsed
+14144.0,303,1,30.6,1,At-Risk/Lapsed
+14145.0,34,4,4986.45,2,Typical Steady
+14146.0,71,8,5921.6,2,Typical Steady
+14147.0,102,8,1749.6,2,Typical Steady
+14148.0,50,2,466.29,2,Typical Steady
+14149.0,37,1,259.43,2,Typical Steady
+14150.0,176,1,306.18,1,At-Risk/Lapsed
+14151.0,490,2,666.7,1,At-Risk/Lapsed
+14152.0,51,6,1668.66,2,Typical Steady
+14153.0,300,1,233.4,1,At-Risk/Lapsed
+14154.0,56,7,6263.6,2,Typical Steady
+14155.0,83,1,118.75,2,Typical Steady
+14156.0,3,107,226327.82,3,Elite Wholesalers
+14157.0,102,4,790.53,2,Typical Steady
+14159.0,4,12,4004.92,2,Typical Steady
+14160.0,427,7,8421.47,1,At-Risk/Lapsed
+14161.0,32,7,2996.93,2,Typical Steady
+14162.0,109,1,177.68,2,Typical Steady
+14163.0,16,3,898.5,2,Typical Steady
+14165.0,92,1,120.44,2,Typical Steady
+14166.0,322,2,251.15,1,At-Risk/Lapsed
+14167.0,80,6,970.7,2,Typical Steady
+14168.0,237,2,305.9,1,At-Risk/Lapsed
+14169.0,247,2,613.11,1,At-Risk/Lapsed
+14170.0,192,3,570.18,1,At-Risk/Lapsed
+14171.0,547,1,135.0,1,At-Risk/Lapsed
+14172.0,422,3,356.27,1,At-Risk/Lapsed
+14173.0,36,3,249.2,2,Typical Steady
+14175.0,146,6,4512.11,2,Typical Steady
+14176.0,114,5,753.5600000000001,2,Typical Steady
+14177.0,198,9,1660.23,1,At-Risk/Lapsed
+14180.0,2,24,4594.1,2,Typical Steady
+14181.0,227,2,308.35,1,At-Risk/Lapsed
+14182.0,260,4,660.07,1,At-Risk/Lapsed
+14183.0,228,2,278.34000000000003,1,At-Risk/Lapsed
+14185.0,148,1,197.65,2,Typical Steady
+14186.0,244,5,1550.63,1,At-Risk/Lapsed
+14187.0,290,1,123.5,1,At-Risk/Lapsed
+14188.0,31,2,760.9,2,Typical Steady
+14189.0,17,9,2985.49,2,Typical Steady
+14190.0,483,1,79.9,1,At-Risk/Lapsed
+14191.0,1,5,897.8,2,Typical Steady
+14192.0,205,1,293.74,1,At-Risk/Lapsed
+14193.0,86,2,779.34,2,Typical Steady
+14194.0,13,22,10577.79,2,Typical Steady
+14195.0,18,6,2401.4,2,Typical Steady
+14197.0,227,1,390.05,1,At-Risk/Lapsed
+14198.0,56,6,1037.48,2,Typical Steady
+14199.0,35,4,916.5,2,Typical Steady
+14200.0,434,1,379.2,1,At-Risk/Lapsed
+14201.0,3,7,827.5,2,Typical Steady
+14202.0,198,3,847.76,1,At-Risk/Lapsed
+14203.0,214,1,339.34,1,At-Risk/Lapsed
+14204.0,239,3,874.22,1,At-Risk/Lapsed
+14205.0,81,8,1914.3,2,Typical Steady
+14206.0,56,3,1165.11,2,Typical Steady
+14207.0,504,1,157.8,1,At-Risk/Lapsed
+14208.0,368,1,415.31,1,At-Risk/Lapsed
+14209.0,30,12,3956.04,2,Typical Steady
+14210.0,14,15,5208.13,2,Typical Steady
+14211.0,24,14,2974.23,2,Typical Steady
+14212.0,262,1,1119.66,1,At-Risk/Lapsed
+14214.0,94,1,634.5,2,Typical Steady
+14215.0,3,7,2547.08,2,Typical Steady
+14216.0,231,1,303.09,1,At-Risk/Lapsed
+14217.0,1,14,2119.59,2,Typical Steady
+14219.0,226,2,543.89,1,At-Risk/Lapsed
+14220.0,64,4,1515.0,2,Typical Steady
+14221.0,7,12,4733.57,2,Typical Steady
+14223.0,81,1,289.0,2,Typical Steady
+14224.0,32,7,1324.05,2,Typical Steady
+14225.0,251,4,2011.21,1,At-Risk/Lapsed
+14226.0,27,3,2427.99,2,Typical Steady
+14227.0,13,12,5401.02,2,Typical Steady
+14228.0,254,3,745.5,1,At-Risk/Lapsed
+14229.0,108,6,1683.92,2,Typical Steady
+14230.0,252,3,979.8,1,At-Risk/Lapsed
+14231.0,49,3,904.11,2,Typical Steady
+14232.0,3,2,1001.48,2,Typical Steady
+14233.0,28,6,2278.55,2,Typical Steady
+14235.0,43,6,2837.68,2,Typical Steady
+14236.0,189,4,1242.88,1,At-Risk/Lapsed
+14237.0,190,2,466.04,1,At-Risk/Lapsed
+14238.0,143,3,434.23,2,Typical Steady
+14239.0,17,16,3117.9100000000003,2,Typical Steady
+14240.0,42,2,584.0,2,Typical Steady
+14241.0,513,1,120.0,1,At-Risk/Lapsed
+14242.0,51,2,280.55,2,Typical Steady
+14243.0,62,12,6114.25,2,Typical Steady
+14244.0,477,1,354.82,1,At-Risk/Lapsed
+14245.0,36,2,1677.48,2,Typical Steady
+14246.0,62,1,449.64,2,Typical Steady
+14247.0,95,5,750.61,2,Typical Steady
+14248.0,135,3,1032.95,2,Typical Steady
+14249.0,227,12,5400.46,1,At-Risk/Lapsed
+14252.0,198,1,350.99,1,At-Risk/Lapsed
+14253.0,310,2,363.4,1,At-Risk/Lapsed
+14254.0,249,1,601.03,1,At-Risk/Lapsed
+14256.0,77,5,2384.14,2,Typical Steady
+14257.0,1,6,3885.32,2,Typical Steady
+14258.0,16,22,26293.49,2,Typical Steady
+14260.0,288,3,824.28,1,At-Risk/Lapsed
+14262.0,57,1,240.0,2,Typical Steady
+14263.0,240,1,322.93,1,At-Risk/Lapsed
+14264.0,62,5,1257.59,2,Typical Steady
+14265.0,281,2,843.17,1,At-Risk/Lapsed
+14266.0,245,1,40.56,1,At-Risk/Lapsed
+14267.0,77,2,809.01,2,Typical Steady
+14268.0,287,1,354.85,1,At-Risk/Lapsed
+14269.0,256,1,261.68,1,At-Risk/Lapsed
+14270.0,148,1,492.65,2,Typical Steady
+14271.0,42,2,214.18,2,Typical Steady
+14272.0,71,3,614.94,2,Typical Steady
+14273.0,34,2,218.7,2,Typical Steady
+14274.0,503,1,256.6,1,At-Risk/Lapsed
+14275.0,212,6,1189.38,1,At-Risk/Lapsed
+14276.0,106,5,1179.24,2,Typical Steady
+14277.0,29,6,2219.15,2,Typical Steady
+14278.0,226,1,205.83,1,At-Risk/Lapsed
+14279.0,337,2,191.86,1,At-Risk/Lapsed
+14280.0,13,1,134.04,2,Typical Steady
+14281.0,225,1,245.15,1,At-Risk/Lapsed
+14282.0,20,15,5325.6,2,Typical Steady
+14283.0,280,4,628.4399999999999,1,At-Risk/Lapsed
+14284.0,470,1,704.4,1,At-Risk/Lapsed
+14285.0,330,4,1374.41,1,At-Risk/Lapsed
+14286.0,59,5,5828.23,2,Typical Steady
+14287.0,15,2,62.88,2,Typical Steady
+14288.0,30,1,413.85,2,Typical Steady
+14289.0,16,3,594.22,2,Typical Steady
+14290.0,178,4,2941.82,2,Typical Steady
+14291.0,27,15,5584.56,2,Typical Steady
+14292.0,21,9,5195.73,2,Typical Steady
+14293.0,122,7,2270.87,2,Typical Steady
+14294.0,224,1,375.34,1,At-Risk/Lapsed
+14295.0,255,3,2151.36,1,At-Risk/Lapsed
+14296.0,238,2,448.45,1,At-Risk/Lapsed
+14297.0,91,1,232.6,2,Typical Steady
+14298.0,7,68,70120.86,0,High-Value Regulars
+14299.0,135,22,10284.32,2,Typical Steady
+14301.0,233,3,1324.95,1,At-Risk/Lapsed
+14302.0,247,3,742.9000000000001,1,At-Risk/Lapsed
+14303.0,224,2,277.94,1,At-Risk/Lapsed
+14304.0,39,3,1523.81,2,Typical Steady
+14306.0,195,4,1058.0800000000002,1,At-Risk/Lapsed
+14307.0,36,7,2979.23,2,Typical Steady
+14309.0,51,6,2331.31,2,Typical Steady
+14310.0,249,1,492.1,1,At-Risk/Lapsed
+14311.0,59,2,435.9,2,Typical Steady
+14312.0,3,9,2333.29,2,Typical Steady
+14314.0,247,1,101.9,1,At-Risk/Lapsed
+14315.0,8,4,1567.94,2,Typical Steady
+14316.0,239,5,1355.34,1,At-Risk/Lapsed
+14318.0,277,1,158.02,1,At-Risk/Lapsed
+14319.0,241,1,494.85,1,At-Risk/Lapsed
+14320.0,23,5,1204.12,2,Typical Steady
+14321.0,150,3,1003.15,2,Typical Steady
+14322.0,246,4,392.2,1,At-Risk/Lapsed
+14323.0,55,1,269.02,2,Typical Steady
+14324.0,226,2,701.61,1,At-Risk/Lapsed
+14325.0,386,1,245.48,1,At-Risk/Lapsed
+14326.0,59,3,923.98,2,Typical Steady
+14327.0,199,5,1583.28,1,At-Risk/Lapsed
+14329.0,90,10,6892.78,2,Typical Steady
+14330.0,440,1,200.63,1,At-Risk/Lapsed
+14332.0,198,2,1077.2,1,At-Risk/Lapsed
+14334.0,20,9,3419.0,2,Typical Steady
+14336.0,15,3,1114.39,2,Typical Steady
+14338.0,13,2,894.1,2,Typical Steady
+14339.0,59,2,605.31,2,Typical Steady
+14340.0,35,1,134.7,2,Typical Steady
+14341.0,32,14,2964.34,2,Typical Steady
+14342.0,27,3,484.78,2,Typical Steady
+14343.0,238,4,1079.66,1,At-Risk/Lapsed
+14344.0,23,18,2749.0,2,Typical Steady
+14346.0,114,4,1556.61,2,Typical Steady
+14347.0,553,1,82.6,1,At-Risk/Lapsed
+14348.0,77,1,409.57,2,Typical Steady
+14350.0,91,3,951.2,2,Typical Steady
+14352.0,51,2,845.32,2,Typical Steady
+14353.0,32,3,376.5,2,Typical Steady
+14355.0,182,3,840.0500000000001,1,At-Risk/Lapsed
+14358.0,206,2,400.06,1,At-Risk/Lapsed
+14361.0,395,1,214.71,1,At-Risk/Lapsed
+14363.0,219,2,227.47000000000003,1,At-Risk/Lapsed
+14364.0,4,4,2161.85,2,Typical Steady
+14365.0,211,2,634.68,1,At-Risk/Lapsed
+14366.0,342,1,136.0,1,At-Risk/Lapsed
+14367.0,1,7,4033.02,2,Typical Steady
+14368.0,136,1,155.0,2,Typical Steady
+14369.0,459,2,469.13,1,At-Risk/Lapsed
+14370.0,267,6,1092.13,1,At-Risk/Lapsed
+14371.0,112,1,100.5,2,Typical Steady
+14372.0,260,2,860.08,1,At-Risk/Lapsed
+14373.0,175,1,76.55,1,At-Risk/Lapsed
+14374.0,358,1,108.0,1,At-Risk/Lapsed
+14375.0,2,3,1106.82,2,Typical Steady
+14376.0,500,1,215.46,1,At-Risk/Lapsed
+14377.0,8,2,617.05,2,Typical Steady
+14378.0,438,1,131.25,1,At-Risk/Lapsed
+14379.0,112,3,1028.04,2,Typical Steady
+14381.0,268,1,423.26,1,At-Risk/Lapsed
+14382.0,207,1,578.14,1,At-Risk/Lapsed
+14384.0,317,1,58.5,1,At-Risk/Lapsed
+14386.0,113,1,142.4,2,Typical Steady
+14388.0,20,11,4277.65,2,Typical Steady
+14389.0,7,4,1133.67,2,Typical Steady
+14390.0,28,7,2509.24,2,Typical Steady
+14391.0,393,1,135.6,1,At-Risk/Lapsed
+14392.0,249,1,266.4,1,At-Risk/Lapsed
+14393.0,35,1,67.95,2,Typical Steady
+14394.0,381,1,93.8,1,At-Risk/Lapsed
+14395.0,39,16,5926.61,2,Typical Steady
+14396.0,188,6,1591.74,1,At-Risk/Lapsed
+14397.0,15,2,242.24,2,Typical Steady
+14398.0,218,2,707.79,1,At-Risk/Lapsed
+14399.0,211,8,2108.21,1,At-Risk/Lapsed
+14400.0,225,2,1143.3,1,At-Risk/Lapsed
+14401.0,132,11,3215.54,2,Typical Steady
+14402.0,469,1,285.6,1,At-Risk/Lapsed
+14403.0,34,4,1322.96,2,Typical Steady
+14404.0,76,10,1874.39,2,Typical Steady
+14405.0,203,1,195.0,1,At-Risk/Lapsed
+14407.0,22,2,974.98,2,Typical Steady
+14408.0,6,7,2585.03,2,Typical Steady
+14409.0,135,6,1900.74,2,Typical Steady
+14410.0,23,8,1873.64,2,Typical Steady
+14411.0,127,1,1063.0,2,Typical Steady
+14412.0,241,1,656.16,1,At-Risk/Lapsed
+14413.0,179,3,421.72,1,At-Risk/Lapsed
+14414.0,175,2,1119.55,1,At-Risk/Lapsed
+14415.0,15,15,8369.44,2,Typical Steady
+14417.0,204,1,524.65,1,At-Risk/Lapsed
+14419.0,69,3,509.99,2,Typical Steady
+14420.0,213,3,1241.85,1,At-Risk/Lapsed
+14421.0,28,5,2098.69,2,Typical Steady
+14422.0,84,14,6338.59,2,Typical Steady
+14423.0,35,3,914.96,2,Typical Steady
+14425.0,251,3,648.64,1,At-Risk/Lapsed
+14426.0,93,10,8251.51,2,Typical Steady
+14427.0,311,2,900.1800000000001,1,At-Risk/Lapsed
+14428.0,56,2,326.38,2,Typical Steady
+14429.0,220,1,516.28,1,At-Risk/Lapsed
+14430.0,328,3,1181.1,1,At-Risk/Lapsed
+14431.0,119,4,2567.1,2,Typical Steady
+14433.0,282,1,280.7,1,At-Risk/Lapsed
+14435.0,318,1,90.42,1,At-Risk/Lapsed
+14436.0,370,1,182.64,1,At-Risk/Lapsed
+14437.0,182,5,850.84,1,At-Risk/Lapsed
+14438.0,123,1,131.9,2,Typical Steady
+14439.0,136,5,9443.04,2,Typical Steady
+14440.0,133,9,4701.31,2,Typical Steady
+14441.0,72,8,3142.59,2,Typical Steady
+14442.0,21,7,5292.17,2,Typical Steady
+14443.0,127,3,1251.85,2,Typical Steady
+14444.0,273,1,120.44,1,At-Risk/Lapsed
+14445.0,272,1,221.65,1,At-Risk/Lapsed
+14446.0,63,2,492.97,2,Typical Steady
+14447.0,13,3,1149.53,2,Typical Steady
+14448.0,181,1,102.35,1,At-Risk/Lapsed
+14449.0,63,6,1745.07,2,Typical Steady
+14450.0,60,6,914.64,2,Typical Steady
+14451.0,11,11,2931.6,2,Typical Steady
+14452.0,212,2,399.9,1,At-Risk/Lapsed
+14453.0,7,1,119.93,2,Typical Steady
+14454.0,193,5,977.3,1,At-Risk/Lapsed
+14455.0,249,4,587.12,1,At-Risk/Lapsed
+14457.0,127,1,113.64,2,Typical Steady
+14458.0,197,1,219.27,1,At-Risk/Lapsed
+14459.0,468,1,3537.82,1,At-Risk/Lapsed
+14460.0,127,6,515.26,2,Typical Steady
+14461.0,78,11,5334.18,2,Typical Steady
+14462.0,2,8,1350.41,2,Typical Steady
+14463.0,22,2,372.87,2,Typical Steady
+14464.0,385,2,111.0,1,At-Risk/Lapsed
+14465.0,63,11,3925.85,2,Typical Steady
+14466.0,4,10,3340.45,2,Typical Steady
+14467.0,129,9,1738.68,2,Typical Steady
+14468.0,550,1,204.24,1,At-Risk/Lapsed
+14469.0,233,4,2093.46,1,At-Risk/Lapsed
+14470.0,104,2,548.49,2,Typical Steady
+14471.0,408,2,400.95,1,At-Risk/Lapsed
+14472.0,4,6,1723.26,2,Typical Steady
+14473.0,99,1,85.0,2,Typical Steady
+14474.0,396,1,711.23,1,At-Risk/Lapsed
+14475.0,3,3,731.39,2,Typical Steady
+14476.0,74,1,193.0,2,Typical Steady
+14477.0,1,5,1177.91,2,Typical Steady
+14478.0,199,4,1276.66,1,At-Risk/Lapsed
+14479.0,70,4,1124.71,2,Typical Steady
+14480.0,219,3,1016.22,1,At-Risk/Lapsed
+14481.0,104,4,1951.04,2,Typical Steady
+14482.0,56,7,2356.35,2,Typical Steady
+14483.0,98,2,257.1,2,Typical Steady
+14484.0,218,3,749.0600000000001,1,At-Risk/Lapsed
+14486.0,328,2,175.5,1,At-Risk/Lapsed
+14487.0,185,2,213.14,1,At-Risk/Lapsed
+14489.0,24,4,1574.93,2,Typical Steady
+14490.0,223,2,1273.47,1,At-Risk/Lapsed
+14491.0,189,1,127.2,1,At-Risk/Lapsed
+14492.0,247,6,1574.36,1,At-Risk/Lapsed
+14493.0,207,5,2630.92,1,At-Risk/Lapsed
+14494.0,218,2,261.9,1,At-Risk/Lapsed
+14495.0,476,1,42.5,1,At-Risk/Lapsed
+14496.0,128,7,2342.14,2,Typical Steady
+14497.0,126,2,679.16,2,Typical Steady
+14498.0,3,7,2256.75,2,Typical Steady
+14499.0,95,5,1397.87,2,Typical Steady
+14500.0,6,1,284.85,2,Typical Steady
+14501.0,136,1,66.93,2,Typical Steady
+14502.0,51,5,961.69,2,Typical Steady
+14504.0,60,3,542.71,2,Typical Steady
+14505.0,21,16,9018.71,2,Typical Steady
+14506.0,100,4,1553.76,2,Typical Steady
+14507.0,32,8,2389.67,2,Typical Steady
+14508.0,193,3,536.02,1,At-Risk/Lapsed
+14509.0,351,1,110.95,1,At-Risk/Lapsed
+14510.0,192,3,964.55,1,At-Risk/Lapsed
+14512.0,4,7,1215.97,2,Typical Steady
+14513.0,23,5,632.67,2,Typical Steady
+14514.0,18,8,3792.95,2,Typical Steady
+14515.0,8,8,2382.46,2,Typical Steady
+14516.0,333,1,151.17,1,At-Risk/Lapsed
+14519.0,500,2,203.14,1,At-Risk/Lapsed
+14520.0,107,1,165.0,2,Typical Steady
+14521.0,308,1,182.5,1,At-Risk/Lapsed
+14522.0,15,5,1052.51,2,Typical Steady
+14524.0,53,8,1819.76,2,Typical Steady
+14525.0,2,13,5716.58,2,Typical Steady
+14526.0,206,1,258.65,1,At-Risk/Lapsed
+14527.0,1,93,21832.91,0,High-Value Regulars
+14530.0,2,13,4612.05,2,Typical Steady
+14531.0,296,1,376.34,1,At-Risk/Lapsed
+14532.0,53,11,3833.03,2,Typical Steady
+14533.0,169,5,1806.0,2,Typical Steady
+14534.0,3,16,3442.42,2,Typical Steady
+14535.0,65,7,3824.92,2,Typical Steady
+14536.0,76,1,170.95,2,Typical Steady
+14537.0,440,1,279.89,1,At-Risk/Lapsed
+14538.0,73,4,1089.09,2,Typical Steady
+14540.0,126,9,2942.98,2,Typical Steady
+14541.0,31,12,2043.48,2,Typical Steady
+14542.0,2,1,103.25,2,Typical Steady
+14543.0,7,31,10886.84,2,Typical Steady
+14544.0,178,2,2036.0,1,At-Risk/Lapsed
+14545.0,491,1,349.25,1,At-Risk/Lapsed
+14546.0,18,8,3333.2200000000003,2,Typical Steady
+14548.0,134,8,2214.89,2,Typical Steady
+14549.0,128,4,913.6,2,Typical Steady
+14550.0,205,2,587.69,1,At-Risk/Lapsed
+14551.0,21,6,795.84,2,Typical Steady
+14552.0,197,2,343.71,1,At-Risk/Lapsed
+14553.0,35,6,1246.15,2,Typical Steady
+14555.0,119,5,2172.88,2,Typical Steady
+14556.0,413,3,815.69,1,At-Risk/Lapsed
+14558.0,471,3,630.0,1,At-Risk/Lapsed
+14559.0,207,1,75.6,1,At-Risk/Lapsed
+14560.0,13,31,5099.76,2,Typical Steady
+14561.0,1,1,222.07,2,Typical Steady
+14562.0,49,11,2510.73,2,Typical Steady
+14563.0,326,2,625.42,1,At-Risk/Lapsed
+14564.0,251,2,2525.22,1,At-Risk/Lapsed
+14565.0,22,3,2577.15,2,Typical Steady
+14566.0,234,3,2660.0,1,At-Risk/Lapsed
+14568.0,252,1,909.5,1,At-Risk/Lapsed
+14569.0,269,3,369.94,1,At-Risk/Lapsed
+14570.0,97,3,512.4,2,Typical Steady
+14571.0,242,1,160.0,1,At-Risk/Lapsed
+14572.0,71,7,3749.32,2,Typical Steady
+14573.0,17,10,1838.9,2,Typical Steady
+14574.0,549,1,143.70000000000002,1,At-Risk/Lapsed
+14575.0,305,1,420.22,1,At-Risk/Lapsed
+14576.0,189,1,35.400000000000006,1,At-Risk/Lapsed
+14577.0,49,5,972.45,2,Typical Steady
+14579.0,249,1,105.56,1,At-Risk/Lapsed
+14580.0,335,1,14.85,1,At-Risk/Lapsed
+14581.0,361,1,271.05,1,At-Risk/Lapsed
+14583.0,2,5,948.94,2,Typical Steady
+14584.0,14,6,1116.1,2,Typical Steady
+14585.0,199,4,986.22,1,At-Risk/Lapsed
+14586.0,93,1,134.16,2,Typical Steady
+14587.0,1,8,1449.78,2,Typical Steady
+14588.0,395,1,135.39,1,At-Risk/Lapsed
+14589.0,188,1,39.75,1,At-Risk/Lapsed
+14590.0,241,20,2895.41,2,Typical Steady
+14591.0,30,1,204.02,2,Typical Steady
+14593.0,15,11,3324.75,2,Typical Steady
+14594.0,190,1,255.0,1,At-Risk/Lapsed
+14595.0,130,3,587.6500000000001,2,Typical Steady
+14596.0,443,1,222.22000000000003,1,At-Risk/Lapsed
+14597.0,8,5,1483.49,2,Typical Steady
+14599.0,207,2,457.89,1,At-Risk/Lapsed
+14600.0,122,2,865.1700000000001,2,Typical Steady
+14602.0,473,1,205.36,1,At-Risk/Lapsed
+14603.0,91,1,660.0,2,Typical Steady
+14604.0,450,1,136.36,1,At-Risk/Lapsed
+14605.0,191,4,920.71,1,At-Risk/Lapsed
+14606.0,2,141,24138.27,0,High-Value Regulars
+14607.0,78,9,7928.13,2,Typical Steady
+14608.0,179,7,1698.29,2,Typical Steady
+14609.0,113,6,764.64,2,Typical Steady
+14610.0,212,2,24.35,1,At-Risk/Lapsed
+14611.0,260,2,599.38,1,At-Risk/Lapsed
+14612.0,232,1,877.7,1,At-Risk/Lapsed
+14613.0,497,1,76.32000000000001,1,At-Risk/Lapsed
+14614.0,203,1,295.13,1,At-Risk/Lapsed
+14615.0,211,5,934.26,1,At-Risk/Lapsed
+14616.0,59,5,527.78,2,Typical Steady
+14617.0,219,2,190.47000000000003,1,At-Risk/Lapsed
+14618.0,154,5,968.88,2,Typical Steady
+14619.0,62,2,1276.31,2,Typical Steady
+14620.0,22,2,393.28,2,Typical Steady
+14621.0,4,6,1790.82,2,Typical Steady
+14622.0,1,1,320.58000000000004,2,Typical Steady
+14623.0,3,7,1514.61,2,Typical Steady
+14624.0,232,4,588.22,1,At-Risk/Lapsed
+14625.0,13,11,4432.93,2,Typical Steady
+14626.0,50,8,3187.1,2,Typical Steady
+14627.0,196,1,440.9,1,At-Risk/Lapsed
+14628.0,59,4,1657.62,2,Typical Steady
+14630.0,301,1,338.65,1,At-Risk/Lapsed
+14631.0,52,5,1646.27,2,Typical Steady
+14632.0,79,1,114.56,2,Typical Steady
+14633.0,83,1,344.90000000000003,2,Typical Steady
+14634.0,254,4,2111.26,1,At-Risk/Lapsed
+14635.0,270,1,215.22,1,At-Risk/Lapsed
+14636.0,85,1,300.19,2,Typical Steady
+14637.0,494,1,106.68,1,At-Risk/Lapsed
+14639.0,108,5,3197.45,2,Typical Steady
+14640.0,44,5,1800.98,2,Typical Steady
+14643.0,175,4,1318.82,2,Typical Steady
+14644.0,115,5,1486.51,2,Typical Steady
+14645.0,92,2,483.25,2,Typical Steady
+14646.0,8,99,359721.19,3,Elite Wholesalers
+14647.0,18,2,506.04,2,Typical Steady
+14648.0,233,15,4378.14,1,At-Risk/Lapsed
+14649.0,29,7,2809.57,2,Typical Steady
+14650.0,406,1,62.5,1,At-Risk/Lapsed
+14651.0,28,8,1787.24,2,Typical Steady
+14653.0,155,5,1832.91,2,Typical Steady
+14654.0,555,1,246.86,1,At-Risk/Lapsed
+14655.0,39,4,2717.14,2,Typical Steady
+14656.0,100,4,632.0600000000001,2,Typical Steady
+14657.0,99,4,1116.42,2,Typical Steady
+14659.0,4,5,1308.36,2,Typical Steady
+14662.0,51,6,1147.34,2,Typical Steady
+14663.0,247,2,490.6,1,At-Risk/Lapsed
+14665.0,113,5,1627.81,2,Typical Steady
+14667.0,31,40,14985.0,0,High-Value Regulars
+14668.0,262,1,111.63,1,At-Risk/Lapsed
+14669.0,58,7,3216.78,2,Typical Steady
+14670.0,97,3,583.33,2,Typical Steady
+14671.0,366,2,1127.45,1,At-Risk/Lapsed
+14672.0,51,4,1113.14,2,Typical Steady
+14673.0,184,3,1674.41,1,At-Risk/Lapsed
+14674.0,326,1,173.66,1,At-Risk/Lapsed
+14675.0,205,1,419.22,1,At-Risk/Lapsed
+14676.0,24,9,6887.5,2,Typical Steady
+14677.0,409,1,184.91,1,At-Risk/Lapsed
+14678.0,396,1,386.44,1,At-Risk/Lapsed
+14679.0,198,3,1272.95,1,At-Risk/Lapsed
+14680.0,15,50,39770.13,0,High-Value Regulars
+14681.0,28,4,770.1500000000001,2,Typical Steady
+14682.0,4,6,1514.81,2,Typical Steady
+14683.0,405,1,146.56,1,At-Risk/Lapsed
+14684.0,32,3,721.96,2,Typical Steady
+14685.0,393,8,4271.29,1,At-Risk/Lapsed
+14686.0,231,5,852.53,1,At-Risk/Lapsed
+14687.0,217,2,773.6800000000001,1,At-Risk/Lapsed
+14688.0,15,17,4279.37,2,Typical Steady
+14689.0,25,1,112.8,2,Typical Steady
+14690.0,209,2,409.54,1,At-Risk/Lapsed
+14691.0,29,1,439.6,2,Typical Steady
+14692.0,52,11,1594.39,2,Typical Steady
+14693.0,81,7,1139.86,2,Typical Steady
+14694.0,434,1,244.31,1,At-Risk/Lapsed
+14695.0,336,3,1534.22,1,At-Risk/Lapsed
+14696.0,4,5,1559.44,2,Typical Steady
+14697.0,35,2,188.61,2,Typical Steady
+14699.0,31,4,702.6,2,Typical Steady
+14700.0,6,4,2422.06,2,Typical Steady
+14701.0,64,11,3631.77,2,Typical Steady
+14702.0,98,18,4273.89,2,Typical Steady
+14704.0,241,2,258.96,1,At-Risk/Lapsed
+14705.0,15,1,179.0,2,Typical Steady
+14706.0,435,1,367.54,1,At-Risk/Lapsed
+14707.0,252,2,139.2,1,At-Risk/Lapsed
+14708.0,185,3,1056.21,1,At-Risk/Lapsed
+14709.0,4,17,5888.4800000000005,2,Typical Steady
+14710.0,196,9,1300.31,2,Typical Steady
+14711.0,2,6,1565.7,2,Typical Steady
+14712.0,235,1,411.0,1,At-Risk/Lapsed
+14713.0,3,17,3869.9,2,Typical Steady
+14714.0,224,3,739.8,1,At-Risk/Lapsed
+14715.0,115,6,1189.62,2,Typical Steady
+14716.0,261,1,235.77,1,At-Risk/Lapsed
+14717.0,550,1,81.3,1,At-Risk/Lapsed
+14718.0,227,1,226.42,1,At-Risk/Lapsed
+14719.0,66,1,223.46,2,Typical Steady
+14721.0,196,1,109.07,1,At-Risk/Lapsed
+14722.0,294,2,309.1,1,At-Risk/Lapsed
+14723.0,175,8,1134.65,2,Typical Steady
+14724.0,407,1,341.9,1,At-Risk/Lapsed
+14725.0,211,3,540.88,1,At-Risk/Lapsed
+14726.0,471,1,116.5,1,At-Risk/Lapsed
+14727.0,91,3,291.13,2,Typical Steady
+14728.0,230,1,190.58,1,At-Risk/Lapsed
+14729.0,190,3,586.24,1,At-Risk/Lapsed
+14730.0,49,3,529.3,2,Typical Steady
+14731.0,22,2,251.02,2,Typical Steady
+14732.0,3,15,4044.38,2,Typical Steady
+14733.0,21,11,12559.6,2,Typical Steady
+14734.0,242,4,1045.47,1,At-Risk/Lapsed
+14735.0,13,40,8404.380000000001,2,Typical Steady
+14736.0,302,2,374.05,1,At-Risk/Lapsed
+14737.0,170,2,2823.62,2,Typical Steady
+14738.0,16,6,1033.14,2,Typical Steady
+14739.0,36,21,8964.210000000001,2,Typical Steady
+14740.0,14,11,4068.86,2,Typical Steady
+14741.0,178,3,808.05,1,At-Risk/Lapsed
+14742.0,252,1,579.85,1,At-Risk/Lapsed
+14743.0,409,1,50.48,1,At-Risk/Lapsed
+14744.0,114,12,3476.68,2,Typical Steady
+14745.0,1,9,1832.47,2,Typical Steady
+14746.0,223,4,593.5,1,At-Risk/Lapsed
+14747.0,66,1,294.3,2,Typical Steady
+14748.0,29,7,1630.97,2,Typical Steady
+14749.0,296,1,310.15,1,At-Risk/Lapsed
+14750.0,553,1,112.03,1,At-Risk/Lapsed
+14751.0,501,2,126.45,1,At-Risk/Lapsed
+14753.0,277,1,306.36,1,At-Risk/Lapsed
+14754.0,112,5,1133.95,2,Typical Steady
+14755.0,24,18,6713.28,2,Typical Steady
+14756.0,199,2,1824.5,1,At-Risk/Lapsed
+14758.0,22,6,2587.85,2,Typical Steady
+14759.0,49,1,572.25,2,Typical Steady
+14760.0,114,1,53.8,2,Typical Steady
+14761.0,151,2,289.52,2,Typical Steady
+14762.0,80,2,417.57,2,Typical Steady
+14766.0,30,8,5001.02,2,Typical Steady
+14767.0,291,1,382.81,1,At-Risk/Lapsed
+14769.0,18,13,10679.17,2,Typical Steady
+14770.0,49,8,3624.89,2,Typical Steady
+14771.0,438,2,579.92,1,At-Risk/Lapsed
+14773.0,409,1,125.7,1,At-Risk/Lapsed
+14774.0,345,1,241.45,1,At-Risk/Lapsed
+14775.0,189,1,406.56,1,At-Risk/Lapsed
+14776.0,35,7,2218.04,2,Typical Steady
+14777.0,220,1,239.26,1,At-Risk/Lapsed
+14778.0,125,1,334.05,2,Typical Steady
+14779.0,97,3,386.15,2,Typical Steady
+14782.0,136,1,200.1,2,Typical Steady
+14783.0,476,1,305.35,1,At-Risk/Lapsed
+14784.0,140,2,274.62,2,Typical Steady
+14786.0,367,1,90.96,1,At-Risk/Lapsed
+14787.0,288,1,110.65,1,At-Risk/Lapsed
+14788.0,413,1,476.88,1,At-Risk/Lapsed
+14790.0,70,7,1933.72,2,Typical Steady
+14791.0,423,1,303.63,1,At-Risk/Lapsed
+14793.0,352,1,396.91,1,At-Risk/Lapsed
+14794.0,20,7,1266.68,2,Typical Steady
+14796.0,34,19,5531.66,2,Typical Steady
+14797.0,324,1,300.31,1,At-Risk/Lapsed
+14798.0,127,6,617.05,2,Typical Steady
+14799.0,554,1,180.45,1,At-Risk/Lapsed
+14800.0,8,11,5948.55,2,Typical Steady
+14803.0,92,2,730.79,2,Typical Steady
+14805.0,130,4,645.4,2,Typical Steady
+14806.0,256,1,110.04,1,At-Risk/Lapsed
+14807.0,207,2,504.14,1,At-Risk/Lapsed
+14809.0,438,2,686.76,1,At-Risk/Lapsed
+14810.0,15,10,1544.85,2,Typical Steady
+14811.0,204,1,170.5,1,At-Risk/Lapsed
+14812.0,415,1,178.85,1,At-Risk/Lapsed
+14813.0,186,4,888.91,1,At-Risk/Lapsed
+14814.0,398,1,152.96,1,At-Risk/Lapsed
+14816.0,14,1,271.85,2,Typical Steady
+14817.0,17,7,3584.36,2,Typical Steady
+14818.0,70,4,614.01,2,Typical Steady
+14819.0,9,3,269.06,2,Typical Steady
+14820.0,197,5,767.47,1,At-Risk/Lapsed
+14821.0,183,7,1230.15,2,Typical Steady
+14822.0,302,1,157.70000000000002,1,At-Risk/Lapsed
+14823.0,11,2,210.65,2,Typical Steady
+14824.0,196,6,2824.8,1,At-Risk/Lapsed
+14825.0,21,17,3515.49,2,Typical Steady
+14826.0,398,2,385.2,1,At-Risk/Lapsed
+14828.0,13,13,9803.46,2,Typical Steady
+14829.0,1,6,1237.05,2,Typical Steady
+14831.0,497,3,1623.97,1,At-Risk/Lapsed
+14833.0,315,1,94.8,1,At-Risk/Lapsed
+14834.0,57,2,715.1,2,Typical Steady
+14835.0,345,2,293.7,1,At-Risk/Lapsed
+14837.0,18,6,2296.88,2,Typical Steady
+14838.0,240,2,769.9200000000001,1,At-Risk/Lapsed
+14839.0,235,3,915.28,1,At-Risk/Lapsed
+14840.0,84,2,340.21,2,Typical Steady
+14841.0,91,11,5649.09,2,Typical Steady
+14842.0,8,2,1381.23,2,Typical Steady
+14843.0,253,1,211.8,1,At-Risk/Lapsed
+14844.0,58,7,4379.67,2,Typical Steady
+14845.0,416,1,150.0,1,At-Risk/Lapsed
+14846.0,244,1,406.7999999999999,1,At-Risk/Lapsed
+14847.0,224,2,1011.2,1,At-Risk/Lapsed
+14848.0,221,1,310.56,1,At-Risk/Lapsed
+14849.0,30,27,9688.53,2,Typical Steady
+14850.0,128,6,1599.76,2,Typical Steady
+14851.0,73,2,524.19,2,Typical Steady
+14852.0,69,13,3762.59,2,Typical Steady
+14853.0,28,4,1104.62,2,Typical Steady
+14854.0,44,7,2743.61,2,Typical Steady
+14855.0,291,5,5874.65,1,At-Risk/Lapsed
+14857.0,259,5,2413.28,1,At-Risk/Lapsed
+14858.0,322,1,180.75,1,At-Risk/Lapsed
+14859.0,21,2,647.0600000000001,2,Typical Steady
+14861.0,197,9,1196.36,2,Typical Steady
+14865.0,189,3,77.52000000000001,1,At-Risk/Lapsed
+14866.0,183,7,6450.32,2,Typical Steady
+14867.0,2,16,2910.41,2,Typical Steady
+14868.0,50,5,1669.75,2,Typical Steady
+14869.0,205,4,2033.0,1,At-Risk/Lapsed
+14870.0,78,6,1794.6,2,Typical Steady
+14871.0,72,7,956.04,2,Typical Steady
+14872.0,300,3,802.6800000000001,1,At-Risk/Lapsed
+14873.0,27,2,854.13,2,Typical Steady
+14874.0,352,1,116.18,1,At-Risk/Lapsed
+14875.0,79,2,1751.43,2,Typical Steady
+14876.0,338,2,256.7,1,At-Risk/Lapsed
+14877.0,235,2,425.85,1,At-Risk/Lapsed
+14878.0,18,20,3309.95,2,Typical Steady
+14879.0,501,1,185.06,1,At-Risk/Lapsed
+14880.0,2,2,347.67,2,Typical Steady
+14882.0,207,12,2755.35,2,Typical Steady
+14883.0,28,1,310.56,2,Typical Steady
+14884.0,486,1,120.6,1,At-Risk/Lapsed
+14885.0,244,2,730.8,1,At-Risk/Lapsed
+14886.0,69,1,364.8,2,Typical Steady
+14888.0,24,1,369.2,2,Typical Steady
+14889.0,153,1,135.9,2,Typical Steady
+14890.0,70,3,817.25,2,Typical Steady
+14891.0,4,3,1001.73,2,Typical Steady
+14892.0,507,1,202.35,1,At-Risk/Lapsed
+14893.0,434,1,547.16,1,At-Risk/Lapsed
+14894.0,260,2,770.76,1,At-Risk/Lapsed
+14895.0,21,20,17278.66,2,Typical Steady
+14896.0,21,8,1740.8,2,Typical Steady
+14897.0,113,5,1909.86,2,Typical Steady
+14898.0,57,12,2586.77,2,Typical Steady
+14899.0,212,1,1331.38,1,At-Risk/Lapsed
+14900.0,339,1,13.919999999999998,1,At-Risk/Lapsed
+14901.0,177,6,988.46,2,Typical Steady
+14902.0,212,2,686.16,1,At-Risk/Lapsed
+14903.0,17,3,1747.68,2,Typical Steady
+14904.0,225,2,605.05,1,At-Risk/Lapsed
+14905.0,50,7,1648.34,2,Typical Steady
+14907.0,177,12,2969.81,2,Typical Steady
+14908.0,280,1,104.1,1,At-Risk/Lapsed
+14909.0,254,3,1380.98,1,At-Risk/Lapsed
+14911.0,1,235,166077.72,3,Elite Wholesalers
+14912.0,63,4,1444.72,2,Typical Steady
+14913.0,90,6,3461.53,2,Typical Steady
+14915.0,94,10,1636.1,2,Typical Steady
+14916.0,141,5,1918.42,2,Typical Steady
+14917.0,413,2,1123.75,1,At-Risk/Lapsed
+14918.0,221,7,4345.66,1,At-Risk/Lapsed
+14919.0,356,1,359.35,1,At-Risk/Lapsed
+14920.0,29,3,1607.17,2,Typical Steady
+14921.0,18,1,903.01,2,Typical Steady
+14922.0,210,2,843.74,1,At-Risk/Lapsed
+14924.0,62,3,931.01,2,Typical Steady
+14926.0,198,2,337.65,1,At-Risk/Lapsed
+14927.0,213,1,308.2,1,At-Risk/Lapsed
+14928.0,444,1,204.46,1,At-Risk/Lapsed
+14929.0,238,1,612.8100000000001,1,At-Risk/Lapsed
+14930.0,91,4,3867.91,2,Typical Steady
+14931.0,57,1,243.0,2,Typical Steady
+14932.0,182,2,566.13,1,At-Risk/Lapsed
+14933.0,260,3,885.0,1,At-Risk/Lapsed
+14934.0,99,2,1411.07,2,Typical Steady
+14935.0,114,2,2849.83,2,Typical Steady
+14936.0,92,5,5837.4,2,Typical Steady
+14938.0,379,2,2292.81,1,At-Risk/Lapsed
+14940.0,234,2,531.49,1,At-Risk/Lapsed
+14941.0,395,1,182.1,1,At-Risk/Lapsed
+14942.0,218,4,746.56,1,At-Risk/Lapsed
+14943.0,480,1,107.62,1,At-Risk/Lapsed
+14944.0,3,12,5524.4,2,Typical Steady
+14945.0,230,1,179.4,1,At-Risk/Lapsed
+14947.0,205,4,758.97,1,At-Risk/Lapsed
+14948.0,36,1,278.4,2,Typical Steady
+14949.0,286,4,498.55,1,At-Risk/Lapsed
+14952.0,23,28,12833.87,2,Typical Steady
+14953.0,235,3,674.75,1,At-Risk/Lapsed
+14954.0,520,1,167.27,1,At-Risk/Lapsed
+14955.0,549,1,163.77,1,At-Risk/Lapsed
+14956.0,238,1,1325.0,1,At-Risk/Lapsed
+14957.0,70,2,261.69,2,Typical Steady
+14958.0,2,5,834.59,2,Typical Steady
+14959.0,32,2,422.38,2,Typical Steady
+14961.0,49,18,12465.68,2,Typical Steady
+14962.0,87,4,366.91,2,Typical Steady
+14963.0,196,7,1651.23,1,At-Risk/Lapsed
+14964.0,64,1,206.21,2,Typical Steady
+14966.0,204,5,881.24,1,At-Risk/Lapsed
+14967.0,258,5,1518.81,1,At-Risk/Lapsed
+14968.0,275,1,349.9,1,At-Risk/Lapsed
+14969.0,520,1,906.23,1,At-Risk/Lapsed
+14970.0,69,9,3502.14,2,Typical Steady
+14972.0,198,1,30.300000000000004,1,At-Risk/Lapsed
+14973.0,42,1,654.6,2,Typical Steady
+14975.0,238,1,192.45,1,At-Risk/Lapsed
+14976.0,13,3,425.26,2,Typical Steady
+14977.0,542,1,31.929999999999996,1,At-Risk/Lapsed
+14978.0,52,9,2698.15,2,Typical Steady
+14979.0,552,1,429.66,1,At-Risk/Lapsed
+14980.0,554,1,150.68,1,At-Risk/Lapsed
+14981.0,63,2,313.52,2,Typical Steady
+14982.0,389,1,234.88,1,At-Risk/Lapsed
+14983.0,506,1,183.2,1,At-Risk/Lapsed
+14984.0,205,4,1058.14,1,At-Risk/Lapsed
+14985.0,15,2,292.01,2,Typical Steady
+14986.0,193,2,563.1,1,At-Risk/Lapsed
+14987.0,182,7,1305.85,2,Typical Steady
+14988.0,28,7,2038.65,2,Typical Steady
+14989.0,478,1,342.4,1,At-Risk/Lapsed
+14990.0,429,2,304.17,1,At-Risk/Lapsed
+14991.0,247,1,314.67,1,At-Risk/Lapsed
+14992.0,259,1,210.5,1,At-Risk/Lapsed
+14993.0,380,1,36.13,1,At-Risk/Lapsed
+14994.0,199,5,904.54,1,At-Risk/Lapsed
+14995.0,97,1,119.31,2,Typical Steady
+14996.0,298,2,442.29,1,At-Risk/Lapsed
+14997.0,472,1,230.4,1,At-Risk/Lapsed
+14998.0,58,3,521.95,2,Typical Steady
+14999.0,409,1,129.48000000000002,1,At-Risk/Lapsed
+15001.0,211,2,197.11,1,At-Risk/Lapsed
+15002.0,113,8,3643.91,2,Typical Steady
+15003.0,290,6,1024.53,1,At-Risk/Lapsed
+15005.0,4,41,10128.87,2,Typical Steady
+15006.0,270,1,277.4,1,At-Risk/Lapsed
+15008.0,297,2,360.0,1,At-Risk/Lapsed
+15011.0,212,2,416.6,1,At-Risk/Lapsed
+15012.0,190,2,429.78,1,At-Risk/Lapsed
+15013.0,304,10,1610.82,1,At-Risk/Lapsed
+15015.0,318,12,2281.82,1,At-Risk/Lapsed
+15016.0,210,4,442.85,1,At-Risk/Lapsed
+15018.0,69,2,251.39,2,Typical Steady
+15019.0,83,1,252.81,2,Typical Steady
+15020.0,196,1,198.47,1,At-Risk/Lapsed
+15021.0,35,6,1235.29,2,Typical Steady
+15022.0,494,1,281.05,1,At-Risk/Lapsed
+15023.0,35,13,7571.58,2,Typical Steady
+15024.0,113,9,2603.55,2,Typical Steady
+15025.0,385,1,609.88,1,At-Risk/Lapsed
+15026.0,57,4,810.67,2,Typical Steady
+15027.0,36,8,2562.01,2,Typical Steady
+15028.0,185,3,521.78,1,At-Risk/Lapsed
+15029.0,436,1,362.15,1,At-Risk/Lapsed
+15030.0,85,7,1601.64,2,Typical Steady
+15031.0,99,11,2368.98,2,Typical Steady
+15032.0,73,8,10515.05,2,Typical Steady
+15033.0,25,3,1124.67,2,Typical Steady
+15034.0,49,11,6570.22,2,Typical Steady
+15037.0,193,2,397.76,1,At-Risk/Lapsed
+15038.0,4,7,958.49,2,Typical Steady
+15039.0,1,73,33077.74,0,High-Value Regulars
+15040.0,358,1,7.49,1,At-Risk/Lapsed
+15041.0,261,1,109.05,1,At-Risk/Lapsed
+15042.0,16,2,315.45,2,Typical Steady
+15043.0,280,5,2318.3199999999997,1,At-Risk/Lapsed
+15044.0,24,26,12494.51,2,Typical Steady
+15045.0,74,1,286.9,2,Typical Steady
+15046.0,11,18,4717.38,2,Typical Steady
+15047.0,86,1,343.62,2,Typical Steady
+15048.0,37,2,254.25,2,Typical Steady
+15049.0,90,1,121.17000000000002,2,Typical Steady
+15050.0,238,2,2349.5,1,At-Risk/Lapsed
+15051.0,196,6,2528.55,1,At-Risk/Lapsed
+15052.0,136,1,207.73,2,Typical Steady
+15053.0,98,1,222.65,2,Typical Steady
+15055.0,291,3,549.12,1,At-Risk/Lapsed
+15056.0,337,1,113.65,1,At-Risk/Lapsed
+15057.0,92,5,3184.56,2,Typical Steady
+15058.0,60,10,1976.65,2,Typical Steady
+15059.0,32,14,2656.7,2,Typical Steady
+15061.0,1,108,101830.01,0,High-Value Regulars
+15062.0,34,7,2411.8,2,Typical Steady
+15063.0,30,1,370.7999999999999,2,Typical Steady
+15064.0,227,4,1154.41,1,At-Risk/Lapsed
+15065.0,44,3,1552.98,2,Typical Steady
+15067.0,99,3,2953.42,2,Typical Steady
+15068.0,73,3,861.5,2,Typical Steady
+15070.0,189,3,737.0500000000001,1,At-Risk/Lapsed
+15071.0,92,3,1062.16,2,Typical Steady
+15072.0,296,1,187.52,1,At-Risk/Lapsed
+15073.0,2,6,2175.59,2,Typical Steady
+15074.0,246,2,817.46,1,At-Risk/Lapsed
+15076.0,309,2,555.94,1,At-Risk/Lapsed
+15077.0,311,2,2421.38,1,At-Risk/Lapsed
+15078.0,7,34,11546.48,2,Typical Steady
+15079.0,29,11,3548.15,2,Typical Steady
+15080.0,244,2,546.25,1,At-Risk/Lapsed
+15081.0,25,9,1580.37,2,Typical Steady
+15082.0,485,1,93.35,1,At-Risk/Lapsed
+15083.0,73,1,88.2,2,Typical Steady
+15084.0,196,2,965.2,1,At-Risk/Lapsed
+15085.0,546,1,347.54,1,At-Risk/Lapsed
+15086.0,381,2,218.53,1,At-Risk/Lapsed
+15087.0,98,1,306.94,2,Typical Steady
+15090.0,125,1,381.32,2,Typical Steady
+15091.0,491,2,558.95,1,At-Risk/Lapsed
+15092.0,32,3,773.16,2,Typical Steady
+15093.0,23,20,11833.81,2,Typical Steady
+15094.0,280,2,83.0,1,At-Risk/Lapsed
+15095.0,20,7,2535.64,2,Typical Steady
+15097.0,400,2,338.97,1,At-Risk/Lapsed
+15100.0,150,7,1750.1,2,Typical Steady
+15101.0,176,5,1100.96,2,Typical Steady
+15102.0,347,2,554.67,1,At-Risk/Lapsed
+15104.0,13,2,968.64,2,Typical Steady
+15105.0,247,2,795.98,1,At-Risk/Lapsed
+15106.0,28,2,778.45,2,Typical Steady
+15107.0,128,9,752.6,2,Typical Steady
+15108.0,4,2,533.95,2,Typical Steady
+15109.0,62,3,961.9,2,Typical Steady
+15110.0,135,3,670.9,2,Typical Steady
+15111.0,189,3,1163.39,1,At-Risk/Lapsed
+15112.0,428,1,209.4,1,At-Risk/Lapsed
+15114.0,34,5,1357.47,2,Typical Steady
+15115.0,549,1,187.99,1,At-Risk/Lapsed
+15116.0,21,1,479.65,2,Typical Steady
+15117.0,32,4,1244.94,2,Typical Steady
+15119.0,62,1,266.4,2,Typical Steady
+15121.0,105,1,295.15,2,Typical Steady
+15122.0,21,10,3750.15,2,Typical Steady
+15123.0,23,4,3526.33,2,Typical Steady
+15124.0,8,3,357.38,2,Typical Steady
+15125.0,24,13,12266.76,2,Typical Steady
+15126.0,353,2,449.49,1,At-Risk/Lapsed
+15127.0,336,1,304.97,1,At-Risk/Lapsed
+15128.0,36,2,773.9300000000001,2,Typical Steady
+15129.0,27,16,4533.16,2,Typical Steady
+15131.0,211,1,80.28,1,At-Risk/Lapsed
+15132.0,16,2,489.87,2,Typical Steady
+15133.0,74,4,1482.38,2,Typical Steady
+15134.0,30,4,447.75,2,Typical Steady
+15135.0,56,2,293.78,2,Typical Steady
+15137.0,337,2,820.22,1,At-Risk/Lapsed
+15138.0,210,1,486.59,1,At-Risk/Lapsed
+15139.0,56,2,178.96,2,Typical Steady
+15140.0,15,4,2012.64,2,Typical Steady
+15141.0,274,7,1378.31,1,At-Risk/Lapsed
+15142.0,227,5,2110.23,1,At-Risk/Lapsed
+15143.0,42,2,563.63,2,Typical Steady
+15144.0,34,17,7121.09,2,Typical Steady
+15145.0,44,2,724.03,2,Typical Steady
+15146.0,108,1,820.72,2,Typical Steady
+15147.0,57,1,608.65,2,Typical Steady
+15149.0,394,3,1003.81,1,At-Risk/Lapsed
+15150.0,3,5,5004.68,2,Typical Steady
+15151.0,240,2,2085.61,1,At-Risk/Lapsed
+15152.0,4,2,1235.84,2,Typical Steady
+15154.0,295,2,1089.44,1,At-Risk/Lapsed
+15155.0,200,1,383.97,1,At-Risk/Lapsed
+15157.0,175,3,1773.26,1,At-Risk/Lapsed
+15158.0,218,1,36.26,1,At-Risk/Lapsed
+15159.0,1,18,9124.89,2,Typical Steady
+15160.0,174,4,589.27,2,Typical Steady
+15161.0,205,1,119.92,1,At-Risk/Lapsed
+15162.0,548,1,241.5,1,At-Risk/Lapsed
+15163.0,9,1,155.0,2,Typical Steady
+15164.0,25,8,1549.86,2,Typical Steady
+15165.0,190,1,487.75,1,At-Risk/Lapsed
+15166.0,284,1,167.16,1,At-Risk/Lapsed
+15167.0,137,5,1627.62,2,Typical Steady
+15169.0,199,2,569.22,1,At-Risk/Lapsed
+15170.0,223,1,81.15,1,At-Risk/Lapsed
+15171.0,148,1,1034.5,2,Typical Steady
+15172.0,13,2,526.2,2,Typical Steady
+15173.0,197,7,1399.26,1,At-Risk/Lapsed
+15174.0,139,2,481.46,2,Typical Steady
+15176.0,484,1,985.09,1,At-Risk/Lapsed
+15177.0,242,1,948.93,1,At-Risk/Lapsed
+15178.0,77,1,40.5,2,Typical Steady
+15179.0,50,11,6710.69,2,Typical Steady
+15180.0,184,3,816.9300000000001,1,At-Risk/Lapsed
+15181.0,86,3,806.47,2,Typical Steady
+15182.0,85,10,2711.23,2,Typical Steady
+15183.0,364,3,637.03,1,At-Risk/Lapsed
+15184.0,7,3,518.42,2,Typical Steady
+15186.0,291,3,991.79,1,At-Risk/Lapsed
+15187.0,29,1,431.6,2,Typical Steady
+15188.0,542,1,310.43,1,At-Risk/Lapsed
+15189.0,1,22,6432.75,2,Typical Steady
+15190.0,251,1,834.4399999999999,1,At-Risk/Lapsed
+15191.0,280,3,588.05,1,At-Risk/Lapsed
+15192.0,8,4,1360.06,2,Typical Steady
+15194.0,15,22,7929.33,2,Typical Steady
+15196.0,249,2,313.7,1,At-Risk/Lapsed
+15197.0,69,5,1135.25,2,Typical Steady
+15198.0,225,3,365.81,1,At-Risk/Lapsed
+15199.0,52,8,2510.85,2,Typical Steady
+15200.0,311,1,549.05,1,At-Risk/Lapsed
+15201.0,21,4,1089.31,2,Typical Steady
+15203.0,15,11,3265.28,2,Typical Steady
+15204.0,174,1,316.58,1,At-Risk/Lapsed
+15206.0,92,1,17.700000000000003,2,Typical Steady
+15207.0,233,3,657.27,1,At-Risk/Lapsed
+15208.0,170,2,165.8,1,At-Risk/Lapsed
+15209.0,547,1,178.98000000000002,1,At-Risk/Lapsed
+15210.0,42,3,1176.19,2,Typical Steady
+15211.0,182,1,383.07,1,At-Risk/Lapsed
+15212.0,58,2,195.43,2,Typical Steady
+15213.0,135,2,325.05,2,Typical Steady
+15214.0,59,1,514.9300000000001,2,Typical Steady
+15215.0,210,3,839.67,1,At-Risk/Lapsed
+15216.0,435,1,389.49,1,At-Risk/Lapsed
+15217.0,380,1,426.24,1,At-Risk/Lapsed
+15218.0,34,14,7407.38,2,Typical Steady
+15219.0,465,1,379.7,1,At-Risk/Lapsed
+15220.0,20,3,838.15,2,Typical Steady
+15221.0,183,4,1707.55,1,At-Risk/Lapsed
+15222.0,135,11,3425.73,2,Typical Steady
+15223.0,42,4,1117.1,2,Typical Steady
+15224.0,175,5,847.21,2,Typical Steady
+15225.0,51,1,409.4,2,Typical Steady
+15226.0,127,1,154.41,2,Typical Steady
+15227.0,32,7,2145.91,2,Typical Steady
+15228.0,111,3,3098.41,2,Typical Steady
+15229.0,403,1,160.5,1,At-Risk/Lapsed
+15230.0,56,2,429.6,2,Typical Steady
+15231.0,438,1,228.36,1,At-Risk/Lapsed
+15233.0,218,1,59.400000000000006,1,At-Risk/Lapsed
+15234.0,93,1,197.0,2,Typical Steady
+15235.0,34,16,2772.76,2,Typical Steady
+15236.0,115,1,321.05,2,Typical Steady
+15237.0,20,2,1093.65,2,Typical Steady
+15238.0,1,1,284.69,2,Typical Steady
+15240.0,8,10,3666.32,2,Typical Steady
+15241.0,9,6,2241.27,2,Typical Steady
+15242.0,239,1,302.04,1,At-Risk/Lapsed
+15243.0,252,1,610.6,1,At-Risk/Lapsed
+15244.0,65,2,516.5500000000001,2,Typical Steady
+15245.0,4,7,3832.72,2,Typical Steady
+15246.0,55,3,780.4,2,Typical Steady
+15247.0,294,2,611.11,1,At-Risk/Lapsed
+15248.0,228,3,1865.03,1,At-Risk/Lapsed
+15249.0,13,10,5322.71,2,Typical Steady
+15250.0,457,1,60.0,1,At-Risk/Lapsed
+15251.0,27,12,13839.38,2,Typical Steady
+15252.0,238,3,1312.28,1,At-Risk/Lapsed
+15253.0,220,3,1117.99,1,At-Risk/Lapsed
+15254.0,363,2,787.99,1,At-Risk/Lapsed
+15255.0,213,8,2756.52,1,At-Risk/Lapsed
+15256.0,378,1,71.95,1,At-Risk/Lapsed
+15257.0,100,2,520.9,2,Typical Steady
+15258.0,34,1,315.66,2,Typical Steady
+15259.0,329,4,1182.38,1,At-Risk/Lapsed
+15260.0,3,23,8179.69,2,Typical Steady
+15261.0,198,3,1253.18,1,At-Risk/Lapsed
+15262.0,140,3,418.82,2,Typical Steady
+15264.0,347,1,450.46,1,At-Risk/Lapsed
+15265.0,52,3,2551.76,2,Typical Steady
+15266.0,155,5,852.21,2,Typical Steady
+15268.0,295,3,941.25,1,At-Risk/Lapsed
+15269.0,197,2,816.56,1,At-Risk/Lapsed
+15270.0,55,18,6316.95,2,Typical Steady
+15271.0,21,14,2721.81,2,Typical Steady
+15272.0,267,4,1309.01,1,At-Risk/Lapsed
+15273.0,416,1,228.96,1,At-Risk/Lapsed
+15276.0,211,2,472.67,1,At-Risk/Lapsed
+15277.0,242,1,220.44,1,At-Risk/Lapsed
+15278.0,378,4,496.16,1,At-Risk/Lapsed
+15279.0,171,5,1554.84,2,Typical Steady
+15280.0,305,2,284.4,1,At-Risk/Lapsed
+15281.0,14,13,7917.98,2,Typical Steady
+15282.0,387,1,348.59,1,At-Risk/Lapsed
+15283.0,207,3,135.43,1,At-Risk/Lapsed
+15284.0,317,1,24.75,1,At-Risk/Lapsed
+15285.0,224,1,94.92,1,At-Risk/Lapsed
+15287.0,196,3,369.34,1,At-Risk/Lapsed
+15288.0,17,8,3024.01,2,Typical Steady
+15289.0,66,3,1011.06,2,Typical Steady
+15290.0,20,15,4537.73,2,Typical Steady
+15291.0,64,33,11159.51,2,Typical Steady
+15292.0,18,1,178.39,2,Typical Steady
+15293.0,482,1,247.5,1,At-Risk/Lapsed
+15294.0,227,1,222.3,1,At-Risk/Lapsed
+15295.0,471,1,207.04,1,At-Risk/Lapsed
+15296.0,29,8,8372.63,2,Typical Steady
+15298.0,4,16,5964.48,2,Typical Steady
+15299.0,80,7,4078.52,2,Typical Steady
+15301.0,4,11,4635.63,2,Typical Steady
+15302.0,547,1,291.05,1,At-Risk/Lapsed
+15303.0,107,3,1178.78,2,Typical Steady
+15304.0,35,6,478.65,2,Typical Steady
+15305.0,372,1,93.6,1,At-Risk/Lapsed
+15306.0,317,6,2306.63,1,At-Risk/Lapsed
+15308.0,91,1,302.27,2,Typical Steady
+15309.0,427,3,732.53,1,At-Risk/Lapsed
+15310.0,295,1,1634.64,1,At-Risk/Lapsed
+15311.0,2,159,85345.73,0,High-Value Regulars
+15312.0,32,10,2599.54,2,Typical Steady
+15314.0,16,2,800.65,2,Typical Steady
+15316.0,143,1,165.0,2,Typical Steady
+15317.0,494,1,129.75,1,At-Risk/Lapsed
+15319.0,100,1,204.5,2,Typical Steady
+15321.0,108,10,5084.24,2,Typical Steady
+15322.0,293,1,711.18,1,At-Risk/Lapsed
+15323.0,379,3,340.8,1,At-Risk/Lapsed
+15324.0,518,1,140.22000000000003,1,At-Risk/Lapsed
+15325.0,212,7,1434.52,1,At-Risk/Lapsed
+15326.0,150,5,1551.02,2,Typical Steady
+15328.0,224,1,107.24,1,At-Risk/Lapsed
+15329.0,191,7,1730.73,1,At-Risk/Lapsed
+15331.0,316,3,755.41,1,At-Risk/Lapsed
+15332.0,183,6,4892.68,2,Typical Steady
+15333.0,25,1,1028.56,2,Typical Steady
+15336.0,218,1,240.5,1,At-Risk/Lapsed
+15337.0,228,1,344.72,1,At-Risk/Lapsed
+15338.0,494,1,277.93,1,At-Risk/Lapsed
+15339.0,135,6,1311.1,2,Typical Steady
+15340.0,378,1,105.5,1,At-Risk/Lapsed
+15341.0,266,1,382.2,1,At-Risk/Lapsed
+15346.0,149,3,591.65,2,Typical Steady
+15347.0,183,3,1132.3,1,At-Risk/Lapsed
+15349.0,4,1,356.21,2,Typical Steady
+15350.0,190,2,547.6,1,At-Risk/Lapsed
+15351.0,186,4,1709.06,1,At-Risk/Lapsed
+15352.0,365,1,111.15,1,At-Risk/Lapsed
+15353.0,71,7,2794.4700000000003,2,Typical Steady
+15356.0,35,8,1683.2,2,Typical Steady
+15358.0,24,31,12254.92,2,Typical Steady
+15359.0,479,7,162.6,1,At-Risk/Lapsed
+15361.0,178,4,689.07,1,At-Risk/Lapsed
+15362.0,265,2,613.08,1,At-Risk/Lapsed
+15363.0,189,2,670.16,1,At-Risk/Lapsed
+15364.0,71,1,331.80000000000007,2,Typical Steady
+15365.0,132,7,2451.42,2,Typical Steady
+15366.0,175,6,1892.11,2,Typical Steady
+15367.0,62,9,4544.32,2,Typical Steady
+15368.0,211,1,275.8,1,At-Risk/Lapsed
+15369.0,309,10,3219.8599999999997,1,At-Risk/Lapsed
+15370.0,20,4,2480.9,2,Typical Steady
+15371.0,479,1,59.400000000000006,1,At-Risk/Lapsed
+15372.0,267,7,3947.02,1,At-Risk/Lapsed
+15373.0,27,10,1657.58,2,Typical Steady
+15374.0,441,1,139.32,1,At-Risk/Lapsed
+15375.0,507,1,60.959999999999994,1,At-Risk/Lapsed
+15376.0,39,1,642.37,2,Typical Steady
+15377.0,199,4,1179.95,1,At-Risk/Lapsed
+15378.0,279,2,246.5,1,At-Risk/Lapsed
+15379.0,3,7,4675.64,2,Typical Steady
+15380.0,182,7,1739.84,2,Typical Steady
+15381.0,30,5,1887.62,2,Typical Steady
+15382.0,1,10,9818.61,2,Typical Steady
+15384.0,176,3,1682.3,1,At-Risk/Lapsed
+15385.0,209,2,625.2,1,At-Risk/Lapsed
+15386.0,3,1,394.14,2,Typical Steady
+15387.0,309,1,468.65,1,At-Risk/Lapsed
+15388.0,87,1,140.54,2,Typical Steady
+15389.0,217,4,2233.8,1,At-Risk/Lapsed
+15390.0,213,2,1216.66,1,At-Risk/Lapsed
+15391.0,401,1,282.92,1,At-Risk/Lapsed
+15392.0,177,4,1695.27,2,Typical Steady
+15393.0,98,4,783.58,2,Typical Steady
+15394.0,21,9,4504.3,2,Typical Steady
+15395.0,142,1,107.45,2,Typical Steady
+15396.0,400,1,508.2000000000001,1,At-Risk/Lapsed
+15397.0,106,1,94.0,2,Typical Steady
+15400.0,1,5,995.4,2,Typical Steady
+15401.0,269,2,216.95,1,At-Risk/Lapsed
+15402.0,13,5,1630.86,2,Typical Steady
+15403.0,308,2,170.88,1,At-Risk/Lapsed
+15404.0,192,1,257.06,1,At-Risk/Lapsed
+15405.0,6,2,659.84,2,Typical Steady
+15406.0,118,3,717.45,2,Typical Steady
+15407.0,39,2,329.86,2,Typical Steady
+15408.0,81,1,267.18,2,Typical Steady
+15409.0,538,1,117.2,1,At-Risk/Lapsed
+15410.0,20,6,3035.77,2,Typical Steady
+15413.0,508,5,6798.72,1,At-Risk/Lapsed
+15414.0,59,1,36.2,2,Typical Steady
+15415.0,130,1,559.61,2,Typical Steady
+15416.0,56,5,2862.93,2,Typical Steady
+15418.0,242,2,449.42,1,At-Risk/Lapsed
+15420.0,251,6,743.0,1,At-Risk/Lapsed
+15421.0,32,9,3594.34,2,Typical Steady
+15422.0,140,7,1619.97,2,Typical Steady
+15423.0,398,2,175.64,1,At-Risk/Lapsed
+15424.0,71,3,597.78,2,Typical Steady
+15425.0,217,4,1941.12,1,At-Risk/Lapsed
+15426.0,74,6,1368.92,2,Typical Steady
+15428.0,204,3,668.97,1,At-Risk/Lapsed
+15430.0,284,2,903.75,1,At-Risk/Lapsed
+15431.0,319,1,153.24,1,At-Risk/Lapsed
+15432.0,358,1,130.07,1,At-Risk/Lapsed
+15433.0,30,2,420.07,2,Typical Steady
+15434.0,17,7,1782.59,2,Typical Steady
+15436.0,51,1,484.1,2,Typical Steady
+15437.0,79,2,393.45,2,Typical Steady
+15439.0,221,4,1269.05,1,At-Risk/Lapsed
+15440.0,25,1,125.8,2,Typical Steady
+15441.0,213,3,1254.21,1,At-Risk/Lapsed
+15442.0,65,1,594.0,2,Typical Steady
+15443.0,137,8,2303.31,2,Typical Steady
+15445.0,81,2,284.5,2,Typical Steady
+15446.0,193,3,396.75,1,At-Risk/Lapsed
+15447.0,147,5,484.93,2,Typical Steady
+15448.0,129,2,788.81,2,Typical Steady
+15449.0,2,2,644.4,2,Typical Steady
+15451.0,251,2,226.86,1,At-Risk/Lapsed
+15452.0,81,4,1493.63,2,Typical Steady
+15453.0,4,1,194.34,2,Typical Steady
+15454.0,179,2,303.89,1,At-Risk/Lapsed
+15455.0,414,1,38.25,1,At-Risk/Lapsed
+15456.0,100,10,2091.52,2,Typical Steady
+15457.0,79,1,237.07,2,Typical Steady
+15458.0,219,1,208.8,1,At-Risk/Lapsed
+15459.0,234,2,202.83,1,At-Risk/Lapsed
+15460.0,171,1,214.26,1,At-Risk/Lapsed
+15461.0,277,2,429.7,1,At-Risk/Lapsed
+15462.0,4,2,607.45,2,Typical Steady
+15464.0,155,1,1044.65,2,Typical Steady
+15465.0,50,26,9571.79,2,Typical Steady
+15466.0,206,3,1225.93,1,At-Risk/Lapsed
+15468.0,209,1,947.77,1,At-Risk/Lapsed
+15469.0,255,1,329.90000000000003,1,At-Risk/Lapsed
+15470.0,392,1,63.419999999999995,1,At-Risk/Lapsed
+15471.0,197,2,837.53,1,At-Risk/Lapsed
+15473.0,261,1,274.8,1,At-Risk/Lapsed
+15474.0,412,1,150.35,1,At-Risk/Lapsed
+15476.0,197,4,2180.28,1,At-Risk/Lapsed
+15477.0,466,1,368.4,1,At-Risk/Lapsed
+15478.0,392,1,541.06,1,At-Risk/Lapsed
+15479.0,550,1,147.4,1,At-Risk/Lapsed
+15480.0,286,2,2686.75,1,At-Risk/Lapsed
+15481.0,218,1,1993.34,1,At-Risk/Lapsed
+15482.0,67,10,4799.84,2,Typical Steady
+15483.0,83,7,696.37,2,Typical Steady
+15484.0,357,2,1061.69,1,At-Risk/Lapsed
+15485.0,153,6,3460.55,2,Typical Steady
+15486.0,344,1,102.0,1,At-Risk/Lapsed
+15487.0,496,1,231.32,1,At-Risk/Lapsed
+15488.0,273,4,340.6,1,At-Risk/Lapsed
+15489.0,28,6,1583.19,2,Typical Steady
+15490.0,247,1,181.35,1,At-Risk/Lapsed
+15491.0,35,3,1635.68,2,Typical Steady
+15493.0,66,6,3066.48,2,Typical Steady
+15494.0,295,3,2422.02,1,At-Risk/Lapsed
+15495.0,196,1,246.5,1,At-Risk/Lapsed
+15496.0,448,1,146.14,1,At-Risk/Lapsed
+15497.0,136,8,8351.86,2,Typical Steady
+15498.0,6,30,18600.91,2,Typical Steady
+15499.0,540,1,158.65,1,At-Risk/Lapsed
+15501.0,221,2,399.95,1,At-Risk/Lapsed
+15502.0,92,5,4903.65,2,Typical Steady
+15503.0,179,2,257.3,1,At-Risk/Lapsed
+15504.0,337,3,328.67,1,At-Risk/Lapsed
+15506.0,198,3,1058.25,1,At-Risk/Lapsed
+15508.0,6,6,1000.27,2,Typical Steady
+15509.0,197,1,152.41,1,At-Risk/Lapsed
+15510.0,147,1,250.0,2,Typical Steady
+15512.0,176,3,311.78,1,At-Risk/Lapsed
+15513.0,16,28,17415.85,2,Typical Steady
+15514.0,42,13,3789.33,2,Typical Steady
+15515.0,204,1,171.81,1,At-Risk/Lapsed
+15517.0,50,1,267.03,2,Typical Steady
+15518.0,32,11,3143.36,2,Typical Steady
+15519.0,200,2,344.61,1,At-Risk/Lapsed
+15521.0,29,12,5748.5199999999995,2,Typical Steady
+15523.0,205,15,16813.18,2,Typical Steady
+15524.0,423,1,151.4,1,At-Risk/Lapsed
+15525.0,190,2,430.78,1,At-Risk/Lapsed
+15527.0,36,17,3685.1,2,Typical Steady
+15528.0,71,1,229.33,2,Typical Steady
+15529.0,27,8,2749.07,2,Typical Steady
+15530.0,63,2,859.46,2,Typical Steady
+15532.0,175,7,2468.52,2,Typical Steady
+15534.0,542,1,162.25,1,At-Risk/Lapsed
+15535.0,53,5,855.61,2,Typical Steady
+15536.0,226,1,259.09,1,At-Risk/Lapsed
+15538.0,354,6,3358.3999999999996,1,At-Risk/Lapsed
+15540.0,192,1,247.38,1,At-Risk/Lapsed
+15542.0,329,3,833.16,1,At-Risk/Lapsed
+15543.0,105,2,242.26,2,Typical Steady
+15544.0,28,15,5996.54,2,Typical Steady
+15545.0,188,1,135.32999999999998,1,At-Risk/Lapsed
+15546.0,423,1,539.5500000000001,1,At-Risk/Lapsed
+15547.0,11,19,7464.23,2,Typical Steady
+15548.0,412,1,158.09,1,At-Risk/Lapsed
+15549.0,133,6,1545.5,2,Typical Steady
+15550.0,118,9,1556.87,2,Typical Steady
+15551.0,211,5,1189.75,1,At-Risk/Lapsed
+15552.0,34,2,252.52,2,Typical Steady
+15554.0,94,1,217.2,2,Typical Steady
+15555.0,7,26,7870.93,2,Typical Steady
+15558.0,456,1,131.88,1,At-Risk/Lapsed
+15559.0,385,1,1109.4,1,At-Risk/Lapsed
+15560.0,214,2,153.52,1,At-Risk/Lapsed
+15561.0,32,5,1399.55,2,Typical Steady
+15562.0,168,3,671.4300000000001,2,Typical Steady
+15563.0,17,5,2189.6,2,Typical Steady
+15564.0,280,2,70.74000000000001,1,At-Risk/Lapsed
+15566.0,209,2,227.87,1,At-Risk/Lapsed
+15569.0,149,6,2496.24,2,Typical Steady
+15570.0,23,21,7033.34,2,Typical Steady
+15571.0,203,10,3241.92,2,Typical Steady
+15572.0,65,6,2305.32,2,Typical Steady
+15573.0,435,3,597.23,1,At-Risk/Lapsed
+15574.0,175,5,947.34,2,Typical Steady
+15575.0,436,1,30.1,1,At-Risk/Lapsed
+15577.0,122,3,166.8,2,Typical Steady
+15579.0,130,4,1083.13,2,Typical Steady
+15580.0,193,8,1251.09,2,Typical Steady
+15581.0,43,30,4271.34,2,Typical Steady
+15582.0,37,1,303.61,2,Typical Steady
+15583.0,193,1,95.96,1,At-Risk/Lapsed
+15584.0,216,2,547.34,1,At-Risk/Lapsed
+15586.0,409,3,1128.66,1,At-Risk/Lapsed
+15587.0,168,4,953.28,2,Typical Steady
+15588.0,494,1,579.6,1,At-Risk/Lapsed
+15589.0,72,3,456.58,2,Typical Steady
+15590.0,199,5,1496.6,1,At-Risk/Lapsed
+15591.0,399,3,217.9,1,At-Risk/Lapsed
+15594.0,51,1,263.66,2,Typical Steady
+15595.0,304,1,357.6,1,At-Risk/Lapsed
+15596.0,31,8,2600.47,2,Typical Steady
+15597.0,392,1,238.8,1,At-Risk/Lapsed
+15598.0,244,1,307.34,1,At-Risk/Lapsed
+15599.0,21,2,937.15,2,Typical Steady
+15600.0,245,4,1179.96,1,At-Risk/Lapsed
+15601.0,20,25,12122.87,2,Typical Steady
+15602.0,17,11,2164.59,2,Typical Steady
+15603.0,465,1,26.25,1,At-Risk/Lapsed
+15605.0,69,7,1230.5,2,Typical Steady
+15606.0,39,14,3847.71,2,Typical Steady
+15607.0,153,9,1619.37,2,Typical Steady
+15608.0,232,1,692.3,1,At-Risk/Lapsed
+15609.0,1,1,270.03000000000003,2,Typical Steady
+15611.0,8,17,1708.58,2,Typical Steady
+15613.0,427,1,433.72,1,At-Risk/Lapsed
+15614.0,254,4,3021.61,1,At-Risk/Lapsed
+15615.0,29,34,15656.04,2,Typical Steady
+15616.0,255,1,317.11,1,At-Risk/Lapsed
+15617.0,213,3,828.5500000000001,1,At-Risk/Lapsed
+15620.0,37,3,1239.59,2,Typical Steady
+15622.0,14,13,6598.8,2,Typical Steady
+15623.0,210,7,2136.02,1,At-Risk/Lapsed
+15624.0,23,2,311.4,2,Typical Steady
+15625.0,52,6,2394.02,2,Typical Steady
+15626.0,146,2,655.45,2,Typical Steady
+15627.0,274,2,566.9,1,At-Risk/Lapsed
+15628.0,72,10,3109.55,2,Typical Steady
+15629.0,267,4,2240.9,1,At-Risk/Lapsed
+15630.0,21,2,685.96,2,Typical Steady
+15631.0,459,1,596.67,1,At-Risk/Lapsed
+15632.0,42,3,1226.6,2,Typical Steady
+15633.0,326,13,4155.51,1,At-Risk/Lapsed
+15634.0,200,1,311.1,1,At-Risk/Lapsed
+15635.0,212,1,100.35,1,At-Risk/Lapsed
+15636.0,99,3,1026.52,2,Typical Steady
+15637.0,230,4,574.23,1,At-Risk/Lapsed
+15638.0,195,6,2154.2,1,At-Risk/Lapsed
+15639.0,268,2,599.81,1,At-Risk/Lapsed
+15640.0,2,22,17645.57,2,Typical Steady
+15641.0,77,11,4763.7300000000005,2,Typical Steady
+15642.0,546,1,105.78000000000002,1,At-Risk/Lapsed
+15643.0,8,3,647.4,2,Typical Steady
+15644.0,73,3,423.19,2,Typical Steady
+15645.0,231,2,430.56,1,At-Risk/Lapsed
+15646.0,63,4,654.71,2,Typical Steady
+15647.0,232,1,169.0,1,At-Risk/Lapsed
+15648.0,21,2,584.75,2,Typical Steady
+15649.0,153,4,1660.35,2,Typical Steady
+15650.0,338,2,539.03,1,At-Risk/Lapsed
+15651.0,77,3,840.08,2,Typical Steady
+15652.0,204,4,1059.7,1,At-Risk/Lapsed
+15655.0,60,1,511.32,2,Typical Steady
+15656.0,37,2,306.86,2,Typical Steady
+15658.0,7,7,1964.14,2,Typical Steady
+15659.0,203,2,226.04,1,At-Risk/Lapsed
+15660.0,21,10,1697.25,2,Typical Steady
+15661.0,134,8,1215.95,2,Typical Steady
+15662.0,478,2,283.73,1,At-Risk/Lapsed
+15664.0,266,3,813.1,1,At-Risk/Lapsed
+15665.0,60,4,3221.28,2,Typical Steady
+15666.0,289,2,632.9399999999999,1,At-Risk/Lapsed
+15668.0,34,1,76.32000000000001,2,Typical Steady
+15669.0,80,1,198.8,2,Typical Steady
+15670.0,113,2,315.2,2,Typical Steady
+15671.0,59,3,1016.13,2,Typical Steady
+15672.0,542,1,45.3,1,At-Risk/Lapsed
+15673.0,31,7,5169.18,2,Typical Steady
+15674.0,32,10,5150.91,2,Typical Steady
+15675.0,97,2,263.35,2,Typical Steady
+15676.0,100,1,877.4,2,Typical Steady
+15677.0,238,2,648.4,1,At-Risk/Lapsed
+15678.0,212,2,1473.24,1,At-Risk/Lapsed
+15680.0,183,8,3156.2,2,Typical Steady
+15681.0,97,10,1879.52,2,Typical Steady
+15682.0,416,2,316.99,1,At-Risk/Lapsed
+15683.0,290,1,330.79,1,At-Risk/Lapsed
+15684.0,364,3,159.1,1,At-Risk/Lapsed
+15685.0,267,1,55.98,1,At-Risk/Lapsed
+15686.0,237,1,90.0,1,At-Risk/Lapsed
+15687.0,3,5,1667.85,2,Typical Steady
+15688.0,235,1,190.57,1,At-Risk/Lapsed
+15689.0,178,2,370.43,1,At-Risk/Lapsed
+15691.0,69,4,511.8,2,Typical Steady
+15693.0,476,1,37.5,1,At-Risk/Lapsed
+15694.0,4,17,6249.63,2,Typical Steady
+15695.0,83,4,1131.04,2,Typical Steady
+15696.0,37,11,2656.81,2,Typical Steady
+15697.0,506,1,246.75,1,At-Risk/Lapsed
+15698.0,441,1,46.2,1,At-Risk/Lapsed
+15702.0,293,1,112.57,1,At-Risk/Lapsed
+15703.0,81,1,211.5,2,Typical Steady
+15704.0,4,4,2877.56,2,Typical Steady
+15705.0,18,1,143.1,2,Typical Steady
+15708.0,39,7,2572.64,2,Typical Steady
+15709.0,100,2,327.85,2,Typical Steady
+15710.0,234,1,898.87,1,At-Risk/Lapsed
+15711.0,373,2,420.25,1,At-Risk/Lapsed
+15712.0,104,8,2694.9,2,Typical Steady
+15713.0,183,3,629.29,1,At-Risk/Lapsed
+15714.0,270,3,453.93,1,At-Risk/Lapsed
+15715.0,372,5,658.02,1,At-Risk/Lapsed
+15716.0,18,10,2266.37,2,Typical Steady
+15717.0,51,5,607.0,2,Typical Steady
+15718.0,357,1,293.79,1,At-Risk/Lapsed
+15719.0,16,25,7530.87,2,Typical Steady
+15720.0,367,1,140.49,1,At-Risk/Lapsed
+15722.0,4,8,3689.34,2,Typical Steady
+15723.0,181,4,930.7,1,At-Risk/Lapsed
+15724.0,18,3,299.8,2,Typical Steady
+15726.0,207,1,321.91,1,At-Risk/Lapsed
+15727.0,15,12,7443.62,2,Typical Steady
+15728.0,196,2,394.8,1,At-Risk/Lapsed
+15729.0,29,3,154.70000000000002,2,Typical Steady
+15730.0,23,3,1054.73,2,Typical Steady
+15731.0,370,1,125.3,1,At-Risk/Lapsed
+15732.0,29,10,1499.42,2,Typical Steady
+15733.0,99,1,162.3,2,Typical Steady
+15734.0,17,3,1502.5,2,Typical Steady
+15735.0,238,1,327.68,1,At-Risk/Lapsed
+15736.0,252,2,1706.92,1,At-Risk/Lapsed
+15737.0,6,2,657.13,2,Typical Steady
+15738.0,21,34,10816.04,2,Typical Steady
+15741.0,275,2,208.62,1,At-Risk/Lapsed
+15742.0,436,1,156.87,1,At-Risk/Lapsed
+15743.0,1,1,322.55,2,Typical Steady
+15745.0,53,1,302.85,2,Typical Steady
+15747.0,192,6,1551.22,1,At-Risk/Lapsed
+15748.0,266,2,465.4500000000001,1,At-Risk/Lapsed
+15749.0,52,2,24850.9,2,Typical Steady
+15750.0,100,13,4534.56,2,Typical Steady
+15751.0,277,10,1318.84,1,At-Risk/Lapsed
+15752.0,66,5,2340.99,2,Typical Steady
+15753.0,121,1,79.2,2,Typical Steady
+15754.0,63,7,2638.18,2,Typical Steady
+15755.0,52,13,4238.8,2,Typical Steady
+15756.0,30,2,244.17,2,Typical Steady
+15757.0,34,5,2487.3,2,Typical Steady
+15759.0,35,7,810.98,2,Typical Steady
+15761.0,259,1,143.05,1,At-Risk/Lapsed
+15764.0,1,5,2883.23,2,Typical Steady
+15765.0,483,1,370.63,1,At-Risk/Lapsed
+15766.0,273,2,484.6,1,At-Risk/Lapsed
+15768.0,20,33,15166.21,2,Typical Steady
+15769.0,14,33,60249.52,0,High-Value Regulars
+15770.0,429,1,321.45,1,At-Risk/Lapsed
+15771.0,421,3,1006.54,1,At-Risk/Lapsed
+15772.0,235,1,280.88,1,At-Risk/Lapsed
+15773.0,226,1,138.84,1,At-Risk/Lapsed
+15774.0,235,5,1016.29,1,At-Risk/Lapsed
+15775.0,62,2,150.5,2,Typical Steady
+15777.0,58,7,1732.86,2,Typical Steady
+15778.0,248,1,307.95,1,At-Risk/Lapsed
+15779.0,280,2,124.08,1,At-Risk/Lapsed
+15780.0,59,2,402.76,2,Typical Steady
+15781.0,122,1,83.35,2,Typical Steady
+15782.0,247,1,1399.36,1,At-Risk/Lapsed
+15784.0,284,2,848.3299999999999,1,At-Risk/Lapsed
+15785.0,14,13,4849.46,2,Typical Steady
+15786.0,234,2,3558.65,1,At-Risk/Lapsed
+15788.0,325,1,215.53,1,At-Risk/Lapsed
+15789.0,175,6,1932.01,2,Typical Steady
+15791.0,21,4,3156.29,2,Typical Steady
+15792.0,216,2,933.84,1,At-Risk/Lapsed
+15793.0,85,6,1740.6,2,Typical Steady
+15794.0,553,2,777.0,1,At-Risk/Lapsed
+15795.0,247,7,1369.86,1,At-Risk/Lapsed
+15796.0,4,13,3691.09,2,Typical Steady
+15797.0,31,4,2438.88,2,Typical Steady
+15798.0,309,3,1535.37,1,At-Risk/Lapsed
+15799.0,2,3,1018.44,2,Typical Steady
+15800.0,63,6,774.68,2,Typical Steady
+15803.0,262,3,1513.84,1,At-Risk/Lapsed
+15804.0,15,1,525.36,2,Typical Steady
+15805.0,2,20,7019.57,2,Typical Steady
+15806.0,93,1,300.36,2,Typical Steady
+15807.0,225,2,913.62,1,At-Risk/Lapsed
+15808.0,123,21,17052.55,2,Typical Steady
+15809.0,1,6,862.88,2,Typical Steady
+15810.0,49,6,2366.45,2,Typical Steady
+15811.0,22,5,2427.37,2,Typical Steady
+15812.0,6,10,4439.25,2,Typical Steady
+15813.0,24,2,1303.91,2,Typical Steady
+15814.0,210,2,689.11,1,At-Risk/Lapsed
+15815.0,29,3,1394.08,2,Typical Steady
+15816.0,359,2,93.3,1,At-Risk/Lapsed
+15817.0,237,3,2766.4,1,At-Risk/Lapsed
+15818.0,405,1,340.5,1,At-Risk/Lapsed
+15819.0,16,8,3187.13,2,Typical Steady
+15820.0,136,1,206.98,2,Typical Steady
+15822.0,176,5,1388.54,2,Typical Steady
+15823.0,546,2,3285.26,1,At-Risk/Lapsed
+15824.0,270,2,890.94,1,At-Risk/Lapsed
+15826.0,27,2,1653.77,2,Typical Steady
+15827.0,32,22,2357.99,2,Typical Steady
+15828.0,192,1,1108.82,1,At-Risk/Lapsed
+15831.0,141,1,309.94,2,Typical Steady
+15832.0,71,1,836.79,2,Typical Steady
+15833.0,554,1,80.4,1,At-Risk/Lapsed
+15834.0,94,5,2660.66,2,Typical Steady
+15835.0,77,2,488.31,2,Typical Steady
+15837.0,302,1,385.03,1,At-Risk/Lapsed
+15838.0,7,22,31777.08,2,Typical Steady
+15841.0,35,7,2110.7,2,Typical Steady
+15842.0,210,2,528.75,1,At-Risk/Lapsed
+15843.0,120,1,118.95000000000002,2,Typical Steady
+15845.0,27,6,2108.94,2,Typical Steady
+15846.0,202,1,107.01,1,At-Risk/Lapsed
+15847.0,105,4,613.98,2,Typical Steady
+15848.0,438,1,137.99,1,At-Risk/Lapsed
+15850.0,193,4,771.87,1,At-Risk/Lapsed
+15851.0,343,1,109.73,1,At-Risk/Lapsed
+15852.0,3,3,257.26,2,Typical Steady
+15854.0,21,15,4193.55,2,Typical Steady
+15855.0,23,4,682.99,2,Typical Steady
+15856.0,20,33,22718.86,2,Typical Steady
+15857.0,247,1,273.48,1,At-Risk/Lapsed
+15858.0,106,10,2915.56,2,Typical Steady
+15859.0,249,1,438.46,1,At-Risk/Lapsed
+15860.0,49,12,1813.9,2,Typical Steady
+15861.0,84,6,1922.72,2,Typical Steady
+15862.0,21,11,2165.27,2,Typical Steady
+15863.0,9,4,295.46,2,Typical Steady
+15864.0,133,2,472.96,2,Typical Steady
+15865.0,30,3,1660.22,2,Typical Steady
+15867.0,13,25,6779.97,2,Typical Steady
+15868.0,400,1,94.53,1,At-Risk/Lapsed
+15869.0,94,3,321.11,2,Typical Steady
+15870.0,213,3,506.02,1,At-Risk/Lapsed
+15871.0,254,1,33.099999999999994,1,At-Risk/Lapsed
+15872.0,195,2,413.0,1,At-Risk/Lapsed
+15873.0,316,4,138.24,1,At-Risk/Lapsed
+15874.0,34,19,8932.68,2,Typical Steady
+15875.0,463,1,108.52,1,At-Risk/Lapsed
+15876.0,226,2,1449.14,1,At-Risk/Lapsed
+15878.0,378,2,330.77,1,At-Risk/Lapsed
+15879.0,221,4,1137.8,1,At-Risk/Lapsed
+15880.0,186,1,299.03000000000003,1,At-Risk/Lapsed
+15881.0,129,4,438.24,2,Typical Steady
+15882.0,15,8,1096.31,2,Typical Steady
+15884.0,249,2,244.6,1,At-Risk/Lapsed
+15885.0,200,12,1358.22,2,Typical Steady
+15886.0,233,3,871.78,1,At-Risk/Lapsed
+15887.0,223,3,1027.15,1,At-Risk/Lapsed
+15888.0,217,2,260.85,1,At-Risk/Lapsed
+15889.0,186,7,1264.5,2,Typical Steady
+15890.0,211,5,535.65,1,At-Risk/Lapsed
+15891.0,43,1,509.13,2,Typical Steady
+15892.0,486,1,128.2,1,At-Risk/Lapsed
+15893.0,298,1,305.28000000000003,1,At-Risk/Lapsed
+15894.0,70,2,257.6,2,Typical Steady
+15897.0,11,2,208.59,2,Typical Steady
+15898.0,43,23,4567.66,2,Typical Steady
+15899.0,185,1,56.25,1,At-Risk/Lapsed
+15900.0,230,3,539.39,1,At-Risk/Lapsed
+15901.0,268,3,318.14,1,At-Risk/Lapsed
+15902.0,197,1,145.01,1,At-Risk/Lapsed
+15903.0,44,7,4454.3,2,Typical Steady
+15905.0,360,1,114.69,1,At-Risk/Lapsed
+15906.0,36,6,1557.91,2,Typical Steady
+15907.0,27,1,223.07,2,Typical Steady
+15908.0,307,2,758.62,1,At-Risk/Lapsed
+15910.0,24,11,1982.9,2,Typical Steady
+15911.0,440,8,1683.79,1,At-Risk/Lapsed
+15912.0,50,8,951.57,2,Typical Steady
+15913.0,351,1,6.300000000000001,1,At-Risk/Lapsed
+15914.0,195,2,205.99,1,At-Risk/Lapsed
+15915.0,218,1,364.24,1,At-Risk/Lapsed
+15916.0,8,10,2452.58,2,Typical Steady
+15917.0,64,5,530.17,2,Typical Steady
+15918.0,7,3,582.88,2,Typical Steady
+15919.0,185,1,214.08,1,At-Risk/Lapsed
+15920.0,241,5,401.64,1,At-Risk/Lapsed
+15921.0,213,3,442.58,1,At-Risk/Lapsed
+15922.0,190,1,363.6,1,At-Risk/Lapsed
+15923.0,189,1,127.08,1,At-Risk/Lapsed
+15924.0,548,1,102.82,1,At-Risk/Lapsed
+15925.0,11,1,207.15,2,Typical Steady
+15926.0,359,1,134.44,1,At-Risk/Lapsed
+15927.0,464,1,106.54,1,At-Risk/Lapsed
+15928.0,473,1,293.53,1,At-Risk/Lapsed
+15929.0,461,1,594.0,1,At-Risk/Lapsed
+15931.0,245,1,239.9,1,At-Risk/Lapsed
+15932.0,31,4,1260.48,2,Typical Steady
+15934.0,234,2,2190.66,1,At-Risk/Lapsed
+15935.0,56,1,108.04,2,Typical Steady
+15936.0,196,2,282.79,1,At-Risk/Lapsed
+15938.0,18,8,665.53,2,Typical Steady
+15939.0,13,9,7509.43,2,Typical Steady
+15940.0,128,1,35.8,2,Typical Steady
+15941.0,454,1,216.0,1,At-Risk/Lapsed
+15943.0,466,2,271.28999999999996,1,At-Risk/Lapsed
+15944.0,93,4,2164.24,2,Typical Steady
+15945.0,182,4,646.27,1,At-Risk/Lapsed
+15946.0,319,3,2304.18,1,At-Risk/Lapsed
+15948.0,241,1,553.85,1,At-Risk/Lapsed
+15950.0,176,7,5663.57,2,Typical Steady
+15951.0,102,2,680.12,2,Typical Steady
+15952.0,42,1,232.65,2,Typical Steady
+15953.0,28,13,2466.5,2,Typical Steady
+15954.0,406,1,187.8,1,At-Risk/Lapsed
+15955.0,20,11,5100.34,2,Typical Steady
+15956.0,368,2,617.6,1,At-Risk/Lapsed
+15957.0,237,2,492.36,1,At-Risk/Lapsed
+15958.0,220,3,357.77,1,At-Risk/Lapsed
+15959.0,499,3,542.89,1,At-Risk/Lapsed
+15960.0,191,4,394.0,1,At-Risk/Lapsed
+15961.0,196,1,451.29,1,At-Risk/Lapsed
+15962.0,266,1,289.48,1,At-Risk/Lapsed
+15964.0,480,1,269.21000000000004,1,At-Risk/Lapsed
+15965.0,184,10,2109.06,2,Typical Steady
+15966.0,267,1,399.58,1,At-Risk/Lapsed
+15967.0,135,11,2730.22,2,Typical Steady
+15968.0,205,1,401.8,1,At-Risk/Lapsed
+15969.0,2,3,769.65,2,Typical Steady
+15970.0,120,2,1017.32,2,Typical Steady
+15971.0,59,9,2520.78,2,Typical Steady
+15972.0,273,5,1769.33,1,At-Risk/Lapsed
+15973.0,183,2,457.56999999999994,1,At-Risk/Lapsed
+15974.0,1,4,2042.25,2,Typical Steady
+15976.0,37,5,1462.66,2,Typical Steady
+15978.0,249,2,2173.84,1,At-Risk/Lapsed
+15979.0,419,1,329.22,1,At-Risk/Lapsed
+15980.0,71,5,4857.6,2,Typical Steady
+15981.0,27,17,7497.79,2,Typical Steady
+15982.0,422,1,324.51,1,At-Risk/Lapsed
+15983.0,177,7,2783.62,2,Typical Steady
+15984.0,50,25,6320.22,2,Typical Steady
+15985.0,53,6,2367.44,2,Typical Steady
+15986.0,198,1,186.3,1,At-Risk/Lapsed
+15987.0,16,5,619.3,2,Typical Steady
+15988.0,368,2,579.61,1,At-Risk/Lapsed
+15989.0,192,2,368.31,1,At-Risk/Lapsed
+15990.0,104,6,1607.01,2,Typical Steady
+15991.0,351,1,150.55,1,At-Risk/Lapsed
+15992.0,213,2,854.61,1,At-Risk/Lapsed
+15994.0,228,2,758.07,1,At-Risk/Lapsed
+15995.0,231,1,694.54,1,At-Risk/Lapsed
+15996.0,80,4,980.99,2,Typical Steady
+15998.0,79,13,6881.39,2,Typical Steady
+15999.0,552,1,20.4,1,At-Risk/Lapsed
+16001.0,198,1,583.39,1,At-Risk/Lapsed
+16002.0,442,1,169.21,1,At-Risk/Lapsed
+16003.0,176,6,4059.46,2,Typical Steady
+16004.0,291,5,2146.39,1,At-Risk/Lapsed
+16005.0,87,7,1908.83,2,Typical Steady
+16006.0,28,2,332.82,2,Typical Steady
+16007.0,32,4,1723.22,2,Typical Steady
+16008.0,21,13,4999.5,2,Typical Steady
+16010.0,62,11,1692.91,2,Typical Steady
+16011.0,1,20,3465.01,2,Typical Steady
+16012.0,218,2,1563.3,1,At-Risk/Lapsed
+16013.0,1,57,29460.49,0,High-Value Regulars
+16014.0,108,3,707.08,2,Typical Steady
+16016.0,13,7,1395.51,2,Typical Steady
+16017.0,234,4,1333.7,1,At-Risk/Lapsed
+16018.0,213,2,289.23,1,At-Risk/Lapsed
+16019.0,49,24,15221.72,2,Typical Steady
+16021.0,212,2,487.03,1,At-Risk/Lapsed
+16022.0,77,1,602.63,2,Typical Steady
+16023.0,9,2,500.69,2,Typical Steady
+16024.0,228,2,232.96,1,At-Risk/Lapsed
+16027.0,35,10,1464.39,2,Typical Steady
+16028.0,412,1,82.2,1,At-Risk/Lapsed
+16029.0,3,72,64146.69,0,High-Value Regulars
+16030.0,126,1,331.24,2,Typical Steady
+16031.0,64,1,305.63,2,Typical Steady
+16032.0,273,6,1965.72,1,At-Risk/Lapsed
+16033.0,17,18,4963.62,2,Typical Steady
+16034.0,13,6,908.37,2,Typical Steady
+16035.0,377,1,217.73,1,At-Risk/Lapsed
+16036.0,80,3,1986.65,2,Typical Steady
+16037.0,86,5,1489.44,2,Typical Steady
+16038.0,18,1,299.5,2,Typical Steady
+16039.0,240,2,456.4,1,At-Risk/Lapsed
+16040.0,85,5,1492.58,2,Typical Steady
+16042.0,149,4,1047.58,2,Typical Steady
+16043.0,28,7,1759.09,2,Typical Steady
+16044.0,252,1,340.84000000000003,1,At-Risk/Lapsed
+16045.0,62,5,2707.58,2,Typical Steady
+16046.0,379,1,235.78,1,At-Risk/Lapsed
+16048.0,190,4,812.84,1,At-Risk/Lapsed
+16049.0,192,3,777.34,1,At-Risk/Lapsed
+16050.0,200,2,162.8,1,At-Risk/Lapsed
+16051.0,498,1,188.44,1,At-Risk/Lapsed
+16053.0,230,4,2094.19,1,At-Risk/Lapsed
+16054.0,235,3,1306.78,1,At-Risk/Lapsed
+16055.0,37,1,134.8,2,Typical Steady
+16057.0,28,6,2475.37,2,Typical Steady
+16058.0,223,1,62.7,1,At-Risk/Lapsed
+16059.0,71,9,2241.41,2,Typical Steady
+16060.0,217,3,541.95,1,At-Risk/Lapsed
+16061.0,248,1,44.95,1,At-Risk/Lapsed
+16062.0,58,6,2288.01,2,Typical Steady
+16063.0,77,1,335.32,2,Typical Steady
+16064.0,542,1,109.31,1,At-Risk/Lapsed
+16065.0,182,8,1975.13,2,Typical Steady
+16067.0,379,3,2897.41,1,At-Risk/Lapsed
+16068.0,410,1,115.73,1,At-Risk/Lapsed
+16069.0,234,1,457.7,1,At-Risk/Lapsed
+16071.0,344,3,750.5600000000001,1,At-Risk/Lapsed
+16072.0,105,4,4180.09,2,Typical Steady
+16073.0,114,1,94.35,2,Typical Steady
+16074.0,207,1,252.5,1,At-Risk/Lapsed
+16075.0,319,2,726.98,1,At-Risk/Lapsed
+16076.0,25,1,305.45000000000005,2,Typical Steady
+16077.0,442,1,730.8,1,At-Risk/Lapsed
+16078.0,100,2,362.99,2,Typical Steady
+16080.0,91,3,400.85,2,Typical Steady
+16081.0,2,6,2471.91,2,Typical Steady
+16082.0,487,1,106.75,1,At-Risk/Lapsed
+16083.0,177,3,1371.78,1,At-Risk/Lapsed
+16084.0,116,1,436.18,2,Typical Steady
+16085.0,53,9,1667.39,2,Typical Steady
+16086.0,17,8,2151.32,2,Typical Steady
+16087.0,206,5,1739.92,1,At-Risk/Lapsed
+16088.0,392,2,1437.43,1,At-Risk/Lapsed
+16089.0,203,2,263.49,1,At-Risk/Lapsed
+16090.0,441,1,180.56,1,At-Risk/Lapsed
+16091.0,15,1,157.25,2,Typical Steady
+16092.0,14,5,1351.06,2,Typical Steady
+16094.0,36,8,2785.93,2,Typical Steady
+16095.0,273,1,447.05,1,At-Risk/Lapsed
+16096.0,81,4,1584.97,2,Typical Steady
+16097.0,57,1,185.05,2,Typical Steady
+16098.0,2,11,3227.29,2,Typical Steady
+16099.0,42,5,1154.65,2,Typical Steady
+16100.0,279,1,582.64,1,At-Risk/Lapsed
+16101.0,251,3,1921.46,1,At-Risk/Lapsed
+16103.0,3,19,5378.38,2,Typical Steady
+16104.0,235,8,2300.75,1,At-Risk/Lapsed
+16105.0,65,5,2386.19,2,Typical Steady
+16108.0,251,3,1355.83,1,At-Risk/Lapsed
+16109.0,35,3,939.48,2,Typical Steady
+16110.0,79,3,1138.82,2,Typical Steady
+16111.0,245,1,549.33,1,At-Risk/Lapsed
+16112.0,150,2,136.14,2,Typical Steady
+16115.0,29,7,1399.22,2,Typical Steady
+16116.0,28,1,592.88,2,Typical Steady
+16117.0,6,3,650.05,2,Typical Steady
+16118.0,469,1,4257.08,1,At-Risk/Lapsed
+16119.0,211,6,1297.45,1,At-Risk/Lapsed
+16120.0,239,2,1658.37,1,At-Risk/Lapsed
+16121.0,32,4,861.42,2,Typical Steady
+16122.0,149,4,461.04,2,Typical Steady
+16124.0,134,4,1709.39,2,Typical Steady
+16125.0,184,14,4292.35,2,Typical Steady
+16126.0,1,13,10200.83,2,Typical Steady
+16127.0,543,1,145.06,1,At-Risk/Lapsed
+16128.0,99,7,2300.43,2,Typical Steady
+16129.0,224,3,1396.05,1,At-Risk/Lapsed
+16130.0,239,4,987.48,1,At-Risk/Lapsed
+16131.0,24,8,8034.75,2,Typical Steady
+16132.0,361,2,664.1999999999999,1,At-Risk/Lapsed
+16133.0,2,35,14555.34,2,Typical Steady
+16134.0,176,4,1785.43,2,Typical Steady
+16135.0,79,2,819.45,2,Typical Steady
+16136.0,94,2,371.0,2,Typical Steady
+16137.0,497,1,422.7,1,At-Risk/Lapsed
+16138.0,195,3,902.4,1,At-Risk/Lapsed
+16139.0,23,3,615.54,2,Typical Steady
+16140.0,188,2,832.4200000000001,1,At-Risk/Lapsed
+16141.0,234,1,335.54,1,At-Risk/Lapsed
+16142.0,66,1,535.34,2,Typical Steady
+16143.0,29,10,3671.31,2,Typical Steady
+16144.0,63,1,175.2,2,Typical Steady
+16145.0,43,12,4257.99,2,Typical Steady
+16146.0,20,3,871.38,2,Typical Steady
+16147.0,217,4,1992.02,1,At-Risk/Lapsed
+16148.0,113,2,386.62,2,Typical Steady
+16149.0,246,1,141.70000000000002,1,At-Risk/Lapsed
+16150.0,87,7,2743.98,2,Typical Steady
+16152.0,85,1,1829.04,2,Typical Steady
+16153.0,2,9,3922.96,2,Typical Steady
+16155.0,198,5,781.05,1,At-Risk/Lapsed
+16156.0,23,14,3933.39,2,Typical Steady
+16158.0,339,9,611.32,1,At-Risk/Lapsed
+16159.0,98,4,1232.79,2,Typical Steady
+16161.0,15,34,9038.35,2,Typical Steady
+16162.0,69,1,37.4,2,Typical Steady
+16163.0,182,5,1858.93,2,Typical Steady
+16165.0,322,1,79.9,1,At-Risk/Lapsed
+16166.0,245,2,408.83,1,At-Risk/Lapsed
+16167.0,231,5,1217.37,1,At-Risk/Lapsed
+16168.0,3,49,7959.63,0,High-Value Regulars
+16170.0,51,16,5558.83,2,Typical Steady
+16172.0,58,4,943.72,2,Typical Steady
+16174.0,308,4,1237.2,1,At-Risk/Lapsed
+16175.0,21,5,1265.83,2,Typical Steady
+16176.0,238,4,1971.14,1,At-Risk/Lapsed
+16177.0,253,7,1809.66,1,At-Risk/Lapsed
+16178.0,218,1,414.7,1,At-Risk/Lapsed
+16180.0,27,9,8700.32,2,Typical Steady
+16182.0,20,7,5871.0,2,Typical Steady
+16183.0,211,3,739.1,1,At-Risk/Lapsed
+16184.0,28,1,148.22,2,Typical Steady
+16185.0,49,2,450.31,2,Typical Steady
+16186.0,6,19,6016.64,2,Typical Steady
+16187.0,20,7,2564.64,2,Typical Steady
+16188.0,43,3,661.62,2,Typical Steady
+16190.0,211,7,2508.4700000000003,1,At-Risk/Lapsed
+16191.0,79,16,12786.28,2,Typical Steady
+16192.0,552,1,351.3,1,At-Risk/Lapsed
+16193.0,53,2,630.43,2,Typical Steady
+16194.0,192,1,308.59999999999997,1,At-Risk/Lapsed
+16195.0,540,1,323.25,1,At-Risk/Lapsed
+16196.0,305,1,93.3,1,At-Risk/Lapsed
+16197.0,286,9,2016.71,1,At-Risk/Lapsed
+16198.0,254,1,629.36,1,At-Risk/Lapsed
+16199.0,209,7,942.75,1,At-Risk/Lapsed
+16200.0,199,10,4539.23,2,Typical Steady
+16201.0,232,1,248.65,1,At-Risk/Lapsed
+16202.0,177,9,2467.04,2,Typical Steady
+16203.0,44,4,665.49,2,Typical Steady
+16204.0,197,2,529.53,1,At-Risk/Lapsed
+16205.0,213,3,1062.48,1,At-Risk/Lapsed
+16206.0,25,11,2328.81,2,Typical Steady
+16208.0,106,9,3273.78,2,Typical Steady
+16209.0,3,6,2452.2200000000003,2,Typical Steady
+16210.0,30,24,23096.03,2,Typical Steady
+16211.0,238,2,543.5699999999999,1,At-Risk/Lapsed
+16212.0,100,3,1092.37,2,Typical Steady
+16214.0,69,3,1725.17,2,Typical Steady
+16216.0,84,1,914.93,2,Typical Steady
+16217.0,52,2,266.45000000000005,2,Typical Steady
+16218.0,23,10,2516.38,2,Typical Steady
+16219.0,317,1,40.8,1,At-Risk/Lapsed
+16221.0,92,8,1466.48,2,Typical Steady
+16222.0,135,2,1272.05,2,Typical Steady
+16223.0,191,2,1087.05,1,At-Risk/Lapsed
+16224.0,57,3,864.45,2,Typical Steady
+16225.0,94,12,2134.1,2,Typical Steady
+16226.0,20,5,672.1700000000001,2,Typical Steady
+16227.0,42,3,948.82,2,Typical Steady
+16228.0,202,3,880.26,1,At-Risk/Lapsed
+16229.0,29,5,2215.46,2,Typical Steady
+16230.0,6,2,542.03,2,Typical Steady
+16231.0,196,4,1074.47,1,At-Risk/Lapsed
+16232.0,32,5,2075.26,2,Typical Steady
+16233.0,146,8,1468.08,2,Typical Steady
+16234.0,293,3,312.78,1,At-Risk/Lapsed
+16235.0,3,7,1788.59,2,Typical Steady
+16237.0,254,1,136.65,1,At-Risk/Lapsed
+16238.0,239,1,63.66,1,At-Risk/Lapsed
+16239.0,6,5,1384.6,2,Typical Steady
+16241.0,29,7,2228.06,2,Typical Steady
+16242.0,31,9,4183.54,2,Typical Steady
+16244.0,28,2,1522.75,2,Typical Steady
+16245.0,73,1,445.13,2,Typical Steady
+16246.0,276,2,821.35,1,At-Risk/Lapsed
+16249.0,18,2,1020.53,2,Typical Steady
+16250.0,78,3,565.24,2,Typical Steady
+16251.0,329,1,128.31,1,At-Risk/Lapsed
+16253.0,72,6,5238.74,2,Typical Steady
+16254.0,195,3,967.44,1,At-Risk/Lapsed
+16255.0,63,11,2923.46,2,Typical Steady
+16256.0,83,3,1559.57,2,Typical Steady
+16258.0,36,11,7771.47,2,Typical Steady
+16259.0,227,3,340.94,1,At-Risk/Lapsed
+16261.0,63,3,565.14,2,Typical Steady
+16262.0,195,1,723.5,1,At-Risk/Lapsed
+16263.0,240,1,348.16,1,At-Risk/Lapsed
+16264.0,255,2,823.53,1,At-Risk/Lapsed
+16265.0,77,8,4121.76,2,Typical Steady
+16266.0,17,10,1267.9,2,Typical Steady
+16267.0,408,1,186.66,1,At-Risk/Lapsed
+16269.0,254,1,714.59,1,At-Risk/Lapsed
+16270.0,170,1,1141.24,1,At-Risk/Lapsed
+16271.0,175,5,2105.45,2,Typical Steady
+16273.0,465,2,318.34000000000003,1,At-Risk/Lapsed
+16274.0,190,1,331.55,1,At-Risk/Lapsed
+16275.0,13,3,2151.11,2,Typical Steady
+16276.0,296,2,1818.79,1,At-Risk/Lapsed
+16277.0,550,1,188.69,1,At-Risk/Lapsed
+16278.0,297,2,518.76,1,At-Risk/Lapsed
+16279.0,202,6,4182.6,1,At-Risk/Lapsed
+16280.0,542,1,238.05,1,At-Risk/Lapsed
+16281.0,240,2,1354.46,1,At-Risk/Lapsed
+16282.0,156,3,1307.58,2,Typical Steady
+16283.0,25,4,3036.57,2,Typical Steady
+16284.0,210,1,205.8,1,At-Risk/Lapsed
+16285.0,463,1,176.9,1,At-Risk/Lapsed
+16286.0,294,2,263.65,1,At-Risk/Lapsed
+16287.0,193,4,864.48,1,At-Risk/Lapsed
+16288.0,287,1,129.85,1,At-Risk/Lapsed
+16289.0,279,1,98.81,1,At-Risk/Lapsed
+16290.0,281,4,1957.7,1,At-Risk/Lapsed
+16292.0,197,4,890.56,1,At-Risk/Lapsed
+16293.0,24,9,3145.0,2,Typical Steady
+16294.0,293,1,126.05,1,At-Risk/Lapsed
+16296.0,443,4,1278.87,1,At-Risk/Lapsed
+16297.0,85,1,278.55,2,Typical Steady
+16298.0,3,5,596.1,2,Typical Steady
+16299.0,294,1,178.65,1,At-Risk/Lapsed
+16300.0,247,3,1367.32,1,At-Risk/Lapsed
+16301.0,553,1,107.33,1,At-Risk/Lapsed
+16303.0,150,5,3345.07,2,Typical Steady
+16304.0,511,1,381.66,1,At-Risk/Lapsed
+16306.0,30,6,1094.72,2,Typical Steady
+16307.0,246,3,1194.92,1,At-Risk/Lapsed
+16308.0,34,5,3520.0,2,Typical Steady
+16309.0,57,1,334.2,2,Typical Steady
+16310.0,231,2,460.08,1,At-Risk/Lapsed
+16312.0,249,1,171.15,1,At-Risk/Lapsed
+16314.0,206,3,1491.4,1,At-Risk/Lapsed
+16315.0,147,2,402.71,2,Typical Steady
+16316.0,23,10,4423.51,2,Typical Steady
+16317.0,114,3,1408.87,2,Typical Steady
+16319.0,34,1,404.4,2,Typical Steady
+16320.0,30,5,5433.01,2,Typical Steady
+16321.0,122,4,386.6,2,Typical Steady
+16323.0,13,2,353.66,2,Typical Steady
+16325.0,62,10,3098.08,2,Typical Steady
+16326.0,31,13,2113.31,2,Typical Steady
+16327.0,16,14,8754.04,2,Typical Steady
+16328.0,380,1,310.83,1,At-Risk/Lapsed
+16329.0,244,4,1664.92,1,At-Risk/Lapsed
+16330.0,241,4,373.47,1,At-Risk/Lapsed
+16331.0,249,6,2037.7,1,At-Risk/Lapsed
+16332.0,122,5,526.55,2,Typical Steady
+16333.0,9,16,13087.2,2,Typical Steady
+16334.0,309,1,263.73,1,At-Risk/Lapsed
+16335.0,368,7,2726.52,1,At-Risk/Lapsed
+16336.0,237,4,3517.69,1,At-Risk/Lapsed
+16339.0,101,1,94.05,2,Typical Steady
+16340.0,256,2,961.93,1,At-Risk/Lapsed
+16341.0,18,4,2665.12,2,Typical Steady
+16343.0,224,1,285.54,1,At-Risk/Lapsed
+16344.0,326,3,741.3199999999999,1,At-Risk/Lapsed
+16345.0,300,1,613.33,1,At-Risk/Lapsed
+16346.0,202,1,224.51,1,At-Risk/Lapsed
+16347.0,205,9,2592.96,1,At-Risk/Lapsed
+16348.0,8,4,885.5,2,Typical Steady
+16349.0,107,1,53.5,2,Typical Steady
+16350.0,150,6,1482.72,2,Typical Steady
+16351.0,149,13,3279.13,2,Typical Steady
+16353.0,34,26,5266.53,2,Typical Steady
+16354.0,196,3,723.66,1,At-Risk/Lapsed
+16355.0,192,1,349.2,1,At-Risk/Lapsed
+16356.0,14,6,414.42,2,Typical Steady
+16357.0,30,2,347.39,2,Typical Steady
+16358.0,1,2,1351.75,2,Typical Steady
+16359.0,31,12,1644.74,2,Typical Steady
+16362.0,254,1,189.67,1,At-Risk/Lapsed
+16365.0,70,9,2096.2799999999997,2,Typical Steady
+16366.0,399,3,1220.83,1,At-Risk/Lapsed
+16367.0,179,2,716.9,1,At-Risk/Lapsed
+16368.0,252,1,141.53,1,At-Risk/Lapsed
+16369.0,13,5,1465.6,2,Typical Steady
+16370.0,42,1,272.17,2,Typical Steady
+16371.0,265,1,157.2,1,At-Risk/Lapsed
+16372.0,226,3,904.58,1,At-Risk/Lapsed
+16373.0,199,2,309.49,1,At-Risk/Lapsed
+16374.0,79,4,1404.97,2,Typical Steady
+16375.0,287,2,104.0,1,At-Risk/Lapsed
+16377.0,84,2,1308.48,2,Typical Steady
+16378.0,64,3,362.95,2,Typical Steady
+16381.0,212,2,247.85,1,At-Risk/Lapsed
+16382.0,225,2,353.1,1,At-Risk/Lapsed
+16383.0,85,6,2494.64,2,Typical Steady
+16384.0,80,3,1183.55,2,Typical Steady
+16385.0,183,3,473.69,1,At-Risk/Lapsed
+16386.0,70,2,826.69,2,Typical Steady
+16387.0,139,5,882.46,2,Typical Steady
+16388.0,470,1,186.05,1,At-Risk/Lapsed
+16389.0,22,2,670.17,2,Typical Steady
+16390.0,353,3,467.5,1,At-Risk/Lapsed
+16391.0,217,4,1048.86,1,At-Risk/Lapsed
+16392.0,86,3,755.45,2,Typical Steady
+16393.0,2,16,3188.22,2,Typical Steady
+16394.0,65,2,557.08,2,Typical Steady
+16395.0,140,11,2459.16,2,Typical Steady
+16396.0,293,1,110.5,1,At-Risk/Lapsed
+16397.0,445,1,123.13,1,At-Risk/Lapsed
+16398.0,70,1,1150.05,2,Typical Steady
+16399.0,52,2,398.81,2,Typical Steady
+16400.0,212,8,2755.92,1,At-Risk/Lapsed
+16401.0,27,15,4225.24,2,Typical Steady
+16402.0,81,2,293.45,2,Typical Steady
+16403.0,129,1,161.05,2,Typical Steady
+16405.0,119,2,167.25,2,Typical Steady
+16406.0,267,2,374.01,1,At-Risk/Lapsed
+16407.0,11,9,1471.76,2,Typical Steady
+16408.0,408,1,231.93,1,At-Risk/Lapsed
+16409.0,59,9,4433.32,2,Typical Steady
+16410.0,551,1,130.32,1,At-Risk/Lapsed
+16411.0,186,3,673.24,1,At-Risk/Lapsed
+16412.0,210,4,457.2,1,At-Risk/Lapsed
+16413.0,192,1,259.83,1,At-Risk/Lapsed
+16414.0,97,4,475.76,2,Typical Steady
+16415.0,400,2,496.49,1,At-Risk/Lapsed
+16416.0,207,6,1906.48,1,At-Risk/Lapsed
+16417.0,309,1,35.7,1,At-Risk/Lapsed
+16418.0,43,3,543.53,2,Typical Steady
+16419.0,92,4,1009.17,2,Typical Steady
+16420.0,213,1,75.0,1,At-Risk/Lapsed
+16421.0,193,3,526.27,1,At-Risk/Lapsed
+16422.0,2,82,44700.02,0,High-Value Regulars
+16424.0,8,2,392.06,2,Typical Steady
+16425.0,119,1,302.7,2,Typical Steady
+16426.0,93,1,328.37,2,Typical Steady
+16427.0,80,2,241.06,2,Typical Steady
+16428.0,230,3,638.49,1,At-Risk/Lapsed
+16430.0,198,5,802.09,1,At-Risk/Lapsed
+16431.0,30,3,623.28,2,Typical Steady
+16433.0,225,1,200.26,1,At-Risk/Lapsed
+16434.0,9,8,1863.91,2,Typical Steady
+16435.0,329,3,1003.07,1,At-Risk/Lapsed
+16436.0,485,3,319.14,1,At-Risk/Lapsed
+16437.0,198,2,301.25,1,At-Risk/Lapsed
+16439.0,539,1,310.70000000000005,1,At-Risk/Lapsed
+16440.0,31,2,488.76,2,Typical Steady
+16441.0,108,4,842.98,2,Typical Steady
+16442.0,44,4,715.11,2,Typical Steady
+16443.0,337,1,162.24,1,At-Risk/Lapsed
+16444.0,11,15,3144.04,2,Typical Steady
+16445.0,203,3,352.65,1,At-Risk/Lapsed
+16446.0,22,1,2.9,2,Typical Steady
+16447.0,407,2,471.19,1,At-Risk/Lapsed
+16448.0,15,2,361.12,2,Typical Steady
+16449.0,14,2,674.69,2,Typical Steady
+16450.0,401,2,1193.81,1,At-Risk/Lapsed
+16451.0,378,2,742.4300000000001,1,At-Risk/Lapsed
+16452.0,447,2,332.17,1,At-Risk/Lapsed
+16453.0,347,2,251.71,1,At-Risk/Lapsed
+16454.0,428,1,1.55,1,At-Risk/Lapsed
+16455.0,21,9,3210.52,2,Typical Steady
+16456.0,44,11,5419.18,2,Typical Steady
+16457.0,35,1,208.36,2,Typical Steady
+16458.0,4,19,3513.85,2,Typical Steady
+16459.0,546,1,71.78999999999999,1,At-Risk/Lapsed
+16461.0,407,2,1396.91,1,At-Risk/Lapsed
+16462.0,2,2,68.0,2,Typical Steady
+16463.0,21,1,314.42,2,Typical Steady
+16465.0,237,2,729.24,1,At-Risk/Lapsed
+16466.0,25,10,2367.65,2,Typical Steady
+16467.0,325,7,2862.4,1,At-Risk/Lapsed
+16468.0,287,2,712.62,1,At-Risk/Lapsed
+16469.0,63,3,446.78,2,Typical Steady
+16470.0,9,9,2004.79,2,Typical Steady
+16471.0,91,4,1186.18,2,Typical Steady
+16472.0,251,2,789.6,1,At-Risk/Lapsed
+16473.0,104,3,371.28,2,Typical Steady
+16475.0,90,1,310.0,2,Typical Steady
+16476.0,248,1,337.0,1,At-Risk/Lapsed
+16477.0,31,9,3152.42,2,Typical Steady
+16481.0,499,1,430.93,1,At-Risk/Lapsed
+16483.0,9,1,139.35,2,Typical Steady
+16484.0,7,1,260.8,2,Typical Steady
+16485.0,249,4,1805.04,1,At-Risk/Lapsed
+16486.0,354,1,134.36,1,At-Risk/Lapsed
+16487.0,394,2,209.4,1,At-Risk/Lapsed
+16489.0,197,2,303.7,1,At-Risk/Lapsed
+16490.0,253,1,179.16000000000005,1,At-Risk/Lapsed
+16491.0,230,1,792.81,1,At-Risk/Lapsed
+16492.0,357,1,385.56,1,At-Risk/Lapsed
+16493.0,102,5,1148.26,2,Typical Steady
+16494.0,113,1,826.53,2,Typical Steady
+16495.0,93,2,246.51,2,Typical Steady
+16496.0,24,5,1878.99,2,Typical Steady
+16497.0,20,22,5280.29,2,Typical Steady
+16499.0,177,8,2509.64,2,Typical Steady
+16500.0,147,4,600.1,2,Typical Steady
+16501.0,200,1,1191.23,1,At-Risk/Lapsed
+16502.0,437,2,258.55,1,At-Risk/Lapsed
+16503.0,31,10,3259.35,2,Typical Steady
+16507.0,389,1,142.71,1,At-Risk/Lapsed
+16508.0,447,1,240.95,1,At-Risk/Lapsed
+16509.0,113,1,363.7,2,Typical Steady
+16510.0,189,6,1757.25,1,At-Risk/Lapsed
+16511.0,83,4,1170.51,2,Typical Steady
+16515.0,63,7,2174.26,2,Typical Steady
+16517.0,94,1,162.7,2,Typical Steady
+16518.0,101,3,644.65,2,Typical Steady
+16519.0,182,3,327.68,1,At-Risk/Lapsed
+16520.0,3,6,2138.43,2,Typical Steady
+16521.0,232,3,1136.36,1,At-Risk/Lapsed
+16522.0,252,2,433.36,1,At-Risk/Lapsed
+16523.0,16,15,5272.22,2,Typical Steady
+16524.0,263,2,306.19,1,At-Risk/Lapsed
+16525.0,1,37,18534.91,0,High-Value Regulars
+16526.0,401,1,426.85,1,At-Risk/Lapsed
+16527.0,241,1,1004.88,1,At-Risk/Lapsed
+16529.0,7,4,1986.8,2,Typical Steady
+16530.0,485,1,48.349999999999994,1,At-Risk/Lapsed
+16531.0,111,7,1503.82,2,Typical Steady
+16532.0,155,3,3918.24,2,Typical Steady
+16534.0,459,1,635.9,1,At-Risk/Lapsed
+16535.0,202,1,358.28999999999996,1,At-Risk/Lapsed
+16537.0,458,1,10.55,1,At-Risk/Lapsed
+16538.0,358,3,395.07,1,At-Risk/Lapsed
+16539.0,36,9,2954.46,2,Typical Steady
+16540.0,231,1,205.75,1,At-Risk/Lapsed
+16541.0,552,1,424.03,1,At-Risk/Lapsed
+16542.0,218,1,137.7,1,At-Risk/Lapsed
+16543.0,408,1,277.80999999999995,1,At-Risk/Lapsed
+16544.0,336,1,110.3,1,At-Risk/Lapsed
+16545.0,192,1,350.52,1,At-Risk/Lapsed
+16546.0,107,5,4747.74,2,Typical Steady
+16547.0,363,1,104.26,1,At-Risk/Lapsed
+16548.0,416,1,30.15,1,At-Risk/Lapsed
+16549.0,151,25,8854.04,2,Typical Steady
+16550.0,2,16,7695.07,2,Typical Steady
+16551.0,153,5,1626.07,2,Typical Steady
+16552.0,59,2,379.73,2,Typical Steady
+16553.0,22,30,15511.48,2,Typical Steady
+16554.0,39,7,1987.48,2,Typical Steady
+16556.0,18,14,5984.81,2,Typical Steady
+16558.0,9,28,8280.51,2,Typical Steady
+16559.0,214,1,175.0,1,At-Risk/Lapsed
+16560.0,175,7,2526.4,2,Typical Steady
+16562.0,293,1,223.86,1,At-Risk/Lapsed
+16563.0,217,5,3324.62,1,At-Risk/Lapsed
+16564.0,386,1,87.8,1,At-Risk/Lapsed
+16565.0,181,4,700.45,1,At-Risk/Lapsed
+16566.0,9,2,279.47,2,Typical Steady
+16567.0,11,2,865.6,2,Typical Steady
+16568.0,244,2,1020.9,1,At-Risk/Lapsed
+16569.0,448,4,1331.03,1,At-Risk/Lapsed
+16570.0,22,13,4672.64,2,Typical Steady
+16571.0,98,8,3176.51,2,Typical Steady
+16572.0,92,1,342.58,2,Typical Steady
+16573.0,107,1,282.38,2,Typical Steady
+16574.0,240,2,850.34,1,At-Risk/Lapsed
+16576.0,237,2,513.1700000000001,1,At-Risk/Lapsed
+16577.0,483,1,380.0,1,At-Risk/Lapsed
+16578.0,443,1,156.6,1,At-Risk/Lapsed
+16579.0,242,1,264.45,1,At-Risk/Lapsed
+16583.0,190,2,297.95,1,At-Risk/Lapsed
+16584.0,71,4,2753.83,2,Typical Steady
+16585.0,410,2,341.59,1,At-Risk/Lapsed
+16586.0,65,3,1462.78,2,Typical Steady
+16587.0,49,1,225.15,2,Typical Steady
+16588.0,203,4,1361.28,1,At-Risk/Lapsed
+16589.0,267,1,153.12,1,At-Risk/Lapsed
+16590.0,217,2,572.0,1,At-Risk/Lapsed
+16592.0,18,18,4680.11,2,Typical Steady
+16593.0,6,7,976.71,2,Typical Steady
+16595.0,193,4,1397.59,1,At-Risk/Lapsed
+16596.0,183,3,329.48,1,At-Risk/Lapsed
+16598.0,102,1,140.7,2,Typical Steady
+16599.0,202,1,172.8,1,At-Risk/Lapsed
+16600.0,70,9,1517.5,2,Typical Steady
+16601.0,207,2,434.3,1,At-Risk/Lapsed
+16602.0,205,1,217.4,1,At-Risk/Lapsed
+16604.0,379,2,326.25,1,At-Risk/Lapsed
+16605.0,541,1,60.48,1,At-Risk/Lapsed
+16606.0,221,2,357.66,1,At-Risk/Lapsed
+16607.0,24,18,3758.57,2,Typical Steady
+16608.0,270,2,1286.62,1,At-Risk/Lapsed
+16609.0,14,3,1987.62,2,Typical Steady
+16610.0,36,1,75.66,2,Typical Steady
+16611.0,3,6,1776.63,2,Typical Steady
+16612.0,3,7,2764.7200000000003,2,Typical Steady
+16614.0,219,2,673.6,1,At-Risk/Lapsed
+16615.0,443,1,264.5,1,At-Risk/Lapsed
+16617.0,52,1,151.85,2,Typical Steady
+16618.0,27,3,1424.34,2,Typical Steady
+16619.0,80,4,1916.53,2,Typical Steady
+16620.0,77,5,1675.73,2,Typical Steady
+16621.0,32,2,490.7,2,Typical Steady
+16622.0,360,1,205.6,1,At-Risk/Lapsed
+16623.0,62,4,1002.49,2,Typical Steady
+16624.0,14,1,426.43,2,Typical Steady
+16625.0,91,5,1651.08,2,Typical Steady
+16626.0,1,2,1389.78,2,Typical Steady
+16628.0,35,4,842.96,2,Typical Steady
+16630.0,224,1,106.8,1,At-Risk/Lapsed
+16631.0,298,7,1867.02,1,At-Risk/Lapsed
+16632.0,302,2,406.4,1,At-Risk/Lapsed
+16633.0,51,1,447.52,2,Typical Steady
+16634.0,39,5,1198.3,2,Typical Steady
+16635.0,223,1,473.0,1,At-Risk/Lapsed
+16636.0,255,4,3802.04,1,At-Risk/Lapsed
+16637.0,42,1,303.62,2,Typical Steady
+16638.0,74,11,1906.6,2,Typical Steady
+16639.0,23,3,961.62,2,Typical Steady
+16640.0,214,1,179.4,1,At-Risk/Lapsed
+16641.0,518,1,323.40000000000003,1,At-Risk/Lapsed
+16642.0,24,2,670.86,2,Typical Steady
+16643.0,62,2,915.56,2,Typical Steady
+16644.0,29,1,722.41,2,Typical Steady
+16645.0,552,1,160.39,1,At-Risk/Lapsed
+16646.0,266,1,675.05,1,At-Risk/Lapsed
+16647.0,21,3,455.59,2,Typical Steady
+16648.0,272,2,382.14,1,At-Risk/Lapsed
+16649.0,337,1,306.58000000000004,1,At-Risk/Lapsed
+16650.0,237,6,1397.69,1,At-Risk/Lapsed
+16651.0,403,1,136.2,1,At-Risk/Lapsed
+16652.0,29,11,13665.64,2,Typical Steady
+16654.0,4,7,1413.75,2,Typical Steady
+16655.0,2,9,3864.44,2,Typical Steady
+16656.0,9,20,11271.61,2,Typical Steady
+16657.0,71,1,215.43,2,Typical Steady
+16658.0,185,5,563.48,1,At-Risk/Lapsed
+16659.0,6,1,39.12,2,Typical Steady
+16660.0,27,5,996.26,2,Typical Steady
+16661.0,357,4,796.21,1,At-Risk/Lapsed
+16662.0,211,1,151.05,1,At-Risk/Lapsed
+16663.0,546,1,165.0,1,At-Risk/Lapsed
+16664.0,386,1,109.2,1,At-Risk/Lapsed
+16665.0,179,1,135.39999999999998,1,At-Risk/Lapsed
+16666.0,438,1,98.73,1,At-Risk/Lapsed
+16667.0,101,1,200.4,2,Typical Steady
+16668.0,31,9,678.28,2,Typical Steady
+16670.0,64,14,5720.17,2,Typical Steady
+16672.0,1,10,4147.59,2,Typical Steady
+16673.0,496,1,171.13,1,At-Risk/Lapsed
+16675.0,258,2,608.86,1,At-Risk/Lapsed
+16676.0,30,5,1834.88,2,Typical Steady
+16677.0,228,2,849.77,1,At-Risk/Lapsed
+16678.0,14,5,1264.15,2,Typical Steady
+16679.0,183,3,663.31,1,At-Risk/Lapsed
+16680.0,345,2,637.75,1,At-Risk/Lapsed
+16681.0,22,4,1027.34,2,Typical Steady
+16682.0,4,1,525.5,2,Typical Steady
+16683.0,350,1,309.35,1,At-Risk/Lapsed
+16684.0,22,39,99946.62,0,High-Value Regulars
+16686.0,11,13,3097.47,2,Typical Steady
+16687.0,207,1,157.63,1,At-Risk/Lapsed
+16690.0,18,3,213.95,2,Typical Steady
+16691.0,235,2,178.83,1,At-Risk/Lapsed
+16692.0,73,4,1764.6999999999998,2,Typical Steady
+16693.0,88,4,855.03,2,Typical Steady
+16694.0,540,1,98.3,1,At-Risk/Lapsed
+16695.0,378,2,191.9,1,At-Risk/Lapsed
+16696.0,20,3,558.9000000000001,2,Typical Steady
+16697.0,58,1,112.75,2,Typical Steady
+16698.0,43,2,1998.0,2,Typical Steady
+16699.0,197,7,964.9,1,At-Risk/Lapsed
+16700.0,18,19,6636.45,2,Typical Steady
+16701.0,6,19,6609.66,2,Typical Steady
+16702.0,232,4,1099.58,1,At-Risk/Lapsed
+16704.0,435,2,664.16,1,At-Risk/Lapsed
+16705.0,24,30,35303.93,0,High-Value Regulars
+16707.0,217,4,533.41,1,At-Risk/Lapsed
+16709.0,16,13,8010.73,2,Typical Steady
+16710.0,24,18,5069.44,2,Typical Steady
+16711.0,119,6,1699.25,2,Typical Steady
+16712.0,29,6,1819.78,2,Typical Steady
+16713.0,52,25,9661.21,2,Typical Steady
+16714.0,134,3,1217.33,2,Typical Steady
+16715.0,379,1,323.8,1,At-Risk/Lapsed
+16716.0,83,3,1568.28,2,Typical Steady
+16717.0,183,9,3025.4,2,Typical Steady
+16718.0,186,5,3006.08,1,At-Risk/Lapsed
+16719.0,52,11,2569.33,2,Typical Steady
+16720.0,193,2,403.74,1,At-Risk/Lapsed
+16721.0,79,1,292.47,2,Typical Steady
+16722.0,17,14,5417.26,2,Typical Steady
+16723.0,260,2,654.96,1,At-Risk/Lapsed
+16724.0,221,1,147.35,1,At-Risk/Lapsed
+16725.0,119,13,1675.41,2,Typical Steady
+16726.0,13,6,1482.3,2,Typical Steady
+16727.0,181,4,1377.77,1,At-Risk/Lapsed
+16728.0,53,2,326.93,2,Typical Steady
+16729.0,7,10,3107.77,2,Typical Steady
+16730.0,51,2,440.62,2,Typical Steady
+16731.0,465,1,170.3,1,At-Risk/Lapsed
+16732.0,220,3,3675.74,1,At-Risk/Lapsed
+16733.0,346,1,259.68,1,At-Risk/Lapsed
+16735.0,56,10,4512.27,2,Typical Steady
+16736.0,322,5,2904.51,1,At-Risk/Lapsed
+16737.0,394,1,417.6,1,At-Risk/Lapsed
+16738.0,114,1,3.75,2,Typical Steady
+16739.0,353,1,459.68,1,At-Risk/Lapsed
+16740.0,212,1,226.91,1,At-Risk/Lapsed
+16741.0,442,1,173.06,1,At-Risk/Lapsed
+16742.0,309,13,2334.97,1,At-Risk/Lapsed
+16743.0,28,10,3044.52,2,Typical Steady
+16745.0,28,9,3574.4300000000003,2,Typical Steady
+16746.0,11,32,14202.87,2,Typical Steady
+16748.0,34,12,3026.59,2,Typical Steady
+16749.0,408,2,4157.88,1,At-Risk/Lapsed
+16750.0,49,1,118.7,2,Typical Steady
+16752.0,189,1,207.5,1,At-Risk/Lapsed
+16754.0,189,27,54641.7,0,High-Value Regulars
+16755.0,43,6,2279.17,2,Typical Steady
+16756.0,31,7,1300.47,2,Typical Steady
+16757.0,135,2,270.48,2,Typical Steady
+16760.0,247,1,228.0,1,At-Risk/Lapsed
+16763.0,15,2,947.75,2,Typical Steady
+16765.0,111,2,454.75,2,Typical Steady
+16766.0,90,2,1145.6,2,Typical Steady
+16767.0,36,7,5018.87,2,Typical Steady
+16768.0,88,7,1353.93,2,Typical Steady
+16769.0,77,4,1117.05,2,Typical Steady
+16770.0,53,8,1639.11,2,Typical Steady
+16771.0,92,8,3330.24,2,Typical Steady
+16772.0,240,3,2773.6,1,At-Risk/Lapsed
+16773.0,253,2,249.65,1,At-Risk/Lapsed
+16774.0,240,4,905.96,1,At-Risk/Lapsed
+16775.0,22,9,1739.53,2,Typical Steady
+16776.0,232,1,220.97,1,At-Risk/Lapsed
+16777.0,74,4,1212.33,2,Typical Steady
+16778.0,91,1,93.18,2,Typical Steady
+16779.0,36,41,25860.44,0,High-Value Regulars
+16780.0,76,2,336.05,2,Typical Steady
+16781.0,189,2,606.4,1,At-Risk/Lapsed
+16782.0,21,32,8632.82,2,Typical Steady
+16783.0,253,1,391.95,1,At-Risk/Lapsed
+16784.0,193,4,784.73,1,At-Risk/Lapsed
+16785.0,226,1,533.78,1,At-Risk/Lapsed
+16786.0,210,1,51.84,1,At-Risk/Lapsed
+16787.0,214,4,1017.53,1,At-Risk/Lapsed
+16788.0,71,4,1627.36,2,Typical Steady
+16791.0,30,12,2728.08,2,Typical Steady
+16792.0,99,5,623.46,2,Typical Steady
+16794.0,197,5,856.1999999999999,1,At-Risk/Lapsed
+16795.0,182,3,2048.51,1,At-Risk/Lapsed
+16797.0,210,5,1786.42,1,At-Risk/Lapsed
+16798.0,371,3,832.21,1,At-Risk/Lapsed
+16799.0,249,2,447.83,1,At-Risk/Lapsed
+16801.0,9,2,701.48,2,Typical Steady
+16802.0,496,2,582.61,1,At-Risk/Lapsed
+16804.0,87,1,118.05,2,Typical Steady
+16805.0,177,3,830.52,1,At-Risk/Lapsed
+16806.0,37,2,370.68,2,Typical Steady
+16807.0,32,5,1654.12,2,Typical Steady
+16808.0,91,1,166.5,2,Typical Steady
+16809.0,25,6,1153.87,2,Typical Steady
+16810.0,9,2,786.14,2,Typical Steady
+16812.0,177,4,2216.8,2,Typical Steady
+16813.0,8,2,301.66,2,Typical Steady
+16814.0,9,27,9587.61,2,Typical Steady
+16815.0,270,2,406.02,1,At-Risk/Lapsed
+16816.0,130,2,325.45,2,Typical Steady
+16817.0,2,11,1970.93,2,Typical Steady
+16818.0,8,3,1116.37,2,Typical Steady
+16819.0,282,2,182.59,1,At-Risk/Lapsed
+16821.0,198,1,113.35,1,At-Risk/Lapsed
+16822.0,503,1,157.59,1,At-Risk/Lapsed
+16823.0,44,7,2236.14,2,Typical Steady
+16824.0,210,1,225.6,1,At-Risk/Lapsed
+16825.0,2,4,1370.41,2,Typical Steady
+16827.0,210,5,387.18,1,At-Risk/Lapsed
+16829.0,205,1,316.1,1,At-Risk/Lapsed
+16830.0,259,3,857.7900000000001,1,At-Risk/Lapsed
+16831.0,381,1,91.8,1,At-Risk/Lapsed
+16832.0,1,5,417.61,2,Typical Steady
+16833.0,76,5,1973.8,2,Typical Steady
+16834.0,44,2,898.96,2,Typical Steady
+16835.0,190,5,1290.66,1,At-Risk/Lapsed
+16836.0,223,2,530.5,1,At-Risk/Lapsed
+16837.0,14,8,1811.49,2,Typical Steady
+16838.0,14,4,1153.66,2,Typical Steady
+16839.0,2,24,11552.36,2,Typical Steady
+16840.0,420,2,139.85,1,At-Risk/Lapsed
+16841.0,2,9,2995.27,2,Typical Steady
+16842.0,119,1,520.5699999999999,2,Typical Steady
+16843.0,14,24,13180.61,2,Typical Steady
+16844.0,379,2,614.34,1,At-Risk/Lapsed
+16845.0,435,1,253.88,1,At-Risk/Lapsed
+16846.0,394,2,628.09,1,At-Risk/Lapsed
+16847.0,435,1,421.4500000000001,1,At-Risk/Lapsed
+16848.0,193,3,1130.2,1,At-Risk/Lapsed
+16849.0,3,1,124.57,2,Typical Steady
+16850.0,150,1,332.41,2,Typical Steady
+16854.0,234,2,1408.96,1,At-Risk/Lapsed
+16856.0,234,2,323.09000000000003,1,At-Risk/Lapsed
+16857.0,259,1,352.8,1,At-Risk/Lapsed
+16858.0,185,10,4167.51,2,Typical Steady
+16859.0,78,6,1444.44,2,Typical Steady
+16860.0,269,3,1593.67,1,At-Risk/Lapsed
+16861.0,207,3,755.13,1,At-Risk/Lapsed
+16862.0,364,4,662.33,1,At-Risk/Lapsed
+16863.0,183,2,494.27,1,At-Risk/Lapsed
+16864.0,251,2,409.25,1,At-Risk/Lapsed
+16865.0,218,1,130.95,1,At-Risk/Lapsed
+16867.0,506,1,76.74000000000001,1,At-Risk/Lapsed
+16868.0,211,3,384.56,1,At-Risk/Lapsed
+16870.0,286,1,450.16,1,At-Risk/Lapsed
+16871.0,27,4,1986.97,2,Typical Steady
+16872.0,1,4,921.47,2,Typical Steady
+16873.0,14,9,10668.37,2,Typical Steady
+16874.0,196,1,209.89,1,At-Risk/Lapsed
+16875.0,113,9,2788.02,2,Typical Steady
+16876.0,220,1,136.01,1,At-Risk/Lapsed
+16877.0,25,1,77.75,2,Typical Steady
+16880.0,6,2,591.66,2,Typical Steady
+16882.0,56,2,215.7,2,Typical Steady
+16883.0,4,19,2236.11,2,Typical Steady
+16884.0,373,2,641.13,1,At-Risk/Lapsed
+16885.0,174,2,410.89,1,At-Risk/Lapsed
+16887.0,217,2,465.84,1,At-Risk/Lapsed
+16888.0,217,3,434.2,1,At-Risk/Lapsed
+16889.0,11,6,2526.65,2,Typical Steady
+16890.0,293,3,277.91,1,At-Risk/Lapsed
+16891.0,188,7,1202.77,2,Typical Steady
+16892.0,371,2,236.56,1,At-Risk/Lapsed
+16893.0,183,2,249.47,1,At-Risk/Lapsed
+16894.0,319,3,1265.26,1,At-Risk/Lapsed
+16895.0,255,4,900.63,1,At-Risk/Lapsed
+16896.0,372,1,103.95,1,At-Risk/Lapsed
+16897.0,130,1,213.03,2,Typical Steady
+16898.0,185,3,496.26,1,At-Risk/Lapsed
+16899.0,24,4,772.26,2,Typical Steady
+16901.0,546,1,204.26,1,At-Risk/Lapsed
+16903.0,197,2,646.25,1,At-Risk/Lapsed
+16904.0,42,11,2252.96,2,Typical Steady
+16905.0,53,13,2459.2,2,Typical Steady
+16906.0,3,6,1243.47,2,Typical Steady
+16907.0,51,7,1073.24,2,Typical Steady
+16908.0,539,1,153.59,1,At-Risk/Lapsed
+16911.0,452,2,251.35,1,At-Risk/Lapsed
+16912.0,24,9,3023.64,2,Typical Steady
+16913.0,107,3,423.91,2,Typical Steady
+16915.0,65,7,1088.29,2,Typical Steady
+16916.0,189,3,530.14,1,At-Risk/Lapsed
+16917.0,93,2,1851.88,2,Typical Steady
+16918.0,134,11,2365.4,2,Typical Steady
+16919.0,9,22,4300.66,2,Typical Steady
+16920.0,228,1,355.45,1,At-Risk/Lapsed
+16921.0,259,2,255.03,1,At-Risk/Lapsed
+16922.0,389,1,611.08,1,At-Risk/Lapsed
+16923.0,4,23,9187.81,2,Typical Steady
+16925.0,357,1,125.65,1,At-Risk/Lapsed
+16926.0,188,5,1158.66,1,At-Risk/Lapsed
+16927.0,93,2,341.45,2,Typical Steady
+16928.0,7,16,1997.39,2,Typical Steady
+16931.0,11,11,2380.46,2,Typical Steady
+16932.0,240,2,262.32,1,At-Risk/Lapsed
+16933.0,56,8,2698.9,2,Typical Steady
+16934.0,200,4,1131.86,1,At-Risk/Lapsed
+16935.0,198,3,530.86,1,At-Risk/Lapsed
+16936.0,202,1,286.39,1,At-Risk/Lapsed
+16937.0,316,1,196.25,1,At-Risk/Lapsed
+16938.0,125,6,4551.28,2,Typical Steady
+16939.0,305,3,433.85,1,At-Risk/Lapsed
+16940.0,106,6,4036.76,2,Typical Steady
+16941.0,428,1,33.0,1,At-Risk/Lapsed
+16942.0,6,4,872.0600000000001,2,Typical Steady
+16943.0,28,3,816.73,2,Typical Steady
+16944.0,426,1,101.36,1,At-Risk/Lapsed
+16945.0,18,22,5958.84,2,Typical Steady
+16946.0,200,5,1199.54,1,At-Risk/Lapsed
+16947.0,52,3,906.31,2,Typical Steady
+16948.0,78,6,674.2900000000001,2,Typical Steady
+16949.0,2,4,768.75,2,Typical Steady
+16950.0,184,8,2476.45,2,Typical Steady
+16951.0,121,1,1053.79,2,Typical Steady
+16952.0,258,3,628.22,1,At-Risk/Lapsed
+16954.0,71,14,4893.73,2,Typical Steady
+16955.0,1,6,1095.31,2,Typical Steady
+16957.0,56,2,416.64,2,Typical Steady
+16958.0,252,1,778.49,1,At-Risk/Lapsed
+16960.0,69,6,1661.96,2,Typical Steady
+16961.0,205,2,541.79,1,At-Risk/Lapsed
+16962.0,226,1,251.04,1,At-Risk/Lapsed
+16963.0,4,1,110.55,2,Typical Steady
+16964.0,550,2,207.85,1,At-Risk/Lapsed
+16965.0,43,1,192.07,2,Typical Steady
+16966.0,14,3,1154.4,2,Typical Steady
+16967.0,6,1,319.02,2,Typical Steady
+16969.0,8,1,397.36,2,Typical Steady
+16970.0,443,1,71.4,1,At-Risk/Lapsed
+16972.0,199,2,749.0,1,At-Risk/Lapsed
+16973.0,203,1,127.0,1,At-Risk/Lapsed
+16974.0,339,2,365.5,1,At-Risk/Lapsed
+16975.0,240,3,902.42,1,At-Risk/Lapsed
+16976.0,84,1,251.52,2,Typical Steady
+16977.0,212,4,496.0,1,At-Risk/Lapsed
+16978.0,483,2,424.55,1,At-Risk/Lapsed
+16979.0,114,4,1315.24,2,Typical Steady
+16980.0,72,3,1422.8300000000002,2,Typical Steady
+16983.0,88,7,2195.95,2,Typical Steady
+16984.0,221,7,5839.9800000000005,1,At-Risk/Lapsed
+16985.0,28,19,7997.0,2,Typical Steady
+16986.0,262,9,3015.55,1,At-Risk/Lapsed
+16987.0,22,5,1083.8,2,Typical Steady
+16988.0,196,1,256.55,1,At-Risk/Lapsed
+16990.0,35,2,344.0,2,Typical Steady
+16991.0,238,1,1041.21,1,At-Risk/Lapsed
+16992.0,16,10,4516.9400000000005,2,Typical Steady
+16993.0,280,2,1688.15,1,At-Risk/Lapsed
+16996.0,62,7,1308.73,2,Typical Steady
+16997.0,105,3,702.0,2,Typical Steady
+16998.0,21,3,386.6,2,Typical Steady
+17000.0,213,2,406.3,1,At-Risk/Lapsed
+17001.0,24,13,4453.17,2,Typical Steady
+17002.0,32,6,2071.34,2,Typical Steady
+17003.0,219,4,828.21,1,At-Risk/Lapsed
+17004.0,209,2,1012.22,1,At-Risk/Lapsed
+17005.0,287,2,622.36,1,At-Risk/Lapsed
+17006.0,209,4,853.49,1,At-Risk/Lapsed
+17007.0,18,5,680.4,2,Typical Steady
+17008.0,246,1,81.36,1,At-Risk/Lapsed
+17009.0,368,1,242.06,1,At-Risk/Lapsed
+17011.0,464,2,265.8,1,At-Risk/Lapsed
+17012.0,542,1,360.61,1,At-Risk/Lapsed
+17015.0,2,1,520.55,2,Typical Steady
+17016.0,393,1,552.4,1,At-Risk/Lapsed
+17017.0,21,20,8266.82,2,Typical Steady
+17018.0,142,5,1772.6,2,Typical Steady
+17019.0,78,10,3265.84,2,Typical Steady
+17020.0,359,2,935.62,1,At-Risk/Lapsed
+17021.0,259,6,1182.22,1,At-Risk/Lapsed
+17022.0,249,1,189.0,1,At-Risk/Lapsed
+17023.0,234,3,800.18,1,At-Risk/Lapsed
+17025.0,190,4,1152.87,1,At-Risk/Lapsed
+17026.0,2,3,175.82999999999998,2,Typical Steady
+17027.0,100,6,824.6,2,Typical Steady
+17028.0,398,3,1593.83,1,At-Risk/Lapsed
+17029.0,53,6,1779.3,2,Typical Steady
+17031.0,195,4,2393.5,1,At-Risk/Lapsed
+17032.0,420,5,2816.69,1,At-Risk/Lapsed
+17033.0,31,3,910.75,2,Typical Steady
+17034.0,104,3,639.05,2,Typical Steady
+17035.0,62,4,568.39,2,Typical Steady
+17036.0,200,1,176.9,1,At-Risk/Lapsed
+17038.0,232,1,630.77,1,At-Risk/Lapsed
+17039.0,421,1,1954.99,1,At-Risk/Lapsed
+17040.0,367,1,13.52,1,At-Risk/Lapsed
+17041.0,177,4,872.41,1,At-Risk/Lapsed
+17042.0,13,2,487.59,2,Typical Steady
+17043.0,83,5,1033.07,2,Typical Steady
+17044.0,191,11,10943.87,2,Typical Steady
+17045.0,64,3,528.19,2,Typical Steady
+17046.0,261,4,1264.05,1,At-Risk/Lapsed
+17047.0,22,5,1937.76,2,Typical Steady
+17048.0,99,6,1850.85,2,Typical Steady
+17049.0,31,13,5742.8,2,Typical Steady
+17050.0,4,9,3780.21,2,Typical Steady
+17051.0,11,4,706.49,2,Typical Steady
+17054.0,24,3,918.82,2,Typical Steady
+17055.0,262,1,232.85,1,At-Risk/Lapsed
+17056.0,555,1,128.60000000000002,1,At-Risk/Lapsed
+17057.0,413,1,288.79,1,At-Risk/Lapsed
+17058.0,16,2,819.66,2,Typical Steady
+17059.0,14,7,3264.15,2,Typical Steady
+17060.0,83,1,234.24,2,Typical Steady
+17061.0,9,7,3134.13,2,Typical Steady
+17062.0,130,6,880.8100000000001,2,Typical Steady
+17063.0,106,8,2462.96,2,Typical Steady
+17064.0,144,1,143.95,2,Typical Steady
+17065.0,454,2,194.7,1,At-Risk/Lapsed
+17066.0,543,1,228.34,1,At-Risk/Lapsed
+17067.0,541,3,454.54,1,At-Risk/Lapsed
+17068.0,6,37,7063.04,2,Typical Steady
+17069.0,43,9,3832.2,2,Typical Steady
+17070.0,227,1,133.18,1,At-Risk/Lapsed
+17071.0,4,8,2377.55,2,Typical Steady
+17072.0,442,1,273.35,1,At-Risk/Lapsed
+17074.0,379,1,203.05,1,At-Risk/Lapsed
+17075.0,70,9,2078.23,2,Typical Steady
+17076.0,90,5,735.87,2,Typical Steady
+17077.0,395,1,306.0,1,At-Risk/Lapsed
+17080.0,86,6,744.11,2,Typical Steady
+17081.0,212,4,660.48,1,At-Risk/Lapsed
+17082.0,135,5,3365.12,2,Typical Steady
+17083.0,112,8,3633.27,2,Typical Steady
+17084.0,213,1,2253.22,1,At-Risk/Lapsed
+17085.0,67,26,7333.72,2,Typical Steady
+17087.0,554,1,221.53,1,At-Risk/Lapsed
+17088.0,70,1,1015.83,2,Typical Steady
+17089.0,203,1,128.45,1,At-Risk/Lapsed
+17090.0,44,9,1663.14,2,Typical Steady
+17091.0,2,15,5631.75,2,Typical Steady
+17092.0,94,8,3849.48,2,Typical Steady
+17093.0,409,1,235.88,1,At-Risk/Lapsed
+17094.0,139,2,370.4,2,Typical Steady
+17095.0,116,6,1758.4,2,Typical Steady
+17096.0,78,8,2770.39,2,Typical Steady
+17097.0,141,3,476.58,2,Typical Steady
+17098.0,198,3,591.0699999999999,1,At-Risk/Lapsed
+17099.0,350,1,582.17,1,At-Risk/Lapsed
+17101.0,211,3,885.3199999999999,1,At-Risk/Lapsed
+17102.0,78,1,25.5,2,Typical Steady
+17103.0,539,1,424.3,1,At-Risk/Lapsed
+17104.0,240,1,474.03,1,At-Risk/Lapsed
+17105.0,123,1,319.4,2,Typical Steady
+17106.0,206,1,481.58,1,At-Risk/Lapsed
+17107.0,25,6,9325.34,2,Typical Steady
+17108.0,480,1,174.95,1,At-Risk/Lapsed
+17109.0,49,4,875.01,2,Typical Steady
+17110.0,337,2,336.59999999999997,1,At-Risk/Lapsed
+17111.0,242,1,227.97,1,At-Risk/Lapsed
+17112.0,319,1,197.57,1,At-Risk/Lapsed
+17113.0,391,6,2134.01,1,At-Risk/Lapsed
+17114.0,25,4,428.54,2,Typical Steady
+17115.0,50,5,2182.16,2,Typical Steady
+17116.0,465,1,389.78,1,At-Risk/Lapsed
+17117.0,105,1,116.2,2,Typical Steady
+17118.0,134,1,157.02,2,Typical Steady
+17120.0,50,1,307.46,2,Typical Steady
+17121.0,219,1,314.74,1,At-Risk/Lapsed
+17122.0,205,3,432.18,1,At-Risk/Lapsed
+17123.0,256,2,621.37,1,At-Risk/Lapsed
+17124.0,2,1,294.24,2,Typical Steady
+17126.0,116,6,1508.25,2,Typical Steady
+17127.0,245,5,1155.0300000000002,1,At-Risk/Lapsed
+17128.0,151,1,157.09,2,Typical Steady
+17129.0,337,1,31.85,1,At-Risk/Lapsed
+17132.0,269,2,1220.91,1,At-Risk/Lapsed
+17133.0,7,7,10558.64,2,Typical Steady
+17134.0,81,2,530.8,2,Typical Steady
+17135.0,106,5,1066.28,2,Typical Steady
+17136.0,479,1,231.68,1,At-Risk/Lapsed
+17137.0,233,6,1099.81,1,At-Risk/Lapsed
+17138.0,92,7,4417.27,2,Typical Steady
+17139.0,27,17,13595.74,2,Typical Steady
+17140.0,64,1,454.12,2,Typical Steady
+17141.0,235,4,727.58,1,At-Risk/Lapsed
+17142.0,56,4,1275.25,2,Typical Steady
+17143.0,234,2,880.97,1,At-Risk/Lapsed
+17145.0,329,4,3014.64,1,At-Risk/Lapsed
+17146.0,80,12,5602.49,2,Typical Steady
+17147.0,23,7,2329.32,2,Typical Steady
+17149.0,268,1,143.10000000000002,1,At-Risk/Lapsed
+17150.0,193,6,1357.95,1,At-Risk/Lapsed
+17151.0,552,1,231.90000000000003,1,At-Risk/Lapsed
+17152.0,11,4,1830.5,2,Typical Steady
+17155.0,344,5,640.76,1,At-Risk/Lapsed
+17156.0,308,1,572.0699999999999,1,At-Risk/Lapsed
+17157.0,297,17,4832.9,1,At-Risk/Lapsed
+17158.0,49,4,1393.88,2,Typical Steady
+17159.0,294,2,560.71,1,At-Risk/Lapsed
+17160.0,42,13,7888.400000000001,2,Typical Steady
+17161.0,261,1,856.01,1,At-Risk/Lapsed
+17162.0,7,8,1157.03,2,Typical Steady
+17163.0,262,2,406.68,1,At-Risk/Lapsed
+17164.0,29,2,943.22,2,Typical Steady
+17165.0,101,6,1783.63,2,Typical Steady
+17166.0,20,1,110.74,2,Typical Steady
+17167.0,196,3,867.11,1,At-Risk/Lapsed
+17168.0,315,1,400.2,1,At-Risk/Lapsed
+17169.0,395,1,313.0,1,At-Risk/Lapsed
+17170.0,191,2,178.68,1,At-Risk/Lapsed
+17171.0,106,2,384.59,2,Typical Steady
+17172.0,247,2,597.73,1,At-Risk/Lapsed
+17174.0,34,1,59.9,2,Typical Steady
+17175.0,113,1,519.08,2,Typical Steady
+17176.0,18,3,902.32,2,Typical Steady
+17177.0,322,1,119.5,1,At-Risk/Lapsed
+17178.0,548,1,432.96,1,At-Risk/Lapsed
+17179.0,49,5,1283.78,2,Typical Steady
+17180.0,58,10,1986.2,2,Typical Steady
+17181.0,190,2,225.45,1,At-Risk/Lapsed
+17182.0,239,2,321.3,1,At-Risk/Lapsed
+17184.0,386,2,198.41000000000005,1,At-Risk/Lapsed
+17185.0,408,3,229.46,1,At-Risk/Lapsed
+17187.0,43,2,467.71,2,Typical Steady
+17188.0,132,9,3332.19,2,Typical Steady
+17189.0,176,4,796.45,2,Typical Steady
+17190.0,220,5,1279.99,1,At-Risk/Lapsed
+17191.0,8,13,3366.86,2,Typical Steady
+17192.0,353,1,75.28,1,At-Risk/Lapsed
+17193.0,203,2,610.74,1,At-Risk/Lapsed
+17194.0,177,2,776.66,1,At-Risk/Lapsed
+17195.0,472,1,562.98,1,At-Risk/Lapsed
+17196.0,244,1,327.75,1,At-Risk/Lapsed
+17198.0,182,2,521.66,1,At-Risk/Lapsed
+17199.0,399,1,135.04000000000002,1,At-Risk/Lapsed
+17200.0,204,4,356.71,1,At-Risk/Lapsed
+17201.0,340,3,827.22,1,At-Risk/Lapsed
+17202.0,237,1,160.65,1,At-Risk/Lapsed
+17203.0,205,4,2004.01,1,At-Risk/Lapsed
+17204.0,58,7,4949.94,2,Typical Steady
+17205.0,233,2,615.27,1,At-Risk/Lapsed
+17207.0,469,1,291.77,1,At-Risk/Lapsed
+17208.0,212,1,111.15,1,At-Risk/Lapsed
+17209.0,466,3,595.7,1,At-Risk/Lapsed
+17210.0,209,1,251.72,1,At-Risk/Lapsed
+17211.0,50,10,2692.52,2,Typical Steady
+17212.0,70,3,794.41,2,Typical Steady
+17213.0,133,9,2972.27,2,Typical Steady
+17214.0,66,4,611.97,2,Typical Steady
+17215.0,281,1,186.15,1,At-Risk/Lapsed
+17216.0,371,1,63.6,1,At-Risk/Lapsed
+17217.0,51,2,210.1,2,Typical Steady
+17218.0,31,13,2881.0,2,Typical Steady
+17219.0,233,1,144.9,1,At-Risk/Lapsed
+17220.0,23,12,2726.69,2,Typical Steady
+17221.0,408,3,642.14,1,At-Risk/Lapsed
+17222.0,294,5,1234.96,1,At-Risk/Lapsed
+17223.0,127,3,523.04,2,Typical Steady
+17224.0,318,1,100.86,1,At-Risk/Lapsed
+17225.0,398,1,131.15,1,At-Risk/Lapsed
+17226.0,125,3,895.47,2,Typical Steady
+17227.0,73,8,1305.76,2,Typical Steady
+17228.0,24,9,1601.52,2,Typical Steady
+17230.0,81,18,9164.05,2,Typical Steady
+17231.0,7,21,5541.81,2,Typical Steady
+17233.0,265,2,369.98,1,At-Risk/Lapsed
+17235.0,189,7,1354.82,2,Typical Steady
+17236.0,59,10,1576.95,2,Typical Steady
+17237.0,192,2,679.44,1,At-Risk/Lapsed
+17238.0,1,24,5143.91,2,Typical Steady
+17239.0,129,4,1186.9,2,Typical Steady
+17240.0,413,1,130.6,1,At-Risk/Lapsed
+17241.0,202,12,2736.64,2,Typical Steady
+17242.0,273,3,1754.24,1,At-Risk/Lapsed
+17243.0,53,54,14289.08,0,High-Value Regulars
+17244.0,200,4,871.14,1,At-Risk/Lapsed
+17245.0,21,2,371.63,2,Typical Steady
+17246.0,363,2,38.92,1,At-Risk/Lapsed
+17248.0,298,1,181.89,1,At-Risk/Lapsed
+17249.0,245,1,68.03,1,At-Risk/Lapsed
+17250.0,78,1,162.65,2,Typical Steady
+17251.0,179,3,790.28,1,At-Risk/Lapsed
+17252.0,3,1,337.01,2,Typical Steady
+17254.0,218,1,198.29,1,At-Risk/Lapsed
+17255.0,116,3,598.48,2,Typical Steady
+17256.0,129,4,386.83,2,Typical Steady
+17257.0,253,2,189.78,1,At-Risk/Lapsed
+17258.0,213,2,417.3,1,At-Risk/Lapsed
+17259.0,185,5,1239.11,1,At-Risk/Lapsed
+17260.0,228,1,120.95,1,At-Risk/Lapsed
+17261.0,326,1,221.59,1,At-Risk/Lapsed
+17262.0,44,10,2190.76,2,Typical Steady
+17263.0,25,1,63.440000000000005,2,Typical Steady
+17264.0,241,1,268.28,1,At-Risk/Lapsed
+17266.0,316,2,205.14,1,At-Risk/Lapsed
+17268.0,60,9,1246.73,2,Typical Steady
+17269.0,202,1,491.81,1,At-Risk/Lapsed
+17270.0,286,2,601.4499999999999,1,At-Risk/Lapsed
+17271.0,553,1,204.3,1,At-Risk/Lapsed
+17272.0,16,2,1405.34,2,Typical Steady
+17273.0,241,1,141.12,1,At-Risk/Lapsed
+17274.0,212,1,465.4,1,At-Risk/Lapsed
+17275.0,200,1,114.1,1,At-Risk/Lapsed
+17276.0,219,1,444.19,1,At-Risk/Lapsed
+17277.0,44,2,1065.35,2,Typical Steady
+17278.0,58,2,271.24,2,Typical Steady
+17280.0,255,1,118.86,1,At-Risk/Lapsed
+17281.0,191,6,797.8499999999999,1,At-Risk/Lapsed
+17282.0,116,3,1346.98,2,Typical Steady
+17283.0,195,1,188.46,1,At-Risk/Lapsed
+17284.0,52,3,1823.57,2,Typical Steady
+17285.0,445,2,400.44,1,At-Risk/Lapsed
+17286.0,217,2,237.81,1,At-Risk/Lapsed
+17287.0,22,18,3261.89,2,Typical Steady
+17288.0,24,9,1714.5,2,Typical Steady
+17289.0,193,6,1109.53,1,At-Risk/Lapsed
+17290.0,198,6,914.47,1,At-Risk/Lapsed
+17291.0,125,1,550.8000000000001,2,Typical Steady
+17292.0,289,2,271.75,1,At-Risk/Lapsed
+17293.0,125,10,2365.92,2,Typical Steady
+17294.0,486,2,467.79,1,At-Risk/Lapsed
+17296.0,547,1,338.13,1,At-Risk/Lapsed
+17298.0,191,3,434.9,1,At-Risk/Lapsed
+17299.0,256,2,336.62,1,At-Risk/Lapsed
+17300.0,207,2,393.64,1,At-Risk/Lapsed
+17301.0,441,1,131.15,1,At-Risk/Lapsed
+17302.0,25,2,303.12,2,Typical Steady
+17303.0,178,1,250.04,1,At-Risk/Lapsed
+17304.0,351,1,111.5,1,At-Risk/Lapsed
+17305.0,465,1,2135.46,1,At-Risk/Lapsed
+17306.0,21,10,4329.900000000001,2,Typical Steady
+17307.0,212,10,3694.61,1,At-Risk/Lapsed
+17308.0,210,2,4511.76,1,At-Risk/Lapsed
+17309.0,198,2,237.64,1,At-Risk/Lapsed
+17310.0,204,2,1025.1,1,At-Risk/Lapsed
+17311.0,133,5,2662.27,2,Typical Steady
+17314.0,73,11,2776.49,2,Typical Steady
+17315.0,8,25,6138.62,2,Typical Steady
+17316.0,237,1,124.45,1,At-Risk/Lapsed
+17318.0,542,1,157.32999999999998,1,At-Risk/Lapsed
+17319.0,486,1,29.1,1,At-Risk/Lapsed
+17320.0,53,5,2154.33,2,Typical Steady
+17321.0,211,4,1008.05,1,At-Risk/Lapsed
+17322.0,193,5,900.64,1,At-Risk/Lapsed
+17323.0,32,7,927.14,2,Typical Steady
+17324.0,148,10,1733.82,2,Typical Steady
+17325.0,97,3,609.5699999999999,2,Typical Steady
+17326.0,225,2,312.35,1,At-Risk/Lapsed
+17327.0,226,2,152.35,1,At-Risk/Lapsed
+17328.0,490,1,104.7,1,At-Risk/Lapsed
+17329.0,132,4,718.78,2,Typical Steady
+17330.0,361,2,59.900000000000006,1,At-Risk/Lapsed
+17332.0,345,5,827.77,1,At-Risk/Lapsed
+17334.0,119,3,634.73,2,Typical Steady
+17335.0,200,2,497.04,1,At-Risk/Lapsed
+17336.0,289,1,81.12,1,At-Risk/Lapsed
+17337.0,28,3,1895.56,2,Typical Steady
+17338.0,22,14,8970.14,2,Typical Steady
+17339.0,182,1,60.0,1,At-Risk/Lapsed
+17340.0,9,11,12853.62,2,Typical Steady
+17341.0,183,3,1006.53,1,At-Risk/Lapsed
+17342.0,196,4,1155.84,1,At-Risk/Lapsed
+17343.0,172,6,1259.94,2,Typical Steady
+17344.0,545,1,299.74,1,At-Risk/Lapsed
+17345.0,13,8,1146.62,2,Typical Steady
+17346.0,4,17,3298.37,2,Typical Steady
+17348.0,114,5,1434.54,2,Typical Steady
+17349.0,197,4,674.16,1,At-Risk/Lapsed
+17350.0,211,3,612.38,1,At-Risk/Lapsed
+17351.0,90,10,1575.83,2,Typical Steady
+17352.0,513,1,36.25,1,At-Risk/Lapsed
+17353.0,308,2,1424.05,1,At-Risk/Lapsed
+17354.0,245,3,1740.9,1,At-Risk/Lapsed
+17355.0,203,1,273.31,1,At-Risk/Lapsed
+17356.0,128,5,946.47,2,Typical Steady
+17358.0,120,5,861.01,2,Typical Steady
+17359.0,465,1,156.6,1,At-Risk/Lapsed
+17360.0,1,4,923.22,2,Typical Steady
+17361.0,3,4,647.51,2,Typical Steady
+17362.0,56,7,1010.54,2,Typical Steady
+17363.0,212,3,920.46,1,At-Risk/Lapsed
+17364.0,21,21,9209.82,2,Typical Steady
+17365.0,16,11,5310.12,2,Typical Steady
+17366.0,249,2,1075.59,1,At-Risk/Lapsed
+17367.0,55,1,167.55,2,Typical Steady
+17368.0,76,9,1155.44,2,Typical Steady
+17369.0,272,1,979.2,1,At-Risk/Lapsed
+17371.0,178,4,325.11,1,At-Risk/Lapsed
+17372.0,60,22,3668.2,2,Typical Steady
+17373.0,129,4,665.83,2,Typical Steady
+17374.0,35,3,711.21,2,Typical Steady
+17375.0,16,4,632.95,2,Typical Steady
+17376.0,128,3,356.29,2,Typical Steady
+17377.0,72,65,14906.03,0,High-Value Regulars
+17378.0,191,1,10.95,1,At-Risk/Lapsed
+17380.0,251,3,643.75,1,At-Risk/Lapsed
+17381.0,20,25,29941.17,2,Typical Steady
+17382.0,252,7,836.88,1,At-Risk/Lapsed
+17383.0,270,1,110.7,1,At-Risk/Lapsed
+17384.0,36,2,398.8,2,Typical Steady
+17386.0,202,1,126.35,1,At-Risk/Lapsed
+17388.0,28,9,2179.01,2,Typical Steady
+17389.0,2,39,28431.84,0,High-Value Regulars
+17390.0,237,1,149.3,1,At-Risk/Lapsed
+17392.0,123,3,579.92,2,Typical Steady
+17393.0,227,2,381.15,1,At-Risk/Lapsed
+17394.0,36,1,203.87,2,Typical Steady
+17395.0,325,1,97.5,1,At-Risk/Lapsed
+17396.0,188,7,1248.12,2,Typical Steady
+17397.0,233,1,516.87,1,At-Risk/Lapsed
+17398.0,27,2,528.45,2,Typical Steady
+17400.0,27,7,3832.06,2,Typical Steady
+17401.0,358,1,114.85,1,At-Risk/Lapsed
+17402.0,50,14,2751.93,2,Typical Steady
+17403.0,267,1,118.95,1,At-Risk/Lapsed
+17404.0,28,14,28142.42,2,Typical Steady
+17406.0,150,13,3855.75,2,Typical Steady
+17407.0,228,1,552.9,1,At-Risk/Lapsed
+17408.0,317,2,132.24,1,At-Risk/Lapsed
+17409.0,1,10,7793.51,2,Typical Steady
+17410.0,32,1,302.4,2,Typical Steady
+17411.0,78,3,856.9200000000001,2,Typical Steady
+17412.0,13,13,3646.93,2,Typical Steady
+17413.0,221,2,560.14,1,At-Risk/Lapsed
+17414.0,1,5,2069.52,2,Typical Steady
+17416.0,14,18,13786.14,2,Typical Steady
+17417.0,365,1,164.18,1,At-Risk/Lapsed
+17418.0,140,2,373.99,2,Typical Steady
+17419.0,66,13,3934.73,2,Typical Steady
+17420.0,190,4,475.7,1,At-Risk/Lapsed
+17421.0,203,3,1059.41,1,At-Risk/Lapsed
+17422.0,37,7,2045.89,2,Typical Steady
+17423.0,34,2,852.6800000000001,2,Typical Steady
+17426.0,99,8,4176.34,2,Typical Steady
+17428.0,29,30,21029.28,2,Typical Steady
+17429.0,2,4,1206.18,2,Typical Steady
+17430.0,182,3,469.41,1,At-Risk/Lapsed
+17431.0,130,1,403.3,2,Typical Steady
+17432.0,202,7,1363.23,1,At-Risk/Lapsed
+17433.0,202,1,266.8,1,At-Risk/Lapsed
+17435.0,228,1,331.35,1,At-Risk/Lapsed
+17436.0,43,4,427.41,2,Typical Steady
+17437.0,346,1,369.68,1,At-Risk/Lapsed
+17438.0,70,5,1412.62,2,Typical Steady
+17439.0,472,1,325.74,1,At-Risk/Lapsed
+17440.0,64,3,260.61,2,Typical Steady
+17441.0,549,1,293.35,1,At-Risk/Lapsed
+17442.0,37,11,3101.17,2,Typical Steady
+17443.0,36,1,534.24,2,Typical Steady
+17446.0,127,1,68.10000000000001,2,Typical Steady
+17448.0,346,41,14380.69,0,High-Value Regulars
+17449.0,51,9,3668.63,2,Typical Steady
+17450.0,9,18,99828.64,0,High-Value Regulars
+17454.0,9,10,1532.64,2,Typical Steady
+17455.0,20,1,131.7,2,Typical Steady
+17456.0,182,2,975.56,1,At-Risk/Lapsed
+17457.0,21,13,5463.51,2,Typical Steady
+17458.0,198,1,213.08,1,At-Risk/Lapsed
+17460.0,42,15,1954.1,2,Typical Steady
+17462.0,101,1,463.41,2,Typical Steady
+17463.0,50,4,1580.16,2,Typical Steady
+17464.0,339,2,526.58,1,At-Risk/Lapsed
+17465.0,242,7,2533.64,1,At-Risk/Lapsed
+17467.0,212,1,102.6,1,At-Risk/Lapsed
+17468.0,192,1,57.8,1,At-Risk/Lapsed
+17469.0,21,13,3425.44,2,Typical Steady
+17470.0,34,9,2124.51,2,Typical Steady
+17471.0,291,1,321.65000000000003,1,At-Risk/Lapsed
+17472.0,8,4,922.35,2,Typical Steady
+17473.0,225,2,592.15,1,At-Risk/Lapsed
+17474.0,416,1,1047.0,1,At-Risk/Lapsed
+17476.0,212,2,446.51,1,At-Risk/Lapsed
+17477.0,429,2,1079.0,1,At-Risk/Lapsed
+17478.0,225,2,1272.8,1,At-Risk/Lapsed
+17479.0,449,1,389.2600000000001,1,At-Risk/Lapsed
+17480.0,261,1,370.41,1,At-Risk/Lapsed
+17482.0,304,2,775.64,1,At-Risk/Lapsed
+17483.0,231,1,177.69,1,At-Risk/Lapsed
+17484.0,393,2,209.57,1,At-Risk/Lapsed
+17486.0,78,1,396.87,2,Typical Steady
+17487.0,545,1,160.55,1,At-Risk/Lapsed
+17488.0,458,1,336.5,1,At-Risk/Lapsed
+17489.0,29,1,208.56,2,Typical Steady
+17490.0,205,2,658.18,1,At-Risk/Lapsed
+17491.0,1,11,3419.66,2,Typical Steady
+17492.0,65,3,1122.42,2,Typical Steady
+17493.0,202,1,100.91,1,At-Risk/Lapsed
+17494.0,318,1,54.7,1,At-Risk/Lapsed
+17495.0,207,1,261.51,1,At-Risk/Lapsed
+17496.0,175,4,1399.39,2,Typical Steady
+17497.0,207,2,287.25,1,At-Risk/Lapsed
+17499.0,106,2,1296.84,2,Typical Steady
+17501.0,37,2,288.6,2,Typical Steady
+17504.0,23,17,9238.42,2,Typical Steady
+17505.0,22,4,1776.63,2,Typical Steady
+17507.0,78,2,605.58,2,Typical Steady
+17508.0,97,8,4546.78,2,Typical Steady
+17510.0,237,1,206.08,1,At-Risk/Lapsed
+17511.0,23,44,115988.13,0,High-Value Regulars
+17512.0,17,13,3809.7,2,Typical Steady
+17513.0,225,2,645.6,1,At-Risk/Lapsed
+17514.0,486,1,313.35,1,At-Risk/Lapsed
+17515.0,23,8,1534.86,2,Typical Steady
+17516.0,34,4,634.63,2,Typical Steady
+17517.0,125,1,153.94,2,Typical Steady
+17518.0,242,2,329.42,1,At-Risk/Lapsed
+17519.0,23,12,3880.8,2,Typical Steady
+17521.0,16,3,714.41,2,Typical Steady
+17522.0,23,2,248.42,2,Typical Steady
+17524.0,178,3,508.9,1,At-Risk/Lapsed
+17525.0,176,3,1161.9,1,At-Risk/Lapsed
+17526.0,107,11,3142.84,2,Typical Steady
+17527.0,35,1,251.55,2,Typical Steady
+17529.0,427,2,1240.25,1,At-Risk/Lapsed
+17530.0,23,8,1784.29,2,Typical Steady
+17531.0,7,3,1229.32,2,Typical Steady
+17532.0,202,1,65.34,1,At-Risk/Lapsed
+17533.0,251,1,34.8,1,At-Risk/Lapsed
+17534.0,268,4,1445.47,1,At-Risk/Lapsed
+17535.0,97,1,164.4,2,Typical Steady
+17536.0,237,2,288.33,1,At-Risk/Lapsed
+17537.0,120,1,620.75,2,Typical Steady
+17539.0,445,3,1122.34,1,At-Risk/Lapsed
+17540.0,133,5,1280.5,2,Typical Steady
+17541.0,326,1,119.86,1,At-Risk/Lapsed
+17542.0,86,3,340.85,2,Typical Steady
+17543.0,366,1,120.05,1,At-Risk/Lapsed
+17544.0,207,3,944.82,1,At-Risk/Lapsed
+17545.0,207,3,767.54,1,At-Risk/Lapsed
+17547.0,192,2,692.35,1,At-Risk/Lapsed
+17548.0,200,2,486.48,1,At-Risk/Lapsed
+17550.0,14,9,2165.54,2,Typical Steady
+17551.0,176,1,290.34,1,At-Risk/Lapsed
+17552.0,189,10,2127.4,2,Typical Steady
+17553.0,289,3,2270.0,1,At-Risk/Lapsed
+17555.0,151,4,760.88,2,Typical Steady
+17556.0,22,2,300.67,2,Typical Steady
+17557.0,549,1,34.0,1,At-Risk/Lapsed
+17558.0,210,1,259.17,1,At-Risk/Lapsed
+17559.0,329,1,167.62,1,At-Risk/Lapsed
+17560.0,21,6,1526.9,2,Typical Steady
+17561.0,207,3,537.9,1,At-Risk/Lapsed
+17563.0,395,2,318.73,1,At-Risk/Lapsed
+17565.0,403,1,131.83,1,At-Risk/Lapsed
+17567.0,50,5,2310.57,2,Typical Steady
+17568.0,450,1,374.45,1,At-Risk/Lapsed
+17569.0,149,1,344.14,2,Typical Steady
+17571.0,94,3,563.54,2,Typical Steady
+17572.0,55,8,577.6600000000001,2,Typical Steady
+17574.0,59,1,185.65,2,Typical Steady
+17575.0,484,1,171.7,1,At-Risk/Lapsed
+17576.0,31,31,6493.2,2,Typical Steady
+17577.0,462,2,348.75,1,At-Risk/Lapsed
+17578.0,35,7,1003.73,2,Typical Steady
+17579.0,395,1,304.38,1,At-Risk/Lapsed
+17580.0,69,5,538.07,2,Typical Steady
+17581.0,30,27,10035.54,2,Typical Steady
+17582.0,53,5,1429.95,2,Typical Steady
+17583.0,377,1,135.95,1,At-Risk/Lapsed
+17584.0,284,4,4067.12,1,At-Risk/Lapsed
+17585.0,80,5,1469.56,2,Typical Steady
+17586.0,436,1,167.4,1,At-Risk/Lapsed
+17587.0,445,1,173.76,1,At-Risk/Lapsed
+17588.0,49,5,2070.05,2,Typical Steady
+17589.0,4,16,12469.72,2,Typical Steady
+17591.0,20,6,1751.97,2,Typical Steady
+17592.0,555,1,148.3,1,At-Risk/Lapsed
+17593.0,169,7,4796.9400000000005,2,Typical Steady
+17594.0,71,3,1819.7,2,Typical Steady
+17596.0,8,9,2971.98,2,Typical Steady
+17597.0,30,5,3442.63,2,Typical Steady
+17598.0,198,1,409.98,1,At-Risk/Lapsed
+17599.0,294,1,44.55,1,At-Risk/Lapsed
+17601.0,56,2,412.66,2,Typical Steady
+17602.0,141,9,3005.56,2,Typical Steady
+17603.0,434,3,1387.0600000000002,1,At-Risk/Lapsed
+17604.0,34,6,942.38,2,Typical Steady
+17605.0,407,1,160.75,1,At-Risk/Lapsed
+17606.0,554,1,87.30000000000001,1,At-Risk/Lapsed
+17607.0,193,1,333.81,1,At-Risk/Lapsed
+17608.0,266,2,296.07,1,At-Risk/Lapsed
+17609.0,119,8,1172.28,2,Typical Steady
+17610.0,357,5,1473.24,1,At-Risk/Lapsed
+17611.0,18,19,6320.15,2,Typical Steady
+17612.0,31,14,3813.33,2,Typical Steady
+17613.0,11,7,2487.63,2,Typical Steady
+17615.0,20,5,657.0,2,Typical Steady
+17616.0,71,3,571.1999999999999,2,Typical Steady
+17617.0,375,1,385.19,1,At-Risk/Lapsed
+17618.0,65,10,3671.54,2,Typical Steady
+17619.0,129,1,214.37,2,Typical Steady
+17621.0,129,5,2551.2,2,Typical Steady
+17622.0,414,2,1125.17,1,At-Risk/Lapsed
+17623.0,226,6,1838.72,1,At-Risk/Lapsed
+17624.0,35,3,1125.45,2,Typical Steady
+17625.0,74,5,4500.53,2,Typical Steady
+17626.0,419,1,254.0,1,At-Risk/Lapsed
+17627.0,295,1,296.36,1,At-Risk/Lapsed
+17629.0,31,5,1217.59,2,Typical Steady
+17630.0,49,1,335.5,2,Typical Steady
+17631.0,49,5,772.71,2,Typical Steady
+17633.0,196,3,665.05,1,At-Risk/Lapsed
+17634.0,29,5,1811.29,2,Typical Steady
+17635.0,241,3,1256.83,1,At-Risk/Lapsed
+17638.0,464,2,842.4,1,At-Risk/Lapsed
+17639.0,93,6,615.17,2,Typical Steady
+17640.0,196,5,2485.93,1,At-Risk/Lapsed
+17642.0,246,3,1112.2,1,At-Risk/Lapsed
+17643.0,190,2,439.7,1,At-Risk/Lapsed
+17644.0,20,12,3957.44,2,Typical Steady
+17646.0,36,12,3848.64,2,Typical Steady
+17647.0,486,2,198.6,1,At-Risk/Lapsed
+17648.0,9,4,1518.31,2,Typical Steady
+17649.0,286,2,680.7,1,At-Risk/Lapsed
+17651.0,315,6,1745.92,1,At-Risk/Lapsed
+17652.0,7,3,1439.26,2,Typical Steady
+17654.0,94,1,117.55,2,Typical Steady
+17655.0,27,6,1872.94,2,Typical Steady
+17657.0,247,1,126.0,1,At-Risk/Lapsed
+17658.0,28,1,317.59999999999997,2,Typical Steady
+17659.0,1,7,1679.0,2,Typical Steady
+17660.0,554,1,163.47,1,At-Risk/Lapsed
+17662.0,478,2,412.92,1,At-Risk/Lapsed
+17663.0,15,13,4090.63,2,Typical Steady
+17664.0,29,3,887.78,2,Typical Steady
+17665.0,310,1,563.1,1,At-Risk/Lapsed
+17666.0,294,3,1319.64,1,At-Risk/Lapsed
+17667.0,28,7,3211.96,2,Typical Steady
+17669.0,27,6,4346.63,2,Typical Steady
+17670.0,44,1,205.7,2,Typical Steady
+17671.0,28,3,1120.63,2,Typical Steady
+17672.0,126,5,3637.91,2,Typical Steady
+17673.0,3,10,3612.01,2,Typical Steady
+17674.0,185,1,300.66,1,At-Risk/Lapsed
+17675.0,4,52,24675.21,0,High-Value Regulars
+17676.0,183,5,1339.25,1,At-Risk/Lapsed
+17677.0,29,34,24351.31,0,High-Value Regulars
+17678.0,80,2,579.81,2,Typical Steady
+17679.0,338,4,1174.45,1,At-Risk/Lapsed
+17680.0,200,2,278.1,1,At-Risk/Lapsed
+17681.0,414,5,731.2,1,At-Risk/Lapsed
+17682.0,9,8,2683.36,2,Typical Steady
+17683.0,202,3,819.01,1,At-Risk/Lapsed
+17685.0,83,10,3796.84,2,Typical Steady
+17686.0,17,6,5594.1,2,Typical Steady
+17687.0,237,1,432.68,1,At-Risk/Lapsed
+17688.0,210,1,286.5,1,At-Risk/Lapsed
+17689.0,205,2,317.08,1,At-Risk/Lapsed
+17690.0,3,15,5269.78,2,Typical Steady
+17691.0,175,4,627.35,2,Typical Steady
+17692.0,43,11,2829.56,2,Typical Steady
+17694.0,328,2,1412.85,1,At-Risk/Lapsed
+17695.0,211,3,951.0,1,At-Risk/Lapsed
+17696.0,2,23,6010.3,2,Typical Steady
+17697.0,53,1,338.95,2,Typical Steady
+17698.0,77,1,154.95,2,Typical Steady
+17699.0,293,2,442.0,1,At-Risk/Lapsed
+17700.0,30,12,5231.65,2,Typical Steady
+17701.0,69,1,417.95,2,Typical Steady
+17702.0,23,3,1615.37,2,Typical Steady
+17703.0,235,1,296.1,1,At-Risk/Lapsed
+17704.0,56,1,387.29,2,Typical Steady
+17705.0,32,5,617.68,2,Typical Steady
+17706.0,4,19,10683.43,2,Typical Steady
+17707.0,2,8,609.3000000000001,2,Typical Steady
+17708.0,4,4,884.1800000000001,2,Typical Steady
+17709.0,287,4,533.56,1,At-Risk/Lapsed
+17710.0,240,1,293.5,1,At-Risk/Lapsed
+17711.0,106,1,220.53000000000003,2,Typical Steady
+17713.0,199,4,1198.09,1,At-Risk/Lapsed
+17714.0,137,5,1375.78,2,Typical Steady
+17715.0,17,2,489.6,2,Typical Steady
+17716.0,66,15,11617.15,2,Typical Steady
+17717.0,238,1,376.92,1,At-Risk/Lapsed
+17718.0,49,2,386.98,2,Typical Steady
+17719.0,7,5,1966.72,2,Typical Steady
+17720.0,42,8,1949.5,2,Typical Steady
+17721.0,476,1,307.21000000000004,1,At-Risk/Lapsed
+17722.0,6,4,3153.66,2,Typical Steady
+17723.0,8,4,1263.8000000000002,2,Typical Steady
+17725.0,9,4,1216.63,2,Typical Steady
+17726.0,212,7,1089.56,1,At-Risk/Lapsed
+17728.0,221,2,1345.45,1,At-Risk/Lapsed
+17729.0,413,1,438.65,1,At-Risk/Lapsed
+17730.0,2,12,4500.47,2,Typical Steady
+17731.0,438,2,468.88,1,At-Risk/Lapsed
+17732.0,189,8,2144.17,2,Typical Steady
+17733.0,78,1,216.95,2,Typical Steady
+17734.0,50,4,854.67,2,Typical Steady
+17735.0,4,17,9722.72,2,Typical Steady
+17738.0,99,10,3061.93,2,Typical Steady
+17739.0,13,14,5997.75,2,Typical Steady
+17740.0,206,6,426.9,1,At-Risk/Lapsed
+17741.0,223,2,101.1,1,At-Risk/Lapsed
+17742.0,149,10,2045.94,2,Typical Steady
+17743.0,265,1,208.85,1,At-Risk/Lapsed
+17744.0,67,5,1615.7,2,Typical Steady
+17745.0,294,2,600.34,1,At-Risk/Lapsed
+17746.0,57,4,873.4300000000001,2,Typical Steady
+17748.0,344,1,358.15,1,At-Risk/Lapsed
+17749.0,73,2,720.67,2,Typical Steady
+17751.0,238,1,157.86,1,At-Risk/Lapsed
+17752.0,176,1,80.64,1,At-Risk/Lapsed
+17753.0,281,4,380.81,1,At-Risk/Lapsed
+17754.0,77,9,2973.36,2,Typical Steady
+17756.0,192,3,728.75,1,At-Risk/Lapsed
+17757.0,8,41,5846.64,2,Typical Steady
+17758.0,25,7,2607.71,2,Typical Steady
+17759.0,210,2,441.92,1,At-Risk/Lapsed
+17760.0,190,5,624.09,1,At-Risk/Lapsed
+17762.0,273,1,129.75,1,At-Risk/Lapsed
+17763.0,80,4,51.15,2,Typical Steady
+17764.0,28,4,971.69,2,Typical Steady
+17765.0,27,3,414.67,2,Typical Steady
+17766.0,198,2,299.61,1,At-Risk/Lapsed
+17767.0,227,1,141.85,1,At-Risk/Lapsed
+17768.0,204,4,1205.88,1,At-Risk/Lapsed
+17769.0,95,9,3908.8,2,Typical Steady
+17770.0,15,5,1143.27,2,Typical Steady
+17771.0,140,3,257.4,2,Typical Steady
+17772.0,209,1,187.3,1,At-Risk/Lapsed
+17773.0,331,2,575.37,1,At-Risk/Lapsed
+17774.0,66,7,2640.65,2,Typical Steady
+17775.0,71,1,56.4,2,Typical Steady
+17776.0,203,2,322.55,1,At-Risk/Lapsed
+17778.0,478,1,197.7,1,At-Risk/Lapsed
+17780.0,484,3,346.56,1,At-Risk/Lapsed
+17781.0,70,1,102.0,2,Typical Steady
+17782.0,199,2,679.02,1,At-Risk/Lapsed
+17783.0,64,2,205.9,2,Typical Steady
+17784.0,367,1,112.86,1,At-Risk/Lapsed
+17785.0,262,2,271.44,1,At-Risk/Lapsed
+17786.0,134,1,103.35,2,Typical Steady
+17787.0,121,3,1668.52,2,Typical Steady
+17789.0,98,2,397.15,2,Typical Steady
+17790.0,15,15,1712.12,2,Typical Steady
+17792.0,284,2,368.35,1,At-Risk/Lapsed
+17794.0,503,2,147.3,1,At-Risk/Lapsed
+17795.0,81,1,155.69,2,Typical Steady
+17796.0,130,6,1160.49,2,Typical Steady
+17797.0,212,5,1191.44,1,At-Risk/Lapsed
+17798.0,398,1,172.17,1,At-Risk/Lapsed
+17799.0,59,16,4469.84,2,Typical Steady
+17800.0,34,3,354.85,2,Typical Steady
+17801.0,268,3,770.03,1,At-Risk/Lapsed
+17802.0,189,8,3650.13,2,Typical Steady
+17803.0,209,1,184.66,1,At-Risk/Lapsed
+17804.0,193,3,383.78,1,At-Risk/Lapsed
+17805.0,427,1,414.72,1,At-Risk/Lapsed
+17807.0,212,3,437.87,1,At-Risk/Lapsed
+17808.0,365,4,262.64,1,At-Risk/Lapsed
+17809.0,34,14,7319.23,2,Typical Steady
+17810.0,485,2,343.21,1,At-Risk/Lapsed
+17811.0,4,26,5727.34,2,Typical Steady
+17812.0,185,4,405.48,1,At-Risk/Lapsed
+17814.0,192,2,1609.37,1,At-Risk/Lapsed
+17815.0,210,1,591.96,1,At-Risk/Lapsed
+17816.0,86,4,80.86,2,Typical Steady
+17817.0,94,5,663.47,2,Typical Steady
+17818.0,554,1,124.78,1,At-Risk/Lapsed
+17819.0,11,10,5141.4,2,Typical Steady
+17820.0,191,1,180.61,1,At-Risk/Lapsed
+17821.0,223,1,334.62,1,At-Risk/Lapsed
+17822.0,237,5,2154.08,1,At-Risk/Lapsed
+17823.0,238,2,449.25,1,At-Risk/Lapsed
+17825.0,415,4,701.96,1,At-Risk/Lapsed
+17826.0,191,1,133.34,1,At-Risk/Lapsed
+17827.0,59,5,1962.56,2,Typical Steady
+17828.0,1,1,660.41,2,Typical Steady
+17829.0,115,5,4680.42,2,Typical Steady
+17830.0,78,2,287.65000000000003,2,Typical Steady
+17833.0,540,1,338.46000000000004,1,At-Risk/Lapsed
+17834.0,231,2,689.6700000000001,1,At-Risk/Lapsed
+17838.0,109,11,4522.09,2,Typical Steady
+17840.0,260,1,175.9,1,At-Risk/Lapsed
+17841.0,1,136,39495.56,0,High-Value Regulars
+17842.0,419,1,430.69,1,At-Risk/Lapsed
+17843.0,120,2,312.65,2,Typical Steady
+17845.0,372,4,596.09,1,At-Risk/Lapsed
+17847.0,332,2,125.74,1,At-Risk/Lapsed
+17848.0,66,25,3025.63,2,Typical Steady
+17849.0,35,8,1063.76,2,Typical Steady
+17850.0,189,155,50659.85,0,High-Value Regulars
+17851.0,239,6,1552.35,1,At-Risk/Lapsed
+17852.0,205,3,543.47,1,At-Risk/Lapsed
+17853.0,224,3,1596.29,1,At-Risk/Lapsed
+17854.0,2,6,1068.5,2,Typical Steady
+17855.0,189,1,208.97,1,At-Risk/Lapsed
+17856.0,50,3,1118.39,2,Typical Steady
+17857.0,23,8,9132.54,2,Typical Steady
+17858.0,78,24,9922.79,2,Typical Steady
+17859.0,121,1,141.92000000000002,2,Typical Steady
+17860.0,185,4,717.39,1,At-Risk/Lapsed
+17861.0,70,12,3434.39,2,Typical Steady
+17862.0,140,4,1254.89,2,Typical Steady
+17863.0,71,9,3572.38,2,Typical Steady
+17864.0,92,3,522.57,2,Typical Steady
+17865.0,21,33,19462.81,2,Typical Steady
+17866.0,301,2,805.3000000000001,1,At-Risk/Lapsed
+17867.0,20,10,333.3,2,Typical Steady
+17868.0,203,1,227.15,1,At-Risk/Lapsed
+17869.0,32,5,696.42,2,Typical Steady
+17870.0,183,2,1213.8,1,At-Risk/Lapsed
+17871.0,21,5,1068.95,2,Typical Steady
+17872.0,198,1,235.87,1,At-Risk/Lapsed
+17873.0,1,16,5577.59,2,Typical Steady
+17874.0,2,6,658.26,2,Typical Steady
+17875.0,505,1,167.1,1,At-Risk/Lapsed
+17876.0,216,3,3424.02,1,At-Risk/Lapsed
+17878.0,212,2,999.48,1,At-Risk/Lapsed
+17880.0,181,3,824.9200000000001,1,At-Risk/Lapsed
+17881.0,121,1,133.35000000000002,2,Typical Steady
+17882.0,196,2,291.56,1,At-Risk/Lapsed
+17883.0,63,4,427.53,2,Typical Steady
+17884.0,128,19,2569.69,2,Typical Steady
+17886.0,27,5,1080.98,2,Typical Steady
+17888.0,29,16,965.31,2,Typical Steady
+17889.0,29,7,746.42,2,Typical Steady
+17890.0,139,2,586.89,2,Typical Steady
+17893.0,42,1,107.21,2,Typical Steady
+17894.0,102,16,2006.48,2,Typical Steady
+17897.0,184,8,1896.4,2,Typical Steady
+17898.0,24,3,246.96,2,Typical Steady
+17900.0,7,1,15.0,2,Typical Steady
+17901.0,338,2,149.7,1,At-Risk/Lapsed
+17902.0,363,1,216.4,1,At-Risk/Lapsed
+17903.0,211,1,381.09,1,At-Risk/Lapsed
+17905.0,169,11,1752.98,2,Typical Steady
+17906.0,64,1,72.9,2,Typical Steady
+17907.0,457,1,291.76,1,At-Risk/Lapsed
+17908.0,190,5,1088.82,1,At-Risk/Lapsed
+17909.0,554,1,110.05,1,At-Risk/Lapsed
+17910.0,543,1,261.7,1,At-Risk/Lapsed
+17912.0,127,6,356.2,2,Typical Steady
+17913.0,172,13,3234.49,2,Typical Steady
+17915.0,368,1,225.78,1,At-Risk/Lapsed
+17916.0,445,2,43.87,1,At-Risk/Lapsed
+17917.0,73,2,226.71,2,Typical Steady
+17918.0,317,3,388.44,1,At-Risk/Lapsed
+17919.0,255,1,536.28,1,At-Risk/Lapsed
+17920.0,17,42,20956.92,0,High-Value Regulars
+17921.0,83,7,1812.05,2,Typical Steady
+17922.0,360,1,170.4,1,At-Risk/Lapsed
+17923.0,99,3,497.0,2,Typical Steady
+17924.0,118,3,752.5500000000001,2,Typical Steady
+17925.0,189,1,244.08,1,At-Risk/Lapsed
+17926.0,20,4,849.9300000000001,2,Typical Steady
+17927.0,538,1,294.0,1,At-Risk/Lapsed
+17928.0,63,2,206.96,2,Typical Steady
+17929.0,71,10,2674.1,2,Typical Steady
+17930.0,56,9,2893.04,2,Typical Steady
+17931.0,72,12,3161.2,2,Typical Steady
+17932.0,28,1,589.01,2,Typical Steady
+17933.0,449,1,105.99,1,At-Risk/Lapsed
+17934.0,223,1,344.90000000000003,1,At-Risk/Lapsed
+17935.0,217,5,509.75,1,At-Risk/Lapsed
+17937.0,74,4,3327.48,2,Typical Steady
+17938.0,237,1,144.29,1,At-Risk/Lapsed
+17940.0,35,9,27745.08,2,Typical Steady
+17941.0,407,3,1128.72,1,At-Risk/Lapsed
+17944.0,240,1,74.99,1,At-Risk/Lapsed
+17945.0,513,3,359.5,1,At-Risk/Lapsed
+17946.0,50,2,149.57999999999998,2,Typical Steady
+17949.0,6,79,56473.619999999995,0,High-Value Regulars
+17950.0,182,6,937.18,2,Typical Steady
+17951.0,175,3,723.84,1,At-Risk/Lapsed
+17952.0,195,4,788.46,1,At-Risk/Lapsed
+17953.0,357,1,148.67000000000002,1,At-Risk/Lapsed
+17954.0,1,15,2912.04,2,Typical Steady
+17955.0,15,6,949.9,2,Typical Steady
+17956.0,66,1,12.75,2,Typical Steady
+17958.0,545,1,465.42,1,At-Risk/Lapsed
+17959.0,409,1,140.75,1,At-Risk/Lapsed
+17960.0,339,2,61.3,1,At-Risk/Lapsed
+17961.0,13,79,2428.24,0,High-Value Regulars
+17962.0,366,3,549.1,1,At-Risk/Lapsed
+17963.0,288,4,643.16,1,At-Risk/Lapsed
+17964.0,189,1,261.76,1,At-Risk/Lapsed
+17965.0,69,21,5612.99,2,Typical Steady
+17966.0,1,7,1148.99,2,Typical Steady
+17967.0,188,2,223.42,1,At-Risk/Lapsed
+17968.0,190,4,590.4399999999999,1,At-Risk/Lapsed
+17969.0,178,19,2138.89,2,Typical Steady
+17970.0,28,1,562.79,2,Typical Steady
+17971.0,365,1,161.94,1,At-Risk/Lapsed
+17972.0,58,1,135.19,2,Typical Steady
+17974.0,36,4,1199.17,2,Typical Steady
+17975.0,9,18,4888.79,2,Typical Steady
+17976.0,189,1,321.79,1,At-Risk/Lapsed
+17977.0,217,1,1165.41,1,At-Risk/Lapsed
+17978.0,182,4,1159.99,1,At-Risk/Lapsed
+17979.0,76,2,211.77,2,Typical Steady
+17980.0,21,3,764.02,2,Typical Steady
+17981.0,227,1,239.12,1,At-Risk/Lapsed
+17982.0,497,1,138.18,1,At-Risk/Lapsed
+17983.0,212,1,171.71,1,At-Risk/Lapsed
+17984.0,209,4,996.01,1,At-Risk/Lapsed
+17987.0,2,5,889.92,2,Typical Steady
+17988.0,143,7,349.56,2,Typical Steady
+17989.0,196,1,207.33,1,At-Risk/Lapsed
+17990.0,53,6,1522.5700000000002,2,Typical Steady
+17991.0,42,3,298.65,2,Typical Steady
+17992.0,206,1,252.88,1,At-Risk/Lapsed
+17993.0,434,1,225.99,1,At-Risk/Lapsed
+17994.0,6,10,2117.87,2,Typical Steady
+17995.0,98,3,495.48,2,Typical Steady
+17996.0,196,3,469.73,1,At-Risk/Lapsed
+17998.0,197,3,601.74,1,At-Risk/Lapsed
+17999.0,183,2,338.41,1,At-Risk/Lapsed
+18000.0,381,1,124.25,1,At-Risk/Lapsed
+18001.0,266,4,509.01,1,At-Risk/Lapsed
+18002.0,192,4,237.62,1,At-Risk/Lapsed
+18003.0,193,1,353.51,1,At-Risk/Lapsed
+18004.0,179,1,157.92,1,At-Risk/Lapsed
+18006.0,198,3,524.83,1,At-Risk/Lapsed
+18007.0,209,1,215.22,1,At-Risk/Lapsed
+18008.0,20,21,19708.3,2,Typical Steady
+18009.0,52,8,2073.98,2,Typical Steady
+18010.0,73,1,174.8,2,Typical Steady
+18011.0,190,2,410.79,1,At-Risk/Lapsed
+18012.0,540,1,115.3,1,At-Risk/Lapsed
+18016.0,3,5,959.76,2,Typical Steady
+18017.0,127,2,330.0,2,Typical Steady
+18018.0,16,2,72.0,2,Typical Steady
+18020.0,360,1,129.28,1,At-Risk/Lapsed
+18021.0,326,2,216.41,1,At-Risk/Lapsed
+18022.0,202,4,893.9,1,At-Risk/Lapsed
+18025.0,196,6,1177.72,1,At-Risk/Lapsed
+18026.0,317,2,2074.07,1,At-Risk/Lapsed
+18028.0,400,1,192.05,1,At-Risk/Lapsed
+18029.0,459,1,433.77,1,At-Risk/Lapsed
+18031.0,195,1,451.3,1,At-Risk/Lapsed
+18032.0,151,1,73.5,2,Typical Steady
+18034.0,192,1,334.67,1,At-Risk/Lapsed
+18035.0,202,2,546.34,1,At-Risk/Lapsed
+18036.0,62,9,1252.32,2,Typical Steady
+18037.0,42,14,158.22,2,Typical Steady
+18038.0,373,1,141.48,1,At-Risk/Lapsed
+18039.0,191,4,548.22,1,At-Risk/Lapsed
+18040.0,62,1,239.0,2,Typical Steady
+18041.0,30,30,6450.76,2,Typical Steady
+18042.0,358,1,116.1,1,At-Risk/Lapsed
+18043.0,23,2,421.59,2,Typical Steady
+18044.0,15,14,2300.22,2,Typical Steady
+18046.0,466,1,189.63,1,At-Risk/Lapsed
+18047.0,198,2,326.09,1,At-Risk/Lapsed
+18048.0,20,3,394.93,2,Typical Steady
+18049.0,254,2,500.5,1,At-Risk/Lapsed
+18050.0,176,2,412.06,1,At-Risk/Lapsed
+18051.0,451,7,2276.74,1,At-Risk/Lapsed
+18052.0,381,1,10877.18,1,At-Risk/Lapsed
+18053.0,342,2,256.2,1,At-Risk/Lapsed
+18054.0,209,1,176.5,1,At-Risk/Lapsed
+18055.0,20,10,6711.78,2,Typical Steady
+18056.0,105,2,539.75,2,Typical Steady
+18057.0,210,3,1168.14,1,At-Risk/Lapsed
+18058.0,358,2,603.9,1,At-Risk/Lapsed
+18060.0,225,2,1185.46,1,At-Risk/Lapsed
+18061.0,23,23,5146.52,2,Typical Steady
+18062.0,37,5,1288.77,2,Typical Steady
+18063.0,207,2,186.6,1,At-Risk/Lapsed
+18064.0,52,10,4021.98,2,Typical Steady
+18065.0,36,20,4571.78,2,Typical Steady
+18066.0,203,2,1122.4,1,At-Risk/Lapsed
+18068.0,106,1,101.7,2,Typical Steady
+18069.0,52,8,3108.84,2,Typical Steady
+18070.0,486,1,314.1,1,At-Risk/Lapsed
+18071.0,74,6,1169.68,2,Typical Steady
+18072.0,2,1,20.04,2,Typical Steady
+18073.0,2,3,504.24,2,Typical Steady
+18074.0,190,2,1019.44,1,At-Risk/Lapsed
+18075.0,21,16,4260.37,2,Typical Steady
+18076.0,197,1,151.49,1,At-Risk/Lapsed
+18077.0,43,11,2373.76,2,Typical Steady
+18078.0,34,4,725.53,2,Typical Steady
+18079.0,55,2,2203.61,2,Typical Steady
+18080.0,59,1,841.4999999999999,2,Typical Steady
+18083.0,214,1,463.53,1,At-Risk/Lapsed
+18084.0,200,1,88.5,1,At-Risk/Lapsed
+18085.0,147,4,1341.85,2,Typical Steady
+18086.0,91,1,101.34,2,Typical Steady
+18087.0,107,15,13563.62,2,Typical Steady
+18089.0,263,1,428.45,1,At-Risk/Lapsed
+18090.0,238,1,321.9,1,At-Risk/Lapsed
+18091.0,410,1,360.85,1,At-Risk/Lapsed
+18092.0,1,14,10291.75,2,Typical Steady
+18093.0,114,6,3440.61,2,Typical Steady
+18094.0,35,9,5129.99,2,Typical Steady
+18095.0,129,5,2303.09,2,Typical Steady
+18096.0,259,3,789.1,1,At-Risk/Lapsed
+18097.0,22,8,3410.03,2,Typical Steady
+18098.0,213,1,527.94,1,At-Risk/Lapsed
+18100.0,367,1,451.56,1,At-Risk/Lapsed
+18101.0,191,3,399.61,1,At-Risk/Lapsed
+18102.0,2,101,394392.97,3,Elite Wholesalers
+18103.0,366,1,105.8,1,At-Risk/Lapsed
+18106.0,146,6,1441.06,2,Typical Steady
+18107.0,259,1,165.88,1,At-Risk/Lapsed
+18108.0,71,3,842.46,2,Typical Steady
+18109.0,11,23,3937.57,2,Typical Steady
+18110.0,228,1,193.48,1,At-Risk/Lapsed
+18111.0,406,1,398.9,1,At-Risk/Lapsed
+18112.0,235,2,420.67,1,At-Risk/Lapsed
+18113.0,185,1,76.32000000000001,1,At-Risk/Lapsed
+18114.0,107,1,220.1,2,Typical Steady
+18115.0,514,1,9.7,1,At-Risk/Lapsed
+18116.0,51,12,1967.33,2,Typical Steady
+18118.0,3,18,4043.68,2,Typical Steady
+18119.0,184,1,180.7,1,At-Risk/Lapsed
+18120.0,31,1,111.15,2,Typical Steady
+18123.0,330,1,92.2,1,At-Risk/Lapsed
+18124.0,289,1,102.65,1,At-Risk/Lapsed
+18125.0,18,3,932.25,2,Typical Steady
+18127.0,220,1,209.05,1,At-Risk/Lapsed
+18128.0,354,1,399.29,1,At-Risk/Lapsed
+18129.0,60,1,112.55,2,Typical Steady
+18131.0,448,1,222.96,1,At-Risk/Lapsed
+18132.0,321,1,220.13,1,At-Risk/Lapsed
+18133.0,29,1,931.5,2,Typical Steady
+18134.0,415,2,445.0,1,At-Risk/Lapsed
+18135.0,7,6,664.78,2,Typical Steady
+18136.0,28,4,1348.23,2,Typical Steady
+18137.0,368,2,145.99,1,At-Risk/Lapsed
+18138.0,112,1,152.65,2,Typical Steady
+18140.0,290,1,536.41,1,At-Risk/Lapsed
+18141.0,218,2,838.57,1,At-Risk/Lapsed
+18142.0,32,1,280.38,2,Typical Steady
+18144.0,29,14,3609.85,2,Typical Steady
+18145.0,21,9,3754.27,2,Typical Steady
+18146.0,37,1,76.65,2,Typical Steady
+18148.0,463,1,112.85,1,At-Risk/Lapsed
+18149.0,32,6,1491.56,2,Typical Steady
+18150.0,18,1,227.58,2,Typical Steady
+18151.0,106,5,1513.14,2,Typical Steady
+18152.0,463,1,426.69,1,At-Risk/Lapsed
+18153.0,476,1,246.22,1,At-Risk/Lapsed
+18154.0,205,3,533.41,1,At-Risk/Lapsed
+18155.0,108,1,113.93,2,Typical Steady
+18156.0,186,1,186.88,1,At-Risk/Lapsed
+18157.0,388,1,213.9,1,At-Risk/Lapsed
+18159.0,118,1,530.15,2,Typical Steady
+18160.0,17,2,684.37,2,Typical Steady
+18161.0,69,3,730.73,2,Typical Steady
+18162.0,549,1,371.51,1,At-Risk/Lapsed
+18163.0,401,1,639.34,1,At-Risk/Lapsed
+18166.0,440,1,175.5,1,At-Risk/Lapsed
+18168.0,21,15,3241.9,2,Typical Steady
+18170.0,34,7,2201.9,2,Typical Steady
+18171.0,55,6,1652.74,2,Typical Steady
+18172.0,28,39,13463.12,2,Typical Steady
+18173.0,16,4,2318.36,2,Typical Steady
+18174.0,420,1,58.5,1,At-Risk/Lapsed
+18175.0,492,1,176.1,1,At-Risk/Lapsed
+18176.0,175,1,448.65,1,At-Risk/Lapsed
+18177.0,21,7,1561.3,2,Typical Steady
+18178.0,36,10,5573.52,2,Typical Steady
+18179.0,69,6,1857.54,2,Typical Steady
+18181.0,217,4,799.76,1,At-Risk/Lapsed
+18182.0,280,1,291.13,1,At-Risk/Lapsed
+18183.0,44,2,600.52,2,Typical Steady
+18185.0,66,1,304.25,2,Typical Steady
+18186.0,539,1,329.58,1,At-Risk/Lapsed
+18187.0,448,1,682.19,1,At-Risk/Lapsed
+18188.0,107,4,1691.3,2,Typical Steady
+18189.0,84,2,939.44,2,Typical Steady
+18190.0,9,5,735.6700000000001,2,Typical Steady
+18191.0,78,2,529.4,2,Typical Steady
+18193.0,197,2,942.74,1,At-Risk/Lapsed
+18194.0,255,5,3188.2000000000003,1,At-Risk/Lapsed
+18195.0,204,1,101.16,1,At-Risk/Lapsed
+18196.0,107,3,1219.42,2,Typical Steady
+18197.0,392,1,221.4,1,At-Risk/Lapsed
+18198.0,4,11,3420.6400000000003,2,Typical Steady
+18199.0,500,1,342.2,1,At-Risk/Lapsed
+18201.0,539,1,447.53,1,At-Risk/Lapsed
+18202.0,16,3,1396.99,2,Typical Steady
+18203.0,198,3,322.1,1,At-Risk/Lapsed
+18204.0,9,1,540.98,2,Typical Steady
+18206.0,370,1,314.65999999999997,1,At-Risk/Lapsed
+18207.0,316,1,515.32,1,At-Risk/Lapsed
+18208.0,382,1,360.08,1,At-Risk/Lapsed
+18210.0,84,2,289.85,2,Typical Steady
+18211.0,95,1,137.9,2,Typical Steady
+18212.0,143,2,514.37,2,Typical Steady
+18213.0,53,1,232.48,2,Typical Steady
+18214.0,347,4,1480.99,1,At-Risk/Lapsed
+18215.0,254,4,1924.65,1,At-Risk/Lapsed
+18217.0,330,2,283.71,1,At-Risk/Lapsed
+18218.0,28,4,1086.14,2,Typical Steady
+18219.0,31,12,2189.74,2,Typical Steady
+18220.0,43,6,1792.4,2,Typical Steady
+18221.0,1,3,865.74,2,Typical Steady
+18223.0,22,19,9908.77,2,Typical Steady
+18224.0,80,1,158.95000000000002,2,Typical Steady
+18225.0,21,19,9001.11,2,Typical Steady
+18226.0,2,21,9153.57,2,Typical Steady
+18227.0,34,1,93.75,2,Typical Steady
+18229.0,1,17,6083.51,2,Typical Steady
+18230.0,24,5,2654.1600000000003,2,Typical Steady
+18231.0,9,28,6815.47,2,Typical Steady
+18232.0,9,2,360.48,2,Typical Steady
+18233.0,142,1,440.0,2,Typical Steady
+18234.0,368,1,179.6,1,At-Risk/Lapsed
+18235.0,34,1,430.46,2,Typical Steady
+18236.0,3,8,1217.61,2,Typical Steady
+18238.0,332,1,270.92,1,At-Risk/Lapsed
+18239.0,35,6,1712.26,2,Typical Steady
+18241.0,34,5,1261.83,2,Typical Steady
+18242.0,13,6,2066.8,2,Typical Steady
+18243.0,231,1,515.78,1,At-Risk/Lapsed
+18244.0,247,2,568.64,1,At-Risk/Lapsed
+18245.0,28,17,4975.46,2,Typical Steady
+18246.0,50,2,395.62,2,Typical Steady
+18247.0,231,3,733.33,1,At-Risk/Lapsed
+18248.0,3,1,496.46,2,Typical Steady
+18250.0,127,1,342.92,2,Typical Steady
+18251.0,262,8,21964.14,1,At-Risk/Lapsed
+18252.0,365,5,1015.42,1,At-Risk/Lapsed
+18253.0,459,1,317.88,1,At-Risk/Lapsed
+18254.0,398,1,267.9,1,At-Risk/Lapsed
+18255.0,273,1,199.85,1,At-Risk/Lapsed
+18256.0,204,1,60.599999999999994,1,At-Risk/Lapsed
+18257.0,23,6,2874.02,2,Typical Steady
+18258.0,281,6,2040.97,1,At-Risk/Lapsed
+18259.0,183,5,1979.6,1,At-Risk/Lapsed
+18260.0,22,22,9307.87,2,Typical Steady
+18262.0,210,2,428.06,1,At-Risk/Lapsed
+18263.0,69,1,307.59999999999997,2,Typical Steady
+18264.0,315,1,603.25,1,At-Risk/Lapsed
+18266.0,251,1,251.1,1,At-Risk/Lapsed
+18267.0,489,1,255.82,1,At-Risk/Lapsed
+18268.0,408,5,1425.72,1,At-Risk/Lapsed
+18269.0,183,1,138.9,1,At-Risk/Lapsed
+18270.0,83,2,235.1,2,Typical Steady
+18271.0,426,2,680.85,1,At-Risk/Lapsed
+18272.0,42,5,2248.49,2,Typical Steady
+18273.0,74,2,204.0,2,Typical Steady
+18275.0,395,2,741.85,1,At-Risk/Lapsed
+18276.0,209,5,1297.31,1,At-Risk/Lapsed
+18277.0,214,4,1048.97,1,At-Risk/Lapsed
+18278.0,221,1,240.3,1,At-Risk/Lapsed
+18279.0,336,1,231.33999999999995,1,At-Risk/Lapsed
+18280.0,94,2,472.45,2,Typical Steady
+18281.0,394,1,120.32,1,At-Risk/Lapsed
+18283.0,17,11,1132.94,2,Typical Steady
+18284.0,248,1,411.68,1,At-Risk/Lapsed
+18285.0,477,1,377.0,1,At-Risk/Lapsed
+18286.0,293,2,1165.43,1,At-Risk/Lapsed
+18287.0,18,5,3060.99,2,Typical Steady
