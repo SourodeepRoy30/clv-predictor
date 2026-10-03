@@ -90,7 +90,7 @@ def churn_gauge(churn_prob, title="Churn risk", height=190):
             ],
         },
     ))
-    fig.update_layout(height=height, margin=dict(l=20, r=20, t=40, b=0))
+    fig.update_layout(height=height, margin=dict(l=35, r=45, t=40, b=0))
     return fig
 
 

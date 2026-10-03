@@ -48,31 +48,29 @@ scored = score_customers(models, configs, data['modeling_table'], data['clusters
 if scored['Segment'].isna().any():
     st.warning(f"{scored['Segment'].isna().sum()} customers could not be matched to a segment.")
 
-# ---------------------------------------------------------------
+
 # Controls
-# ---------------------------------------------------------------
 with st.container(border=True):
     who_col, campaign_col = st.columns(2, gap="large")
     with who_col:
         st.markdown("**Who to include**")
         min_prob = st.slider("Minimum churn risk", 0.0, 1.0, 0.5, 0.05, format="%.2f", help=tip("Churn risk"))
-        segments = st.pills("Segments", SEGMENT_ORDER, selection_mode="multi", default=SEGMENT_ORDER,
-                            help=tip("Segment"))
     with campaign_col:
         st.markdown("**Campaign assumptions**")
         contact_cost = st.number_input("Cost per contact (£)", min_value=0.0, max_value=1000.0, value=5.0,
                                        step=1.0, help=tip("Cost per contact"))
         success_rate = st.slider("Retention success rate (%)", 0, 100, 20, 5,
                                  help=tip("Retention success rate")) / 100
+    # Full width below both halves, so all four segment chips fit
+    segments = st.pills("Segments to include", SEGMENT_ORDER, selection_mode="multi", default=SEGMENT_ORDER,
+                        help=tip("Segment"))
 
 scored['Net_Benefit'] = success_rate * scored['Value_At_Risk'] - contact_cost
 flagged = (scored[(scored['Churn_Prob'] >= min_prob) & (scored['Segment'].isin(segments))]
            .sort_values('Value_At_Risk', ascending=False))
 worth_contacting = flagged[flagged['Net_Benefit'] > 0]
 
-# ---------------------------------------------------------------
 # Summary
-# ---------------------------------------------------------------
 if flagged.empty:
     st.info("No customers match these filters. Lower the minimum churn risk or add segments.", icon=":material/info:")
 else:
@@ -95,9 +93,8 @@ m4.metric("Expected net benefit", f"£{worth_contacting['Net_Benefit'].sum():,.0
 
 tab_list, tab_chart = st.tabs(["Retention list", "Risk vs value"])
 
-# ---------------------------------------------------------------
+
 # Retention list
-# ---------------------------------------------------------------
 with tab_list:
     table = flagged[['Segment', 'Churn_Prob', 'Value_At_Risk', 'Net_Benefit', 'Expected_CLV',
                      'Spend_If_Retained', 'Recency', 'Frequency', 'Monetary']]
@@ -126,9 +123,8 @@ with tab_list:
     st.download_button("Download this list (CSV)", download.to_csv().encode('utf-8'), "at_risk_customers.csv",
                        "text/csv", icon=":material/download:")
 
-# ---------------------------------------------------------------
+
 # Risk vs value chart
-# ---------------------------------------------------------------
 with tab_chart:
     st.caption("Each point is a customer. The most important retention targets sit top right: likely to leave "
                "and valuable if kept. The dashed line is your minimum churn risk.")

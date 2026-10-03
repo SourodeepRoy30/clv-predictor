@@ -48,10 +48,10 @@ def use_example():
         st.session_state["lookup_id"] = chosen
 
 
-pick_col, example_col = st.columns([1, 2], vertical_alignment="bottom")
+pick_col, _ = st.columns([1, 2])
 customer_id = pick_col.selectbox("Customer ID", customer_ids, key="lookup_id")
-example_col.pills("Or try an example", list(showcase), format_func=lambda cid: showcase[cid],
-                  key="lookup_example", on_change=use_example)
+st.pills("Or try an example", list(showcase), format_func=lambda cid: showcase[cid],
+         key="lookup_example", on_change=use_example)
 
 features = modeling_table.loc[customer_id]
 X_6mo = modeling_table.loc[[customer_id], FEATURE_COLS]
