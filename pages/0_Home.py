@@ -37,12 +37,12 @@ with left:
     k1, k2 = st.columns(2)
     with k1.container(border=True, height="stretch"):
         st.header(f"{top_revenue_share:.0%}", anchor=False)
-        st.caption(f"of revenue comes from just **{top_customer_share:.1%}** of customers "
-                   "(Elite Wholesalers and High-Value Regulars)",
-                   help="Based on spend during the 18 months to June 2011.")
+        st.caption(f"of revenue comes from just **{top_customer_share:.1%}** of customers",
+                   help="The Elite Wholesalers and High-Value Regulars segments, by spend during the "
+                        "18 months to June 2011.")
     with k2.container(border=True, height="stretch"):
         st.header(f"{lapsed_share:.0%}", anchor=False)
-        st.caption("of customers have gone quiet: the At-Risk/Lapsed segment",
+        st.caption("of customers have gone quiet (At-Risk/Lapsed)",
                    help=tip("At-Risk/Lapsed"))
 
 with right:
